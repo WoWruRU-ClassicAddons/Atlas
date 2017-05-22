@@ -1,7 +1,7 @@
 <!--
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -26,7 +26,7 @@
 ..\FrameXML\UI.xsd">
 	<Frame name="AtlasOptionsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" clampedToScreen="true">
 		<Size>
-			<AbsDimension x="300" y="490"/>
+			<AbsDimension x="300" y="570"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -44,23 +44,23 @@
 		</Backdrop>
 		<Layers>
 			<Layer level="ARTWORK">
-				<Texture name="$ParentHeader" file="Interface\DialogFrame\UI-DialogBox-Header">
+				<Texture name="$parentHeader" file="Interface\DialogFrame\UI-DialogBox-Header">
 					<Size>
 						<AbsDimension x="256" y="64"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOP">
 							<Offset>
-								<AbsDimension x="0" y="12"/>
+								<AbsDimension x="0" y="14"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<FontString inherits="GameFontNormal" text="ATLAS_OPTIONS_TITLE">
+				<FontString name="$parent_Title" inherits="GameFontNormal">
 					<Anchors>
-						<Anchor point="TOP" relativeTo="AtlasOptionsFrameHeader">
+						<Anchor point="TOP">
 							<Offset>
-								<AbsDimension x="0" y="-14"/>
+								<AbsDimension x="0" y="0"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -72,7 +72,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="40" y="-40"/>
+							<AbsDimension x="20" y="-60"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -89,7 +89,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="40" y="-70"/>
+							<AbsDimension x="20" y="-90"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -102,28 +102,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentReplaceWorldMap" inherits="OptionsCheckButtonTemplate">
-				<Anchors>
-					<Anchor point="TOPLEFT">
-						<Offset>
-							<AbsDimension x="40" y="-100"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_REPMAP);
-					</OnLoad>
-					<OnClick>
-						AtlasOptions_ReplaceWorldMapToggle();
-					</OnClick>
-				</Scripts>
-			</CheckButton>
 			<CheckButton name="$ParentRightClick" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="40" y="-130"/>
+							<AbsDimension x="20" y="-120"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -140,7 +123,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="40" y="-160"/>
+							<AbsDimension x="20" y="-150"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -157,7 +140,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="40" y="-190"/>
+							<AbsDimension x="20" y="-180"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -172,12 +155,12 @@
 			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="220" y="16"/>
+					<AbsDimension x="240" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-250" />
+							<AbsDimension x="0" y="-300" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -186,6 +169,7 @@
 						AtlasOptions_SetupSlider(ATLAS_OPTIONS_BUTPOS, 0, 360, 1);
 					</OnLoad>
 					<OnValueChanged>
+						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_BUTPOS);
 						AtlasOptions.AtlasButtonPosition = this:GetValue();
 						AtlasButton_UpdatePosition();
 					</OnValueChanged>
@@ -193,12 +177,12 @@
 			</Slider>
 			<Slider name="$ParentSliderButtonRad" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="220" y="16"/>
+					<AbsDimension x="240" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-290" />
+							<AbsDimension x="0" y="-340" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -207,6 +191,7 @@
 						AtlasOptions_SetupSlider(ATLAS_OPTIONS_BUTRAD, 0, 200, 1);
 					</OnLoad>
 					<OnValueChanged>
+						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_BUTRAD);
 						AtlasOptions.AtlasButtonRadius = this:GetValue();
 						AtlasButton_UpdatePosition();
 					</OnValueChanged>
@@ -214,12 +199,12 @@
 			</Slider>
 			<Slider name="$ParentSliderAlpha" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="220" y="16"/>
+					<AbsDimension x="240" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-330" />
+							<AbsDimension x="0" y="-380" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -228,6 +213,7 @@
 						AtlasOptions_SetupSlider(ATLAS_OPTIONS_TRANS, 0.25, 1.0, 0.01);
 					</OnLoad>
 					<OnValueChanged>
+						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_TRANS);
 						AtlasOptions.AtlasAlpha = this:GetValue();
 						Atlas_UpdateAlpha();
 					</OnValueChanged>
@@ -235,33 +221,61 @@
 			</Slider>
 			<Slider name="$ParentSliderScale" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="220" y="16"/>
+					<AbsDimension x="240" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-370" />
+							<AbsDimension x="0" y="-420" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(ATLAS_OPTIONS_SCALE, 0.25, 1.0, 0.01);
+						AtlasOptions_SetupSlider(ATLAS_OPTIONS_SCALE, 0.25, 1.5, 0.01);
 					</OnLoad>
 					<OnValueChanged>
+						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_SCALE);
 						AtlasOptions.AtlasScale = this:GetValue();
 						Atlas_UpdateScale();
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
-			<Button name="$ParentResetPosition" inherits="OptionsButtonTemplate" text="ATLAS_OPTIONS_RESETPOS">
+			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_OPTIONS_CATDD">
+							<Anchors>
+								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+									<Offset>
+										<AbsDimension x="21" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-475"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						AtlasOptionsFrameDropDownCats_OnShow();
+					</OnShow>
+				</Scripts>
+			</Button>
+			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_RESETPOS">
 				<Size>
-					<AbsDimension x="165" y="20"/>
+					<AbsDimension x="160" y="32"/>
 				</Size>
 				<Anchors>
-					<Anchor point="BOTTOM">
+					<Anchor point="BOTTOMLEFT">
 						<Offset>
-							<AbsDimension x="0" y="60"/>
+							<AbsDimension x="22" y="18"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -271,11 +285,14 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="$ParentDone" inherits="OptionsButtonTemplate" text="ATLAS_OPTIONS_DONE">
+			<Button name="$ParentDone" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_DONE">
+				<Size>
+					<AbsDimension x="80" y="32"/>
+				</Size>
 				<Anchors>
-					<Anchor point="BOTTOM">
+					<Anchor point="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="0" y="20"/>
+							<AbsDimension x="-22" y="18"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -288,26 +305,19 @@
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				AtlasOptions_OnLoad();
+				this:RegisterForDrag("LeftButton");
+				this:SetMovable(1);
+				local AL = AceLibrary("AceLocale-2.2"):new("Atlas");
+				getglobal("AtlasOptionsFrame_Title"):SetText(AL["Atlas Options"]);
 			</OnLoad>
-			<OnMouseDown>
-				if ( arg1 == "LeftButton" ) then
-					this:StartMoving()
-					this.isMoving = true
-				end
-			</OnMouseDown>
-			<OnMouseUp>
-				if this.isMoving then
-					this:StopMovingOrSizing()
-					this.isMoving = false
-				end
-			</OnMouseUp>
-			<OnHide>
-				if this.isMoving then
-					this:StopMovingOrSizing()
-					this.isMoving = false
-				end
-			</OnHide>
+			<OnDragStart>
+				this:StartMoving();
+				this.isMoving = true;
+			</OnDragStart>
+			<OnDragStop>
+				this:StopMovingOrSizing();
+				this.isMoving = false;
+			</OnDragStop>
 		</Scripts>
 	</Frame>
 </Ui>
