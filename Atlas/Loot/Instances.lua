@@ -5018,7 +5018,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 22354, "INV_Misc_Desecrated_PlateShoulder", "=q4=Desecrated Pauldrons", "=q17=#c9#=ds=, =q12=#c6#", "28.78%" },
 		{ 0, "", "", "" },
 		{ 22960, "INV_Misc_Cape_Naxxramas_02", "=q4=Cloak of Suturing", "=ds=#s4#", "12.84%" },
-		{ 22961, "INV_Jewelry_Ring_49Naxxramas", "=q4=Band of Reanimation", "=ds=Ring", "22.15%" },
+		{ 22961, "INV_Jewelry_Ring_49Naxxramas", "=q4=Band of Reanimation", "=ds=#s13#", "22.15%" },
 		{ 22820, "INV_Wand_1H_Stratholme_D_01", "=q4=Wand of Fates", "=ds=#w12#", "23.19%" },
 		{ 22818, "INV_Shield_27", "=q4=The Plague Bearer", "=ds=#w8#", "15.53%" },
 		{ 22815, "INV_Axe_22", "=q4=Severance", "=ds=#h2#, #w1#", "16.15%" },
