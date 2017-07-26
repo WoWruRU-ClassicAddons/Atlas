@@ -6,7 +6,7 @@
 ]]
 
 --Invoke libraries
-local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
+local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot")
 local BC = AceLibrary("Babble-Class-2.2")
 local BS = AceLibrary("Babble-Spell-2.2")
 local BZ = AceLibrary("Babble-Zone-2.2")
@@ -824,7 +824,7 @@ AtlasLoot_TableNames = {
 	["WishList"] = { AL["WishList"], "AtlasLootCharDB" },
 	--If all else fails!
 	["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" },
-};
+}
 
 AtlasLoot_TableNamesBoss = {
 	
@@ -1657,4 +1657,4 @@ AtlasLoot_TableNamesBoss = {
 		["PVPWarlock"] = { BC["Warlock"].." - "..AL["PvP Sets"], "AtlasLootGeneralPvPItems" },
 		["PVPWarrior"] = { BC["Warrior"].." - "..AL["PvP Sets"], "AtlasLootGeneralPvPItems" },
 	},
-};
+}

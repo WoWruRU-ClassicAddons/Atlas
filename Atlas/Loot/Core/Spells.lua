@@ -1,15 +1,14 @@
-
-local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
+local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot")
 
 GetSpellInfoVanillaDB = {
 	["enchants"] = {
 		[7418] = {
 			["name"] = "Enchant Bracer - Minor Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7420] = {
 			["name"] = "Enchant Chest - Minor Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7421] = {
 			["name"] = "Runed Copper Rod",
@@ -18,63 +17,63 @@ GetSpellInfoVanillaDB = {
 		},
 		[7426] = {
 			["name"] = "Enchant Chest - Minor Absorption",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7428] = {
 			["name"] = "Enchant Bracer - Minor Deflection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7443] = {
 			["name"] = "Enchant Chest - Minor Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7454] = {
 			["name"] = "Enchant Cloak - Minor Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7457] = {
 			["name"] = "Enchant Bracer - Minor Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7745] = {
 			["name"] = "Enchant 2H Weapon - Minor Impact",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7748] = {
 			["name"] = "Enchant Chest - Lesser Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7766] = {
 			["name"] = "Enchant Bracer - Minor Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7771] = {
 			["name"] = "Enchant Cloak - Minor Protection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7776] = {
 			["name"] = "Enchant Chest - Lesser Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7779] = {
 			["name"] = "Enchant Bracer - Minor Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7782] = {
 			["name"] = "Enchant Bracer - Minor Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7786] = {
 			["name"] = "Enchant Weapon - Minor Beastslayer",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7788] = {
 			["name"] = "Enchant Weapon - Minor Striking",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7793] = {
 			["name"] = "Enchant 2H Weapon - Lesser Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7795] = {
 			["name"] = "Runed Silver Rod",
@@ -83,95 +82,95 @@ GetSpellInfoVanillaDB = {
 		},
 		[7857] = {
 			["name"] = "Enchant Chest - Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7859] = {
 			["name"] = "Enchant Bracer - Lesser Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7861] = {
 			["name"] = "Enchant Cloak - Lesser Fire Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7863] = {
 			["name"] = "Enchant Boots - Minor Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[7867] = {
 			["name"] = "Enchant Boots - Minor Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13378] = {
 			["name"] = "Enchant Shield - Minor Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13380] = {
 			["name"] = "Enchant 2H Weapon - Lesser Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13419] = {
 			["name"] = "Enchant Cloak - Minor Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13421] = {
 			["name"] = "Enchant Cloak - Lesser Protection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13464] = {
 			["name"] = "Enchant Shield - Lesser Protection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13485] = {
 			["name"] = "Enchant Shield - Lesser Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13501] = {
 			["name"] = "Enchant Bracer - Lesser Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13503] = {
 			["name"] = "Enchant Weapon - Lesser Striking",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13522] = {
 			["name"] = "Enchant Cloak - Lesser Shadow Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13529] = {
 			["name"] = "Enchant 2H Weapon - Lesser Impact",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13536] = {
 			["name"] = "Enchant Bracer - Lesser Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13538] = {
 			["name"] = "Enchant Chest - Lesser Absorption",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13607] = {
 			["name"] = "Enchant Chest - Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13612] = {
 			["name"] = "Enchant Gloves - Mining",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13617] = {
 			["name"] = "Enchant Gloves - Herbalism",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13620] = {
 			["name"] = "Enchant Gloves - Fishing",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13622] = {
 			["name"] = "Enchant Bracer - Lesser Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13626] = {
 			["name"] = "Enchant Chest - Minor Stats",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13628] = {
 			["name"] = "Runed Golden Rod",
@@ -180,83 +179,83 @@ GetSpellInfoVanillaDB = {
 		},
 		[13631] = {
 			["name"] = "Enchant Shield - Lesser Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13635] = {
 			["name"] = "Enchant Cloak - Defense",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13637] = {
 			["name"] = "Enchant Boots - Lesser Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13640] = {
 			["name"] = "Enchant Chest - Greater Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13642] = {
 			["name"] = "Enchant Bracer - Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13644] = {
 			["name"] = "Enchant Boots - Lesser Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13646] = {
 			["name"] = "Enchant Bracer - Lesser Deflection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13648] = {
 			["name"] = "Enchant Bracer - Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13653] = {
 			["name"] = "Enchant Weapon - Lesser Beastslayer",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13655] = {
 			["name"] = "Enchant Weapon - Lesser Elemental Slayer",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13657] = {
 			["name"] = "Enchant Cloak - Fire Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13659] = {
 			["name"] = "Enchant Shield - Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13661] = {
 			["name"] = "Enchant Bracer - Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13663] = {
 			["name"] = "Enchant Chest - Greater Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13687] = {
 			["name"] = "Enchant Boots - Lesser Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13689] = {
 			["name"] = "Enchant Shield - Lesser Block",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13693] = {
 			["name"] = "Enchant Weapon - Striking",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13695] = {
 			["name"] = "Enchant 2H Weapon - Impact",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13698] = {
 			["name"] = "Enchant Gloves - Skinning",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13700] = {
 			["name"] = "Enchant Chest - Lesser Stats",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13702] = {
 			["name"] = "Runed Truesilver Rod",
@@ -265,111 +264,111 @@ GetSpellInfoVanillaDB = {
 		},
 		[13746] = {
 			["name"] = "Enchant Cloak - Greater Defense",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13794] = {
 			["name"] = "Enchant Cloak - Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13815] = {
 			["name"] = "Enchant Gloves - Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13817] = {
 			["name"] = "Enchant Shield - Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13822] = {
 			["name"] = "Enchant Bracer - Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13836] = {
 			["name"] = "Enchant Boots - Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13841] = {
 			["name"] = "Enchant Gloves - Advanced Mining",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13846] = {
 			["name"] = "Enchant Bracer - Greater Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13858] = {
 			["name"] = "Enchant Chest - Superior Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13868] = {
 			["name"] = "Enchant Gloves - Advanced Herbalism",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13882] = {
 			["name"] = "Enchant Cloak - Lesser Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13887] = {
 			["name"] = "Enchant Gloves - Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13890] = {
 			["name"] = "Enchant Boots - Minor Speed",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13898] = {
 			["name"] = "Enchant Weapon - Fiery Weapon",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13905] = {
 			["name"] = "Enchant Shield - Greater Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13915] = {
 			["name"] = "Enchant Weapon - Demonslaying",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13917] = {
 			["name"] = "Enchant Chest - Superior Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13931] = {
 			["name"] = "Enchant Bracer - Deflection",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13933] = {
 			["name"] = "Enchant Shield - Frost Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13935] = {
 			["name"] = "Enchant Boots - Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13937] = {
 			["name"] = "Enchant 2H Weapon - Greater Impact",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13939] = {
 			["name"] = "Enchant Bracer - Greater Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13941] = {
 			["name"] = "Enchant Chest - Stats",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13943] = {
 			["name"] = "Enchant Weapon - Greater Striking",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13945] = {
 			["name"] = "Enchant Bracer - Greater Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13947] = {
 			["name"] = "Enchant Gloves - Riding Skill",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[13948] = {
 			["name"] = "Enchant Gloves - Minor Haste",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[14293] = {
 			["name"] = "Lesser Magic Wand",
@@ -408,99 +407,99 @@ GetSpellInfoVanillaDB = {
 		},
 		[20008] = {
 			["name"] = "Enchant Bracer - Greater Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20009] = {
 			["name"] = "Enchant Bracer - Superior Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20010] = {
 			["name"] = "Enchant Bracer - Superior Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20011] = {
 			["name"] = "Enchant Bracer - Superior Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20012] = {
 			["name"] = "Enchant Gloves - Greater Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20013] = {
 			["name"] = "Enchant Gloves - Greater Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20014] = {
 			["name"] = "Enchant Cloak - Greater Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20015] = {
 			["name"] = "Enchant Cloak - Superior Defense",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20016] = {
 			["name"] = "Enchant Shield - Superior Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20017] = {
 			["name"] = "Enchant Shield - Greater Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20020] = {
 			["name"] = "Enchant Boots - Greater Stamina",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20023] = {
 			["name"] = "Enchant Boots - Greater Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20024] = {
 			["name"] = "Enchant Boots - Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20025] = {
 			["name"] = "Enchant Chest - Greater Stats",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20026] = {
 			["name"] = "Enchant Chest - Major Health",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20028] = {
 			["name"] = "Enchant Chest - Major Mana",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20029] = {
 			["name"] = "Enchant Weapon - Icy Chill",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20030] = {
 			["name"] = "Enchant 2H Weapon - Superior Impact",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20031] = {
 			["name"] = "Enchant Weapon - Superior Striking",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20032] = {
 			["name"] = "Enchant Weapon - Lifestealing",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20033] = {
 			["name"] = "Enchant Weapon - Unholy Weapon",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20034] = {
 			["name"] = "Enchant Weapon - Crusader",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20035] = {
 			["name"] = "Enchant 2H Weapon - Major Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20036] = {
 			["name"] = "Enchant 2H Weapon - Major Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[20051] = {
 			["name"] = "Runed Arcanite Rod",
@@ -509,130 +508,130 @@ GetSpellInfoVanillaDB = {
 		},
 		[21931] = {
 			["name"] = "Enchant Weapon - Winter's Might",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[22749] = {
 			["name"] = "Enchant Weapon - Spell Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[22750] = {
 			["name"] = "Enchant Weapon - Healing Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23799] = {
 			["name"] = "Enchant Weapon - Strength",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23800] = {
 			["name"] = "Enchant Weapon - Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23801] = {
 			["name"] = "Enchant Bracer - Mana Regeneration",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23802] = {
 			["name"] = "Enchant Bracer - Healing Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23803] = {
 			["name"] = "Enchant Weapon - Mighty Spirit",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[23804] = {
 			["name"] = "Enchant Weapon - Mighty Intellect",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25072] = {
 			["name"] = "Enchant Gloves - Threat",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25073] = {
 			["name"] = "Enchant Gloves - Shadow Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25074] = {
 			["name"] = "Enchant Gloves - Frost Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25078] = {
 			["name"] = "Enchant Gloves - Fire Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25079] = {
 			["name"] = "Enchant Gloves - Healing Power",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25080] = {
 			["name"] = "Enchant Gloves - Superior Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25081] = {
 			["name"] = "Enchant Cloak - Greater Fire Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25082] = {
 			["name"] = "Enchant Cloak - Greater Nature Resistance",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25083] = {
 			["name"] = "Enchant Cloak - Stealth",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25084] = {
 			["name"] = "Enchant Cloak - Subtlety",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25086] = {
 			["name"] = "Enchant Cloak - Dodge",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
 		},
 		[25124] = {
 			["name"] = "Minor Wizard Oil",
 			["icon"] = "Interface\\Icons\\INV_Poison_MindNumbing",
 			["item"] = 20744,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25125] = {
 			["name"] = "Minor Mana Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_98",
 			["item"] = 20745,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25126] = {
 			["name"] = "Lesser Wizard Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_103",
 			["item"] = 20746,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25127] = {
 			["name"] = "Lesser Mana Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_99",
 			["item"] = 20747,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25128] = {
 			["name"] = "Wizard Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_104",
 			["item"] = 20750,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25129] = {
 			["name"] = "Brilliant Wizard Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_105",
 			["item"] = 20749,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[25130] = {
 			["name"] = "Brilliant Mana Oil",
 			["icon"] = "Interface\\Icons\\INV_Potion_100",
 			["item"] = 20748,
-			["extra"] = "|cffffffff5 Charges",
+			["extra"] = "|cffffffff5 Charges"
 		},
 		[27837] = {
 			["name"] = "Enchant 2H Weapon - Agility",
-			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
-		},
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal"
+		}
 	},
 	["craftspells"] = {
 		[6510] = {
@@ -645,8 +644,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 3,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3818},
-			},
+				[1] = {3818}
+			}
 		},
 		[8681] = {
 			["name"] = "Poisons: Instant Poison",
@@ -659,8 +658,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2928},
-				[2] = {3371},
-			},
+				[2] = {3371}
+			}
 		},
 		[8687] = {
 			["name"] = "Poisons: Instant Poison II",
@@ -673,8 +672,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2928, 3},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[8691] = {
 			["name"] = "Poisons: Instant Poison III",
@@ -687,8 +686,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8924},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[11341] = {
 			["name"] = "Poisons: Instant Poison IV",
@@ -701,8 +700,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8924, 2},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11342] = {
 			["name"] = "Poisons: Instant Poison V",
@@ -715,8 +714,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8924, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11343] = {
 			["name"] = "Poisons: Instant Poison VI",
@@ -729,8 +728,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8924, 4},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[3420] = {
 			["name"] = "Poisons: Crippling Poison",
@@ -743,8 +742,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2930},
-				[2] = {3371},
-			},
+				[2] = {3371}
+			}
 		},
 		[3421] = {
 			["name"] = "Poisons: Crippling Poison II",
@@ -757,8 +756,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8923, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[5763] = {
 			["name"] = "Poisons: Mind-numbing Poison",
@@ -772,8 +771,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2928},
 				[2] = {2930},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[8694] = {
 			["name"] = "Poisons: Mind-numbing Poison II",
@@ -787,8 +786,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2928, 4},
 				[2] = {2930, 4},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11400] = {
 			["name"] = "Poisons: Mind-numbing Poison III",
@@ -802,8 +801,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8924, 2},
 				[2] = {8923, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[2835] = {
 			["name"] = "Poisons: Deadly Poison",
@@ -816,8 +815,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5173},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[2837] = {
 			["name"] = "Poisons: Deadly Poison II",
@@ -830,8 +829,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5173, 2},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[11357] = {
 			["name"] = "Poisons: Deadly Poison III",
@@ -844,8 +843,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5173, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11358] = {
 			["name"] = "Poisons: Deadly Poison IV",
@@ -858,8 +857,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5173, 5},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[25347] = {
 			["name"] = "Poisons: Deadly Poison V",
@@ -872,8 +871,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5173, 7},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[13220] = {
 			["name"] = "Poisons: Wound Poison",
@@ -887,8 +886,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2930},
 				[2] = {5173},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[13228] = {
 			["name"] = "Poisons: Wound Poison II",
@@ -902,8 +901,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2930},
 				[2] = {5173, 2},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[13229] = {
 			["name"] = "Poisons: Wound Poison III",
@@ -917,8 +916,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8923},
 				[2] = {5173, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[13230] = {
 			["name"] = "Poisons: Wound Poison IV",
@@ -932,8 +931,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8923, 2},
 				[2] = {5173, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[3275] = {
 			["name"] = "First Aid: Linen Bandage",
@@ -945,8 +944,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2589},
-			},
+				[1] = {2589}
+			}
 		},
 		[3276] = {
 			["name"] = "First Aid: Heavy Linen Bandage",
@@ -958,8 +957,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2589, 2},
-			},
+				[1] = {2589, 2}
+			}
 		},
 		[7934] = {
 			["name"] = "First Aid: Anti-Venom",
@@ -971,8 +970,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 3,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {1475},
-			},
+				[1] = {1475}
+			}
 		},
 		[3277] = {
 			["name"] = "First Aid: Wool Bandage",
@@ -984,8 +983,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2592},
-			},
+				[1] = {2592}
+			}
 		},
 		[3278] = {
 			["name"] = "First Aid: Heavy Wool Bandage",
@@ -997,8 +996,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2592, 2},
-			},
+				[1] = {2592, 2}
+			}
 		},
 		[7935] = {
 			["name"] = "First Aid: Strong Anti-Venom",
@@ -1010,8 +1009,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 3,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {1288},
-			},
+				[1] = {1288}
+			}
 		},
 		[7928] = {
 			["name"] = "First Aid: Silk Bandage",
@@ -1023,8 +1022,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4306},
-			},
+				[1] = {4306}
+			}
 		},
 		[7929] = {
 			["name"] = "First Aid: Heavy Silk Bandage",
@@ -1036,8 +1035,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4306, 2},
-			},
+				[1] = {4306, 2}
+			}
 		},
 		[10840] = {
 			["name"] = "First Aid: Mageweave Bandage",
@@ -1049,8 +1048,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4338},
-			},
+				[1] = {4338}
+			}
 		},
 		[10841] = {
 			["name"] = "First Aid: Heavy Mageweave Bandage",
@@ -1062,8 +1061,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4338, 2},
-			},
+				[1] = {4338, 2}
+			}
 		},
 		[18629] = {
 			["name"] = "First Aid: Runecloth Bandage",
@@ -1075,8 +1074,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {14047},
-			},
+				[1] = {14047}
+			}
 		},
 		[18630] = {
 			["name"] = "First Aid: Heavy Runecloth Bandage",
@@ -1088,8 +1087,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {14047, 2},
-			},
+				[1] = {14047, 2}
+			}
 		},
 		[23787] = {
 			["name"] = "First Aid: Powerful Anti-Venom",
@@ -1101,8 +1100,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {19441},
-			},
+				[1] = {19441}
+			}
 		},
 		[818] = {
 			["name"] = "Basic Campfire",
@@ -1114,8 +1113,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4470},
-			},
+				[1] = {4470}
+			}
 		},
 		[7752] = {
 			["name"] = "Cooking: Slitherskin Mackerel",
@@ -1127,8 +1126,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6303},
-			},
+				[1] = {6303}
+			}
 		},
 		[2538] = {
 			["name"] = "Cooking: Charred Wolf Meat",
@@ -1140,8 +1139,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2672},
-			},
+				[1] = {2672}
+			}
 		},
 		[7751] = {
 			["name"] = "Cooking: Brilliant Smallfish",
@@ -1153,8 +1152,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6291},
-			},
+				[1] = {6291}
+			}
 		},
 		[15935] = {
 			["name"] = "Cooking: Crispy Bat Wing",
@@ -1167,8 +1166,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12223},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[21143] = {
 			["name"] = "Cooking: Gingerbread Cookie",
@@ -1181,8 +1180,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6889},
-				[2] = {17194},
-			},
+				[2] = {17194}
+			}
 		},
 		[8604] = {
 			["name"] = "Cooking: Herb Baked Egg",
@@ -1195,8 +1194,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6889},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[2540] = {
 			["name"] = "Cooking: Roasted Boar Meat",
@@ -1208,8 +1207,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {769},
-			},
+				[1] = {769}
+			}
 		},
 		[6412] = {
 			["name"] = "Cooking: Kaldorei Spider Kabob",
@@ -1221,8 +1220,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {5465},
-			},
+				[1] = {5465}
+			}
 		},
 		[2539] = {
 			["name"] = "Cooking: Spiced Wolf Meat",
@@ -1235,8 +1234,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2672},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[6413] = {
 			["name"] = "Cooking: Scorpid Surprise",
@@ -1248,8 +1247,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {5466},
-			},
+				[1] = {5466}
+			}
 		},
 		[2795] = {
 			["name"] = "Cooking: Beer Basted Boar Ribs",
@@ -1262,8 +1261,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2886},
-				[2] = {2894},
-			},
+				[2] = {2894}
+			}
 		},
 		[21144] = {
 			["name"] = "Cooking: Egg Nog",
@@ -1278,8 +1277,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {6889},
 				[2] = {1179},
 				[3] = {17196},
-				[4] = {17194},
-			},
+				[4] = {17194}
+			}
 		},
 		[6414] = {
 			["name"] = "Cooking: Roasted Kodo Meat",
@@ -1292,8 +1291,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5467},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[8607] = {
 			["name"] = "Cooking: Smoked Bear Meat",
@@ -1305,8 +1304,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3173},
-			},
+				[1] = {3173}
+			}
 		},
 		[6499] = {
 			["name"] = "Cooking: Boiled Clams",
@@ -1319,8 +1318,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5503},
-				[2] = {159},
-			},
+				[2] = {159}
+			}
 		},
 		[2541] = {
 			["name"] = "Cooking: Coyote Steak",
@@ -1332,8 +1331,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2673},
-			},
+				[1] = {2673}
+			}
 		},
 		[6415] = {
 			["name"] = "Cooking: Fillet of Frenzy",
@@ -1346,8 +1345,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5468},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[2542] = {
 			["name"] = "Cooking: Goretusk Liver Pie",
@@ -1360,8 +1359,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {723},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[7754] = {
 			["name"] = "Cooking: Loch Frenzy Delight",
@@ -1374,8 +1373,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6317},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[7753] = {
 			["name"] = "Cooking: Longjaw Mud Snapper",
@@ -1387,8 +1386,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6289},
-			},
+				[1] = {6289}
+			}
 		},
 		[7827] = {
 			["name"] = "Cooking: Rainbow Fin Albacore",
@@ -1400,8 +1399,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6361},
-			},
+				[1] = {6361}
+			}
 		},
 		[6416] = {
 			["name"] = "Cooking: Strider Stew",
@@ -1414,8 +1413,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5469},
-				[2] = {4536},
-			},
+				[2] = {4536}
+			}
 		},
 		[3371] = {
 			["name"] = "Cooking: Blood Sausage",
@@ -1429,8 +1428,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3173},
 				[2] = {3172},
-				[3] = {3174},
-			},
+				[3] = {3174}
+			}
 		},
 		[9513] = {
 			["name"] = "Cooking: Thistle Tea",
@@ -1443,8 +1442,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2452},
-				[2] = {159},
-			},
+				[2] = {159}
+			}
 		},
 		[2544] = {
 			["name"] = "Cooking: Crab Cake",
@@ -1457,8 +1456,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2674},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[2543] = {
 			["name"] = "Cooking: Westfall Stew",
@@ -1472,8 +1471,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {729},
 				[2] = {730},
-				[3] = {731},
-			},
+				[3] = {731}
+			}
 		},
 		[3370] = {
 			["name"] = "Cooking: Crocolisk Steak",
@@ -1486,8 +1485,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2924},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[2546] = {
 			["name"] = "Cooking: Dry Pork Ribs",
@@ -1500,8 +1499,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2677},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[25704] = {
 			["name"] = "Cooking: Smoked Sagefish",
@@ -1514,8 +1513,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {21071},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[2545] = {
 			["name"] = "Cooking: Cooked Crab Claw",
@@ -1528,8 +1527,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2675},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[8238] = {
 			["name"] = "Cooking: Savory Deviate Delight",
@@ -1542,8 +1541,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6522},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[6501] = {
 			["name"] = "Cooking: Clam Chowder",
@@ -1557,8 +1556,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {5503},
 				[2] = {1179},
-				[3] = {2678},
-			},
+				[3] = {2678}
+			}
 		},
 		[6417] = {
 			["name"] = "Cooking: Dig Rat Stew",
@@ -1570,8 +1569,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {5051},
-			},
+				[1] = {5051}
+			}
 		},
 		[3372] = {
 			["name"] = "Cooking: Murloc Fin Soup",
@@ -1584,8 +1583,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {1468, 2},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[2547] = {
 			["name"] = "Cooking: Redridge Goulash",
@@ -1598,8 +1597,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {1081},
-				[2] = {1080},
-			},
+				[2] = {1080}
+			}
 		},
 		[7755] = {
 			["name"] = "Cooking: Bristle Whisker Catfish",
@@ -1611,8 +1610,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6308},
-			},
+				[1] = {6308}
+			}
 		},
 		[6418] = {
 			["name"] = "Cooking: Crispy Lizard Tail",
@@ -1625,8 +1624,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5470},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[2549] = {
 			["name"] = "Cooking: Seasoned Wolf Kabob",
@@ -1639,8 +1638,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {1015, 2},
-				[2] = {2665},
-			},
+				[2] = {2665}
+			}
 		},
 		[2548] = {
 			["name"] = "Cooking: Succulent Pork Ribs",
@@ -1653,8 +1652,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2677},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[3397] = {
 			["name"] = "Cooking: Big Bear Steak",
@@ -1667,8 +1666,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3730},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[3377] = {
 			["name"] = "Cooking: Gooey Spider Cake",
@@ -1681,8 +1680,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2251, 2},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[6419] = {
 			["name"] = "Cooking: Lean Venison",
@@ -1695,8 +1694,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5471},
-				[2] = {2678, 4},
-			},
+				[2] = {2678, 4}
+			}
 		},
 		[3373] = {
 			["name"] = "Cooking: Crocolisk Gumbo",
@@ -1709,8 +1708,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3667},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[6500] = {
 			["name"] = "Cooking: Goblin Deviled Clams",
@@ -1723,8 +1722,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {5504},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[15853] = {
 			["name"] = "Cooking: Lean Wolf Steak",
@@ -1737,8 +1736,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {1015},
-				[2] = {2678},
-			},
+				[2] = {2678}
+			}
 		},
 		[3398] = {
 			["name"] = "Cooking: Hot Lion Chops",
@@ -1751,8 +1750,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3731},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[3376] = {
 			["name"] = "Cooking: Curiously Tasty Omelet",
@@ -1765,8 +1764,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3685},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[24418] = {
 			["name"] = "Cooking: Heavy Crocolisk Stew",
@@ -1779,8 +1778,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3667, 2},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[3399] = {
 			["name"] = "Cooking: Tasty Lion Steak",
@@ -1793,8 +1792,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3731, 2},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[21161] = {
 			["name"] = "Blacksmithing: Sulfuron Hammer",
@@ -1812,8 +1811,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {7078, 25},
 				[5] = {11382, 10},
 				[6] = {17011, 10},
-				[7] = {17010, 10},
-			},
+				[7] = {17010, 10}
+			}
 		},
 		[13028] = {
 			["name"] = "Cooking: Goldthorn Tea",
@@ -1826,8 +1825,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3821},
-				[2] = {159},
-			},
+				[2] = {159}
+			}
 		},
 		[7828] = {
 			["name"] = "Cooking: Rockscale Cod",
@@ -1839,8 +1838,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {6362},
-			},
+				[1] = {6362}
+			}
 		},
 		[4094] = {
 			["name"] = "Cooking: Barbecued Buzzard Wing",
@@ -1853,8 +1852,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3404},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[15863] = {
 			["name"] = "Cooking: Carrion Surprise",
@@ -1867,8 +1866,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12037},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[7213] = {
 			["name"] = "Cooking: Giant Clam Scorcho",
@@ -1881,8 +1880,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4655},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[15856] = {
 			["name"] = "Cooking: Hot Wolf Ribs",
@@ -1895,8 +1894,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12203},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[15861] = {
 			["name"] = "Cooking: Jungle Stew",
@@ -1910,8 +1909,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12202},
 				[2] = {159},
-				[3] = {4536, 2},
-			},
+				[3] = {4536, 2}
+			}
 		},
 		[20916] = {
 			["name"] = "Cooking: Mithril Headed Trout",
@@ -1923,8 +1922,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {8365},
-			},
+				[1] = {8365}
+			}
 		},
 		[15865] = {
 			["name"] = "Cooking: Mystery Stew",
@@ -1937,8 +1936,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12037},
-				[2] = {2596},
-			},
+				[2] = {2596}
+			}
 		},
 		[15855] = {
 			["name"] = "Cooking: Roast Raptor",
@@ -1951,8 +1950,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12184},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[25954] = {
 			["name"] = "Cooking: Sagefish Delight",
@@ -1965,8 +1964,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {21153},
-				[2] = {2692},
-			},
+				[2] = {2692}
+			}
 		},
 		[3400] = {
 			["name"] = "Cooking: Soothing Turtle Bisque",
@@ -1979,8 +1978,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3712},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[15906] = {
 			["name"] = "Cooking: Dragonbreath Chili",
@@ -1994,8 +1993,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12037},
 				[2] = {4402},
-				[3] = {2692},
-			},
+				[3] = {2692}
+			}
 		},
 		[15910] = {
 			["name"] = "Cooking: Heavy Kodo Stew",
@@ -2009,8 +2008,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12204, 2},
 				[2] = {3713},
-				[3] = {159},
-			},
+				[3] = {159}
+			}
 		},
 		[21175] = {
 			["name"] = "Cooking: Spider Sausage",
@@ -2022,8 +2021,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12205, 2},
-			},
+				[1] = {12205, 2}
+			}
 		},
 		[18239] = {
 			["name"] = "Cooking: Cooked Glossy Mightfish",
@@ -2036,8 +2035,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13754},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[18241] = {
 			["name"] = "Cooking: Filet of Redgill",
@@ -2049,8 +2048,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {13758},
-			},
+				[1] = {13758}
+			}
 		},
 		[15933] = {
 			["name"] = "Cooking: Monster Omelet",
@@ -2063,8 +2062,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12207},
-				[2] = {3713, 2},
-			},
+				[2] = {3713, 2}
+			}
 		},
 		[15915] = {
 			["name"] = "Cooking: Spiced Chili Crab",
@@ -2077,8 +2076,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12206},
-				[2] = {2692, 2},
-			},
+				[2] = {2692, 2}
+			}
 		},
 		[18238] = {
 			["name"] = "Cooking: Spotted Yellowtail",
@@ -2090,8 +2089,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4603},
-			},
+				[1] = {4603}
+			}
 		},
 		[22480] = {
 			["name"] = "Cooking: Tender Wolf Steak",
@@ -2104,8 +2103,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12208},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[20626] = {
 			["name"] = "Cooking: Undermine Clam Chowder",
@@ -2119,8 +2118,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7974, 2},
 				[2] = {2692},
-				[3] = {1179},
-			},
+				[3] = {1179}
+			}
 		},
 		[18240] = {
 			["name"] = "Cooking: Grilled Squid",
@@ -2133,8 +2132,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13755},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[18242] = {
 			["name"] = "Cooking: Hot Smoked Bass",
@@ -2147,8 +2146,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13756},
-				[2] = {2692, 2},
-			},
+				[2] = {2692, 2}
+			}
 		},
 		[18243] = {
 			["name"] = "Cooking: Nightfin Soup",
@@ -2161,8 +2160,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13759},
-				[2] = {159},
-			},
+				[2] = {159}
+			}
 		},
 		[18244] = {
 			["name"] = "Cooking: Poached Sunscale Salmon",
@@ -2174,8 +2173,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {13760},
-			},
+				[1] = {13760}
+			}
 		},
 		[18247] = {
 			["name"] = "Cooking: Baked Salmon",
@@ -2188,8 +2187,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13889},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[18245] = {
 			["name"] = "Cooking: Lobster Stew",
@@ -2202,8 +2201,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13888},
-				[2] = {159},
-			},
+				[2] = {159}
+			}
 		},
 		[18246] = {
 			["name"] = "Cooking: Mightfish Steak",
@@ -2217,8 +2216,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13893},
 				[2] = {2692},
-				[3] = {3713},
-			},
+				[3] = {3713}
+			}
 		},
 		[22761] = {
 			["name"] = "Cooking: Runn Tum Tuber Surprise",
@@ -2231,8 +2230,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {18255},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[24801] = {
 			["name"] = "Cooking: Smoked Desert Dumplings",
@@ -2245,8 +2244,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {20424},
-				[2] = {3713},
-			},
+				[2] = {3713}
+			}
 		},
 		[25659] = {
 			["name"] = "Cooking: Dirge's Kickin' Chimaerok Chops",
@@ -2261,8 +2260,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2692},
 				[2] = {9061},
 				[3] = {8150},
-				[4] = {21024},
-			},
+				[4] = {21024}
+			}
 		},
 		[7630] = {
 			["name"] = "Tailoring: Blue Linen Vest",
@@ -2276,8 +2275,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2320},
-				[3] = {6260},
-			},
+				[3] = {6260}
+			}
 		},
 		[7629] = {
 			["name"] = "Tailoring: Red Linen Vest",
@@ -2291,8 +2290,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2320},
-				[3] = {2604},
-			},
+				[3] = {2604}
+			}
 		},
 		[3841] = {
 			["name"] = "Tailoring: Green Linen Bracers",
@@ -2306,8 +2305,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2320, 2},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[2397] = {
 			["name"] = "Tailoring: Reinforced Linen Cape",
@@ -2320,8 +2319,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 2},
-				[2] = {2320, 3},
-			},
+				[2] = {2320, 3}
+			}
 		},
 		[2386] = {
 			["name"] = "Tailoring: Linen Boots",
@@ -2335,8 +2334,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2320},
-				[3] = {2318},
-			},
+				[3] = {2318}
+			}
 		},
 		[2395] = {
 			["name"] = "Tailoring: Barbaric Linen Vest",
@@ -2350,8 +2349,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 4},
 				[2] = {2318},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[7633] = {
 			["name"] = "Tailoring: Blue Linen Robe",
@@ -2365,8 +2364,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 4},
 				[2] = {2320, 2},
-				[3] = {6260, 2},
-			},
+				[3] = {6260, 2}
+			}
 		},
 		[3842] = {
 			["name"] = "Tailoring: Handstitched Linen Britches",
@@ -2379,8 +2378,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 4},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[2396] = {
 			["name"] = "Tailoring: Green Linen Shirt",
@@ -2394,8 +2393,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2321},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[6686] = {
 			["name"] = "Tailoring: Red Linen Bag",
@@ -2409,8 +2408,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 4},
 				[2] = {2321},
-				[3] = {2604},
-			},
+				[3] = {2604}
+			}
 		},
 		[2964] = {
 			["name"] = "Tailoring: Bolt of Woolen Cloth",
@@ -2422,8 +2421,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2592, 3},
-			},
+				[1] = {2592, 3}
+			}
 		},
 		[12046] = {
 			["name"] = "Tailoring: Simple Kilt",
@@ -2436,8 +2435,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2592, 4},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[12046] = {
 			["name"] = "Tailoring: Simple Kilt",
@@ -2450,8 +2449,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 4},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[2402] = {
 			["name"] = "Tailoring: Woolen Cape",
@@ -2464,8 +2463,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2997},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[3845] = {
 			["name"] = "Tailoring: Soft-soled Linen Boots",
@@ -2479,8 +2478,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 5},
 				[2] = {2318, 2},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[3757] = {
 			["name"] = "Tailoring: Woolen Bag",
@@ -2493,8 +2492,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2997, 3},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[3843] = {
 			["name"] = "Tailoring: Heavy Woolen Gloves",
@@ -2507,8 +2506,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2997, 3},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[2399] = {
 			["name"] = "Tailoring: Green Woolen Vest",
@@ -2522,8 +2521,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 2},
 				[2] = {2321, 2},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[6521] = {
 			["name"] = "Tailoring: Pearl-clasped Cloak",
@@ -2537,8 +2536,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 3},
 				[2] = {2321, 2},
-				[3] = {5498},
-			},
+				[3] = {5498}
+			}
 		},
 		[3847] = {
 			["name"] = "Tailoring: Red Woolen Boots",
@@ -2553,8 +2552,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2997, 3},
 				[2] = {2318, 2},
 				[3] = {2321},
-				[4] = {2604},
-			},
+				[4] = {2604}
+			}
 		},
 		[2401] = {
 			["name"] = "Tailoring: Woolen Boots",
@@ -2568,8 +2567,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2321, 2},
-				[3] = {2318},
-			},
+				[3] = {2318}
+			}
 		},
 		[3758] = {
 			["name"] = "Tailoring: Green Woolen Bag",
@@ -2583,8 +2582,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2605},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[2406] = {
 			["name"] = "Tailoring: Gray Woolen Shirt",
@@ -2598,8 +2597,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 2},
 				[2] = {2321},
-				[3] = {4340},
-			},
+				[3] = {4340}
+			}
 		},
 		[7639] = {
 			["name"] = "Tailoring: Blue Overalls",
@@ -2613,8 +2612,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2321, 2},
-				[3] = {6260, 2},
-			},
+				[3] = {6260, 2}
+			}
 		},
 		[3844] = {
 			["name"] = "Tailoring: Heavy Woolen Cloak",
@@ -2628,8 +2627,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 3},
 				[2] = {2321, 2},
-				[3] = {5498, 2},
-			},
+				[3] = {5498, 2}
+			}
 		},
 		[3844] = {
 			["name"] = "Tailoring: Heavy Woolen Cloak",
@@ -2643,8 +2642,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 3},
 				[2] = {2321, 2},
-				[3] = {5498, 2},
-			},
+				[3] = {5498, 2}
+			}
 		},
 		[2403] = {
 			["name"] = "Tailoring: Gray Woolen Robe",
@@ -2658,8 +2657,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2321, 3},
-				[3] = {4340},
-			},
+				[3] = {4340}
+			}
 		},
 		[3850] = {
 			["name"] = "Tailoring: Heavy Woolen Pants",
@@ -2672,8 +2671,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2997, 5},
-				[2] = {2321, 4},
-			},
+				[2] = {2321, 4}
+			}
 		},
 		[3848] = {
 			["name"] = "Tailoring: Double-stitched Woolen Shoulders",
@@ -2686,8 +2685,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2997, 3},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[3866] = {
 			["name"] = "Tailoring: Stylish Red Shirt",
@@ -2701,8 +2700,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 3},
 				[2] = {2604, 2},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[8467] = {
 			["name"] = "Tailoring: White Woolen Dress",
@@ -2716,8 +2715,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 3},
 				[2] = {2324, 4},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[7643] = {
 			["name"] = "Tailoring: Greater Adept's Robe",
@@ -2731,8 +2730,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 5},
 				[2] = {2321, 3},
-				[3] = {2604, 3},
-			},
+				[3] = {2604, 3}
+			}
 		},
 		[6688] = {
 			["name"] = "Tailoring: Red Woolen Bag",
@@ -2746,8 +2745,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2604},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[12047] = {
 			["name"] = "Tailoring: Colorful Kilt",
@@ -2761,8 +2760,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 5},
 				[2] = {2604, 3},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[3849] = {
 			["name"] = "Tailoring: Reinforced Woolen Shoulders",
@@ -2776,8 +2775,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 6},
 				[2] = {2319, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[7892] = {
 			["name"] = "Tailoring: Stylish Blue Shirt",
@@ -2792,8 +2791,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2997, 4},
 				[2] = {6260, 2},
 				[3] = {4340},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[7893] = {
 			["name"] = "Tailoring: Stylish Green Shirt",
@@ -2808,8 +2807,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2997, 4},
 				[2] = {2605, 2},
 				[3] = {4340},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[3839] = {
 			["name"] = "Tailoring: Bolt of Silk Cloth",
@@ -2821,8 +2820,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4306, 4},
-			},
+				[1] = {4306, 4}
+			}
 		},
 		[3855] = {
 			["name"] = "Tailoring: Spidersilk Boots",
@@ -2837,8 +2836,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 2},
 				[2] = {2319, 4},
 				[3] = {3182, 4},
-				[4] = {5500, 2},
-			},
+				[4] = {5500, 2}
+			}
 		},
 		[3868] = {
 			["name"] = "Tailoring: Phoenix Gloves",
@@ -2854,8 +2853,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2997, 4},
 				[2] = {5500},
 				[3] = {2321, 4},
-				[4] = {2324, 2},
-			},
+				[4] = {2324, 2}
+			}
 		},
 		[3851] = {
 			["name"] = "Tailoring: Phoenix Pants",
@@ -2869,8 +2868,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 6},
 				[2] = {5500},
-				[3] = {2321, 3},
-			},
+				[3] = {2321, 3}
+			}
 		},
 		[3852] = {
 			["name"] = "Tailoring: Gloves of Meditation",
@@ -2884,8 +2883,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2997, 4},
 				[2] = {2321, 3},
-				[3] = {3383},
-			},
+				[3] = {3383}
+			}
 		},
 		[3869] = {
 			["name"] = "Tailoring: Bright Yellow Shirt",
@@ -2899,8 +2898,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305},
 				[2] = {4341},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[6690] = {
 			["name"] = "Tailoring: Lesser Wizard's Robe",
@@ -2914,8 +2913,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 2},
 				[2] = {2321, 2},
-				[3] = {3182, 2},
-			},
+				[3] = {3182, 2}
+			}
 		},
 		[8758] = {
 			["name"] = "Tailoring: Azure Silk Pants",
@@ -2929,8 +2928,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {6260, 2},
-				[3] = {2321, 3},
-			},
+				[3] = {2321, 3}
+			}
 		},
 		[3856] = {
 			["name"] = "Tailoring: Spider Silk Slippers",
@@ -2944,8 +2943,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {3182},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[8760] = {
 			["name"] = "Tailoring: Azure Silk Hood",
@@ -2959,8 +2958,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {3182},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3854] = {
 			["name"] = "Tailoring: Azure Silk Gloves",
@@ -2975,8 +2974,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 3},
 				[2] = {4234, 2},
 				[3] = {6260, 2},
-				[4] = {2321, 2},
-			},
+				[4] = {2321, 2}
+			}
 		},
 		[8780] = {
 			["name"] = "Tailoring: Hands of Darkness",
@@ -2991,8 +2990,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 3},
 				[2] = {4234, 2},
 				[3] = {6048, 2},
-				[4] = {2321, 2},
-			},
+				[4] = {2321, 2}
+			}
 		},
 		[3859] = {
 			["name"] = "Tailoring: Azure Silk Vest",
@@ -3005,8 +3004,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4305, 5},
-				[2] = {6260, 4},
-			},
+				[2] = {6260, 4}
+			}
 		},
 		[6692] = {
 			["name"] = "Tailoring: Robes of Arcana",
@@ -3020,8 +3019,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {2321, 2},
-				[3] = {3182, 2},
-			},
+				[3] = {3182, 2}
+			}
 		},
 		[8782] = {
 			["name"] = "Tailoring: Truefaith Gloves",
@@ -3036,8 +3035,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 3},
 				[2] = {4234, 2},
 				[3] = {929, 4},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[3813] = {
 			["name"] = "Tailoring: Small Silk Pack",
@@ -3051,8 +3050,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {4234, 2},
-				[3] = {2321, 3},
-			},
+				[3] = {2321, 3}
+			}
 		},
 		[3870] = {
 			["name"] = "Tailoring: Dark Silk Shirt",
@@ -3066,8 +3065,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 2},
 				[2] = {4340, 2},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[8762] = {
 			["name"] = "Tailoring: Silk Headband",
@@ -3080,8 +3079,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4305, 3},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[8483] = {
 			["name"] = "Tailoring: White Swashbuckler's Shirt",
@@ -3095,8 +3094,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {2324, 2},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[3857] = {
 			["name"] = "Tailoring: Enchanter's Cowl",
@@ -3110,8 +3109,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {2321, 2},
-				[3] = {4337, 2},
-			},
+				[3] = {4337, 2}
+			}
 		},
 		[8784] = {
 			["name"] = "Tailoring: Green Silk Armor",
@@ -3125,8 +3124,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 5},
 				[2] = {2605, 2},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[3871] = {
 			["name"] = "Tailoring: Formal White Shirt",
@@ -3140,8 +3139,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {2324, 2},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[8764] = {
 			["name"] = "Tailoring: Earthen Vest",
@@ -3155,8 +3154,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {7067},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3858] = {
 			["name"] = "Tailoring: Shadow Hood",
@@ -3170,8 +3169,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {4291},
-				[3] = {3824},
-			},
+				[3] = {3824}
+			}
 		},
 		[3865] = {
 			["name"] = "Tailoring: Bolt of Mageweave",
@@ -3183,8 +3182,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4338, 5},
-			},
+				[1] = {4338, 5}
+			}
 		},
 		[8489] = {
 			["name"] = "Tailoring: Red Swashbuckler's Shirt",
@@ -3198,8 +3197,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {2604, 2},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[8766] = {
 			["name"] = "Tailoring: Azure Silk Belt",
@@ -3215,8 +3214,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7070},
 				[3] = {6260, 2},
 				[4] = {2321, 2},
-				[5] = {7071},
-			},
+				[5] = {7071}
+			}
 		},
 		[8786] = {
 			["name"] = "Tailoring: Azure Silk Cloak",
@@ -3230,8 +3229,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 3},
 				[2] = {6260, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3860] = {
 			["name"] = "Tailoring: Boots of the Enchanter",
@@ -3245,8 +3244,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {4291},
-				[3] = {4337, 2},
-			},
+				[3] = {4337, 2}
+			}
 		},
 		[8772] = {
 			["name"] = "Tailoring: Crimson Silk Belt",
@@ -3261,8 +3260,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 4},
 				[2] = {7071},
 				[3] = {2604, 2},
-				[4] = {4291},
-			},
+				[4] = {4291}
+			}
 		},
 		[6693] = {
 			["name"] = "Tailoring: Green Silk Pack",
@@ -3277,8 +3276,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 4},
 				[2] = {4234, 3},
 				[3] = {2321, 3},
-				[4] = {2605},
-			},
+				[4] = {2605}
+			}
 		},
 		[8789] = {
 			["name"] = "Tailoring: Crimson Silk Cloak",
@@ -3293,8 +3292,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 5},
 				[2] = {2604, 2},
 				[3] = {6371, 2},
-				[4] = {4291},
-			},
+				[4] = {4291}
+			}
 		},
 		[8774] = {
 			["name"] = "Tailoring: Green Silken Shoulders",
@@ -3307,8 +3306,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4305, 5},
-				[2] = {4291, 2},
-			},
+				[2] = {4291, 2}
+			}
 		},
 		[3863] = {
 			["name"] = "Tailoring: Spider Belt",
@@ -3322,8 +3321,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {4337, 2},
-				[3] = {7071},
-			},
+				[3] = {7071}
+			}
 		},
 		[3872] = {
 			["name"] = "Tailoring: Rich Purple Silk Shirt",
@@ -3337,8 +3336,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {4342},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[8791] = {
 			["name"] = "Tailoring: Crimson Silk Vest",
@@ -3352,8 +3351,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {2604, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3861] = {
 			["name"] = "Tailoring: Long Silken Cloak",
@@ -3367,8 +3366,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {3827},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[6695] = {
 			["name"] = "Tailoring: Black Silk Pack",
@@ -3382,8 +3381,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 5},
 				[2] = {2325},
-				[3] = {2321, 4},
-			},
+				[3] = {2321, 4}
+			}
 		},
 		[21945] = {
 			["name"] = "Tailoring: Green Holiday Shirt",
@@ -3397,8 +3396,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 5},
 				[2] = {2605, 4},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[8770] = {
 			["name"] = "Tailoring: Robe of Power",
@@ -3415,8 +3414,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7070, 2},
 				[4] = {7068, 2},
 				[5] = {7069, 2},
-				[6] = {4291, 2},
-			},
+				[6] = {4291, 2}
+			}
 		},
 		[8795] = {
 			["name"] = "Tailoring: Azure Shoulders",
@@ -3431,8 +3430,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 6},
 				[2] = {7072, 2},
 				[3] = {6260, 2},
-				[4] = {4291, 2},
-			},
+				[4] = {4291, 2}
+			}
 		},
 		[8793] = {
 			["name"] = "Tailoring: Crimson Silk Shoulders",
@@ -3447,8 +3446,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4305, 5},
 				[2] = {6271, 2},
 				[3] = {2604, 2},
-				[4] = {4291, 2},
-			},
+				[4] = {4291, 2}
+			}
 		},
 		[8799] = {
 			["name"] = "Tailoring: Crimson Silk Pantaloons",
@@ -3462,8 +3461,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 4},
 				[2] = {2604, 2},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[8797] = {
 			["name"] = "Tailoring: Earthen Silk Belt",
@@ -3479,8 +3478,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7067, 4},
 				[3] = {4234, 4},
 				[4] = {7071},
-				[5] = {4291, 2},
-			},
+				[5] = {4291, 2}
+			}
 		},
 		[3873] = {
 			["name"] = "Tailoring: Black Swashbuckler's Shirt",
@@ -3494,8 +3493,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4305, 5},
 				[2] = {2325},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[3862] = {
 			["name"] = "Tailoring: Icy Cloak",
@@ -3510,8 +3509,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 3},
 				[2] = {4291, 2},
 				[3] = {3829},
-				[4] = {4337, 2},
-			},
+				[4] = {4337, 2}
+			}
 		},
 		[3864] = {
 			["name"] = "Tailoring: Star Belt",
@@ -3527,8 +3526,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4234, 4},
 				[3] = {3864},
 				[4] = {7071},
-				[5] = {4291},
-			},
+				[5] = {4291}
+			}
 		},
 		[12049] = {
 			["name"] = "Tailoring: Black Mageweave Leggings",
@@ -3541,8 +3540,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 2},
-				[2] = {4291, 3},
-			},
+				[2] = {4291, 3}
+			}
 		},
 		[12048] = {
 			["name"] = "Tailoring: Black Mageweave Vest",
@@ -3555,8 +3554,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 2},
-				[2] = {4291, 3},
-			},
+				[2] = {4291, 3}
+			}
 		},
 		[8802] = {
 			["name"] = "Tailoring: Crimson Silk Robe",
@@ -3572,8 +3571,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7068, 4},
 				[3] = {3827, 2},
 				[4] = {2604, 4},
-				[5] = {4291},
-			},
+				[5] = {4291}
+			}
 		},
 		[12050] = {
 			["name"] = "Tailoring: Black Mageweave Robe",
@@ -3586,8 +3585,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 3},
-				[2] = {8343},
-			},
+				[2] = {8343}
+			}
 		},
 		[8804] = {
 			["name"] = "Tailoring: Crimson Silk Gloves",
@@ -3604,8 +3603,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {6371, 2},
 				[4] = {4304, 2},
 				[5] = {2604, 4},
-				[6] = {4291, 2},
-			},
+				[6] = {4291, 2}
+			}
 		},
 		[12052] = {
 			["name"] = "Tailoring: Shadoweave Pants",
@@ -3619,8 +3618,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {10285, 2},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12059] = {
 			["name"] = "Tailoring: White Bandit Mask",
@@ -3634,8 +3633,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339},
 				[2] = {2324},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12061] = {
 			["name"] = "Tailoring: Orange Mageweave Shirt",
@@ -3649,8 +3648,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339},
 				[2] = {6261},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12053] = {
 			["name"] = "Tailoring: Black Mageweave Gloves",
@@ -3663,8 +3662,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 2},
-				[2] = {8343, 2},
-			},
+				[2] = {8343, 2}
+			}
 		},
 		[12060] = {
 			["name"] = "Tailoring: Red Mageweave Pants",
@@ -3678,8 +3677,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {2604, 2},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12056] = {
 			["name"] = "Tailoring: Red Mageweave Vest",
@@ -3693,8 +3692,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {2604, 2},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12055] = {
 			["name"] = "Tailoring: Shadoweave Robe",
@@ -3708,8 +3707,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {10285, 2},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12064] = {
 			["name"] = "Tailoring: Orange Martial Shirt",
@@ -3723,8 +3722,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 2},
 				[2] = {6261, 2},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12067] = {
 			["name"] = "Tailoring: Dreamweave Gloves",
@@ -3739,8 +3738,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 4},
 				[2] = {8153, 4},
 				[3] = {10286, 2},
-				[4] = {8343, 2},
-			},
+				[4] = {8343, 2}
+			}
 		},
 		[12070] = {
 			["name"] = "Tailoring: Dreamweave Vest",
@@ -3755,8 +3754,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 6},
 				[2] = {8153, 6},
 				[3] = {10286, 2},
-				[4] = {8343, 2},
-			},
+				[4] = {8343, 2}
+			}
 		},
 		[12069] = {
 			["name"] = "Tailoring: Cindercloth Robe",
@@ -3770,8 +3769,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 5},
 				[2] = {7077, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[27658] = {
 			["name"] = "Tailoring: Enchanted Mageweave Pouch",
@@ -3785,8 +3784,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 4},
 				[2] = {11137, 4},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12066] = {
 			["name"] = "Tailoring: Red Mageweave Gloves",
@@ -3800,8 +3799,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {2604, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12071] = {
 			["name"] = "Tailoring: Shadoweave Gloves",
@@ -3815,8 +3814,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 5},
 				[2] = {10285, 5},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12065] = {
 			["name"] = "Tailoring: Mageweave Bag",
@@ -3829,8 +3828,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 4},
-				[2] = {8343, 2},
-			},
+				[2] = {8343, 2}
+			}
 		},
 		[12075] = {
 			["name"] = "Tailoring: Lavender Mageweave Shirt",
@@ -3844,8 +3843,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 2},
 				[2] = {4342, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12073] = {
 			["name"] = "Tailoring: Black Mageweave Boots",
@@ -3859,8 +3858,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {8343, 2},
-				[3] = {4304, 2},
-			},
+				[3] = {4304, 2}
+			}
 		},
 		[12072] = {
 			["name"] = "Tailoring: Black Mageweave Headband",
@@ -3873,8 +3872,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 3},
-				[2] = {8343, 2},
-			},
+				[2] = {8343, 2}
+			}
 		},
 		[12074] = {
 			["name"] = "Tailoring: Black Mageweave Shoulders",
@@ -3887,8 +3886,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 3},
-				[2] = {8343, 2},
-			},
+				[2] = {8343, 2}
+			}
 		},
 		[12080] = {
 			["name"] = "Tailoring: Pink Mageweave Shirt",
@@ -3902,8 +3901,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {10290},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12077] = {
 			["name"] = "Tailoring: Simple Black Dress",
@@ -3918,8 +3917,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 3},
 				[2] = {2325},
 				[3] = {8343},
-				[4] = {2324},
-			},
+				[4] = {2324}
+			}
 		},
 		[12078] = {
 			["name"] = "Tailoring: Red Mageweave Shoulders",
@@ -3933,8 +3932,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 4},
 				[2] = {2604},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12076] = {
 			["name"] = "Tailoring: Shadoweave Shoulders",
@@ -3948,8 +3947,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 5},
 				[2] = {10285},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[12076] = {
 			["name"] = "Tailoring: Shadoweave Shoulders",
@@ -3963,8 +3962,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 5},
 				[2] = {10285, 4},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12079] = {
 			["name"] = "Tailoring: Red Mageweave Bag",
@@ -3978,8 +3977,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 4},
 				[2] = {2604, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12085] = {
 			["name"] = "Tailoring: Tuxedo Shirt",
@@ -3993,8 +3992,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 4},
 				[2] = {2604, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12081] = {
 			["name"] = "Tailoring: Admiral's Hat",
@@ -4008,8 +4007,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 3},
 				[2] = {4589, 6},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12084] = {
 			["name"] = "Tailoring: Red Mageweave Headband",
@@ -4023,8 +4022,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 4},
 				[2] = {2604, 2},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[12082] = {
 			["name"] = "Tailoring: Shadoweave Boots",
@@ -4039,8 +4038,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 6},
 				[2] = {10285, 6},
 				[3] = {8343, 3},
-				[4] = {4304, 2},
-			},
+				[4] = {4304, 2}
+			}
 		},
 		[12089] = {
 			["name"] = "Tailoring: Tuxedo Pants",
@@ -4053,8 +4052,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 4},
-				[2] = {8343, 3},
-			},
+				[2] = {8343, 3}
+			}
 		},
 		[12088] = {
 			["name"] = "Tailoring: Cindercloth Boots",
@@ -4069,8 +4068,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 5},
 				[2] = {7077},
 				[3] = {8343, 3},
-				[4] = {4304, 2},
-			},
+				[4] = {4304, 2}
+			}
 		},
 		[12086] = {
 			["name"] = "Tailoring: Shadoweave Mask",
@@ -4084,8 +4083,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 2},
 				[2] = {10285, 8},
-				[3] = {8343, 3},
-			},
+				[3] = {8343, 3}
+			}
 		},
 		[18401] = {
 			["name"] = "Tailoring: Bolt of Runecloth",
@@ -4097,8 +4096,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {14047, 5},
-			},
+				[1] = {14047, 5}
+			}
 		},
 		[12091] = {
 			["name"] = "Tailoring: White Wedding Dress",
@@ -4112,8 +4111,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4339, 5},
 				[2] = {8343, 3},
-				[3] = {2324},
-			},
+				[3] = {2324}
+			}
 		},
 		[12092] = {
 			["name"] = "Tailoring: Dreamweave Circlet",
@@ -4130,8 +4129,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {10286, 2},
 				[4] = {8343, 3},
 				[5] = {6037},
-				[6] = {1529},
-			},
+				[6] = {1529}
+			}
 		},
 		[26403] = {
 			["name"] = "Tailoring: Festival Dress",
@@ -4146,8 +4145,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {4625, 2},
 				[3] = {2604, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[26407] = {
 			["name"] = "Tailoring: Festive Red Pant Suit",
@@ -4162,8 +4161,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {4625, 2},
 				[3] = {2604, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[12093] = {
 			["name"] = "Tailoring: Tuxedo Jacket",
@@ -4176,8 +4175,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4339, 5},
-				[2] = {8343, 3},
-			},
+				[2] = {8343, 3}
+			}
 		},
 		[18560] = {
 			["name"] = "Tailoring: Mooncloth",
@@ -4189,8 +4188,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {14256, 2},
-			},
+				[1] = {14256, 2}
+			}
 		},
 		[18404] = {
 			["name"] = "Tailoring: Frostweave Robe",
@@ -4204,8 +4203,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {7079, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18403] = {
 			["name"] = "Tailoring: Frostweave Tunic",
@@ -4219,8 +4218,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {7079, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18402] = {
 			["name"] = "Tailoring: Runecloth Belt",
@@ -4233,8 +4232,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {14048, 3},
-				[2] = {14341},
-			},
+				[2] = {14341}
+			}
 		},
 		[18408] = {
 			["name"] = "Tailoring: Cindercloth Vest",
@@ -4248,8 +4247,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {7077, 3},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18406] = {
 			["name"] = "Tailoring: Runecloth Robe",
@@ -4263,8 +4262,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {14227},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18407] = {
 			["name"] = "Tailoring: Runecloth Tunic",
@@ -4278,8 +4277,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {14227},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[26085] = {
 			["name"] = "Tailoring: Soul Pouch",
@@ -4294,8 +4293,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {8170, 4},
 				[3] = {7972, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[18405] = {
 			["name"] = "Tailoring: Runecloth Bag",
@@ -4309,8 +4308,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {8170, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18411] = {
 			["name"] = "Tailoring: Frostweave Gloves",
@@ -4324,8 +4323,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 3},
 				[2] = {7080},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18410] = {
 			["name"] = "Tailoring: Ghostweave Belt",
@@ -4340,8 +4339,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 3},
 				[2] = {9210, 2},
 				[3] = {14227},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[18409] = {
 			["name"] = "Tailoring: Runecloth Cloak",
@@ -4355,8 +4354,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {14227},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18415] = {
 			["name"] = "Tailoring: Brightcloth Gloves",
@@ -4370,8 +4369,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {2577, 2},
-				[3] = {14227},
-			},
+				[3] = {14227}
+			}
 		},
 		[18414] = {
 			["name"] = "Tailoring: Brightcloth Robe",
@@ -4385,8 +4384,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {2577, 2},
-				[3] = {14227},
-			},
+				[3] = {14227}
+			}
 		},
 		[18412] = {
 			["name"] = "Tailoring: Cindercloth Gloves",
@@ -4400,8 +4399,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {7077, 3},
-				[3] = {14227},
-			},
+				[3] = {14227}
+			}
 		},
 		[18413] = {
 			["name"] = "Tailoring: Ghostweave Gloves",
@@ -4416,8 +4415,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {9210, 2},
 				[3] = {14227},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[22813] = {
 			["name"] = "Tailoring: Gordok Ogre Suit",
@@ -4432,8 +4431,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 2},
 				[2] = {8170, 4},
 				[3] = {18240},
-				[4] = {14227},
-			},
+				[4] = {14227}
+			}
 		},
 		[18422] = {
 			["name"] = "Tailoring: Cloak of Fire",
@@ -4449,8 +4448,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7078, 4},
 				[3] = {7077, 4},
 				[4] = {7068, 4},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[18420] = {
 			["name"] = "Tailoring: Brightcloth Cloak",
@@ -4464,8 +4463,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {3577, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[27724] = {
 			["name"] = "Tailoring: Cenarion Herb Bag",
@@ -4480,8 +4479,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 5},
 				[2] = {8831, 10},
 				[3] = {11040, 8},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[18418] = {
 			["name"] = "Tailoring: Cindercloth Cloak",
@@ -4495,8 +4494,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {7078},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[27659] = {
 			["name"] = "Tailoring: Enchanted Runecloth Bag",
@@ -4510,8 +4509,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {16203, 2},
-				[3] = {14341, 2},
-			},
+				[3] = {14341, 2}
+			}
 		},
 		[18419] = {
 			["name"] = "Tailoring: Felcloth Pants",
@@ -4525,8 +4524,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {14256, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18416] = {
 			["name"] = "Tailoring: Ghostweave Vest",
@@ -4541,8 +4540,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {9210, 4},
 				[3] = {14227},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[18417] = {
 			["name"] = "Tailoring: Runecloth Gloves",
@@ -4556,8 +4555,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {8170, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18421] = {
 			["name"] = "Tailoring: Wizardweave Leggings",
@@ -4571,8 +4570,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {11176},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18434] = {
 			["name"] = "Tailoring: Cindercloth Pants",
@@ -4586,8 +4585,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {7078},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18424] = {
 			["name"] = "Tailoring: Frostweave Pants",
@@ -4601,8 +4600,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {7080},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18423] = {
 			["name"] = "Tailoring: Runecloth Boots",
@@ -4617,8 +4616,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {14227, 2},
 				[3] = {8170, 4},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[26086] = {
 			["name"] = "Tailoring: Felcloth Bag",
@@ -4633,8 +4632,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14256, 12},
 				[2] = {12810, 6},
 				[3] = {20520, 2},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 		[18436] = {
 			["name"] = "Tailoring: Robe of Winter Night",
@@ -4650,8 +4649,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {14256, 12},
 				[3] = {12808, 4},
 				[4] = {7080, 4},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[18437] = {
 			["name"] = "Tailoring: Felcloth Boots",
@@ -4666,8 +4665,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {14256, 4},
 				[3] = {8170, 4},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[18438] = {
 			["name"] = "Tailoring: Runecloth Pants",
@@ -4681,8 +4680,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {14227, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19435] = {
 			["name"] = "Tailoring: Mooncloth Boots",
@@ -4697,8 +4696,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {14342, 4},
 				[3] = {7971, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[23664] = {
 			["name"] = "Tailoring: Argent Boots",
@@ -4714,8 +4713,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 4},
 				[3] = {13926, 2},
 				[4] = {12809, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 		[18440] = {
 			["name"] = "Tailoring: Mooncloth Leggings",
@@ -4729,8 +4728,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {14342, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[23662] = {
 			["name"] = "Tailoring: Wisdom of the Timbermaw",
@@ -4745,8 +4744,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 8},
 				[2] = {7076, 3},
 				[3] = {12803, 3},
-				[4] = {14227, 2},
-			},
+				[4] = {14227, 2}
+			}
 		},
 		[18439] = {
 			["name"] = "Tailoring: Brightcloth Pants",
@@ -4761,8 +4760,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {3577, 4},
 				[3] = {14227},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[18442] = {
 			["name"] = "Tailoring: Felcloth Hood",
@@ -4776,8 +4775,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {14256, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18441] = {
 			["name"] = "Tailoring: Ghostweave Pants",
@@ -4791,8 +4790,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {9210, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[18444] = {
 			["name"] = "Tailoring: Runecloth Headband",
@@ -4806,8 +4805,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {14227, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[22866] = {
 			["name"] = "Tailoring: Belt of the Archmage",
@@ -4825,8 +4824,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {7080, 12},
 				[5] = {7078, 12},
 				[6] = {14344, 6},
-				[7] = {14341, 6},
-			},
+				[7] = {14341, 6}
+			}
 		},
 		[26087] = {
 			["name"] = "Tailoring: Core Felcloth Bag",
@@ -4842,8 +4841,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17012, 16},
 				[3] = {19726, 8},
 				[4] = {7078, 4},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 				[20849] = {
 			["name"] = "Tailoring: Flarecore Gloves",
@@ -4859,8 +4858,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 6},
 				[3] = {7078, 4},
 				[4] = {12810, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[23667] = {
 			["name"] = "Tailoring: Flarecore Leggings",
@@ -4876,8 +4875,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 5},
 				[3] = {17011, 3},
 				[4] = {7078, 10},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 				[20848] = {
 			["name"] = "Tailoring: Flarecore Mantle",
@@ -4893,8 +4892,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 4},
 				[3] = {17011, 4},
 				[4] = {12810, 6},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[23666] = {
 			["name"] = "Tailoring: Flarecore Robe",
@@ -4910,8 +4909,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 2},
 				[3] = {17011, 3},
 				[4] = {7078, 6},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 				[28208] = {
 			["name"] = "Tailoring: Glacial Cloak",
@@ -4926,8 +4925,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 5},
 				[2] = {14048, 4},
 				[3] = {7080, 2},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[28205] = {
 			["name"] = "Tailoring: Glacial Gloves",
@@ -4942,8 +4941,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 5},
 				[2] = {14048, 4},
 				[3] = {7080, 4},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[28207] = {
 			["name"] = "Tailoring: Glacial Vest",
@@ -4958,8 +4957,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 7},
 				[2] = {14048, 8},
 				[3] = {7080, 6},
-				[4] = {14227, 8},
-			},
+				[4] = {14227, 8}
+			}
 		},
 				[28209] = {
 			["name"] = "Tailoring: Glacial Wrists",
@@ -4974,8 +4973,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 4},
 				[2] = {14048, 2},
 				[3] = {7080, 2},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[18454] = {
 			["name"] = "Tailoring: Gloves of Spell Mastery",
@@ -4993,8 +4992,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {13926, 6},
 				[5] = {12364, 6},
 				[6] = {12810, 8},
-				[7] = {14341, 2},
-			},
+				[7] = {14341, 2}
+			}
 		},
 				[18457] = {
 			["name"] = "Tailoring: Robe of the Archmage",
@@ -5012,8 +5011,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {13926, 6},
 				[5] = {12364, 6},
 				[6] = {12810, 8},
-				[7] = {14341, 2},
-			},
+				[7] = {14341, 2}
+			}
 		},
 				[18458] = {
 			["name"] = "Tailoring: Robe of the Void",
@@ -5030,8 +5029,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {14256, 40},
 				[4] = {7078, 12},
 				[5] = {12808, 12},
-				[6] = {14341, 2},
-			},
+				[6] = {14341, 2}
+			}
 		},
 				[18456] = {
 			["name"] = "Tailoring: Truefaith Vestments",
@@ -5048,8 +5047,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12811, 4},
 				[4] = {13926, 4},
 				[5] = {9210, 10},
-				[6] = {14341, 2},
-			},
+				[6] = {14341, 2}
+			}
 		},
 				[23665] = {
 			["name"] = "Tailoring: Argent Shoulders",
@@ -5063,8 +5062,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14342, 5},
 				[2] = {12809, 2},
-				[3] = {14227, 2},
-			},
+				[3] = {14227, 2}
+			}
 		},
 				[24093] = {
 			["name"] = "Tailoring: Bloodvine Boots",
@@ -5080,8 +5079,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {19726, 3},
 				[3] = {12810, 4},
 				[4] = {14048, 4},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 				[24092] = {
 			["name"] = "Tailoring: Bloodvine Leggings",
@@ -5097,8 +5096,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {19726, 4},
 				[3] = {12804, 4},
 				[4] = {14048, 4},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 				[24091] = {
 			["name"] = "Tailoring: Bloodvine Vest",
@@ -5114,8 +5113,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {19726, 5},
 				[3] = {12804, 4},
 				[4] = {14048, 4},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 				[18455] = {
 			["name"] = "Tailoring: Bottomless Bag",
@@ -5131,8 +5130,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {14342, 12},
 				[3] = {14344, 2},
 				[4] = {17012, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[22870] = {
 			["name"] = "Tailoring: Cloak of Warding",
@@ -5147,8 +5146,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 12},
 				[2] = {12809, 4},
 				[3] = {12360},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 				[22867] = {
 			["name"] = "Tailoring: Felcloth Gloves",
@@ -5164,8 +5163,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {14256, 20},
 				[3] = {12662, 6},
 				[4] = {12808, 8},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[28210] = {
 			["name"] = "Tailoring: Gaea's Embrace",
@@ -5180,8 +5179,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19726},
 				[2] = {14342, 2},
 				[3] = {12803, 4},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[22868] = {
 			["name"] = "Tailoring: Inferno Gloves",
@@ -5196,8 +5195,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 12},
 				[2] = {7078, 10},
 				[3] = {7910, 2},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 				[23663] = {
 			["name"] = "Tailoring: Mantle of the Timbermaw",
@@ -5212,8 +5211,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14342, 5},
 				[2] = {7076, 5},
 				[3] = {12803, 5},
-				[4] = {14227, 2},
-			},
+				[4] = {14227, 2}
+			}
 		},
 				[18452] = {
 			["name"] = "Tailoring: Mooncloth Circlet",
@@ -5229,8 +5228,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {14342, 6},
 				[3] = {12800},
 				[4] = {12810, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[22869] = {
 			["name"] = "Tailoring: Mooncloth Gloves",
@@ -5245,8 +5244,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 12},
 				[2] = {14342, 6},
 				[3] = {13926, 2},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 				[22902] = {
 			["name"] = "Tailoring: Mooncloth Robe",
@@ -5261,8 +5260,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {14342, 4},
 				[3] = {13926, 2},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 				[18448] = {
 			["name"] = "Tailoring: Mooncloth Shoulders",
@@ -5276,8 +5275,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 5},
 				[2] = {14342, 5},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 				[18447] = {
 			["name"] = "Tailoring: Mooncloth Vest",
@@ -5291,8 +5290,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 6},
 				[2] = {14342, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 				[24902] = {
 			["name"] = "Tailoring: Runed Stygian Belt",
@@ -5308,8 +5307,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {20520, 6},
 				[3] = {14256, 2},
 				[4] = {12810, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 				[24903] = {
 			["name"] = "Tailoring: Runed Stygian Boots",
@@ -5325,8 +5324,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {20520, 6},
 				[3] = {14256, 4},
 				[4] = {12810, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 				[24901] = {
 			["name"] = "Tailoring: Runed Stygian Leggings",
@@ -5341,8 +5340,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {20520, 8},
 				[3] = {14256, 6},
-				[4] = {14227, 2},
-			},
+				[4] = {14227, 2}
+			}
 		},
 				[28481] = {
 			["name"] = "Tailoring: Sylvan Crown",
@@ -5357,8 +5356,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {14342, 2},
 				[3] = {12803, 2},
-				[4] = {14227, 2},
-			},
+				[4] = {14227, 2}
+			}
 		},
 				[28482] = {
 			["name"] = "Tailoring: Sylvan Shoulders",
@@ -5372,8 +5371,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 2},
 				[2] = {12803, 4},
-				[3] = {14227, 2},
-			},
+				[3] = {14227, 2}
+			}
 		},
 				[28480] = {
 			["name"] = "Tailoring: Sylvan Vest",
@@ -5388,8 +5387,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 4},
 				[2] = {19726, 2},
 				[3] = {12803, 2},
-				[4] = {14227, 2},
-			},
+				[4] = {14227, 2}
+			}
 		},
 				[27660] = {
 			["name"] = "Tailoring: Big Bag of Enchantment",
@@ -5404,8 +5403,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {14344, 4},
 				[3] = {12810, 4},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[18451] = {
 			["name"] = "Tailoring: Felcloth Robe",
@@ -5420,8 +5419,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 8},
 				[2] = {14256, 8},
 				[3] = {12662, 4},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 				[18453] = {
 			["name"] = "Tailoring: Felcloth Shoulders",
@@ -5437,8 +5436,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {14256, 6},
 				[3] = {12662, 4},
 				[4] = {8170, 4},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 				[18445] = {
 			["name"] = "Tailoring: Mooncloth Bag",
@@ -5452,8 +5451,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 4},
 				[2] = {14342},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 				[18449] = {
 			["name"] = "Tailoring: Runecloth Shoulders",
@@ -5468,8 +5467,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 7},
 				[2] = {14227, 2},
 				[3] = {8170, 4},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 				[27725] = {
 			["name"] = "Tailoring: Satchel of Cenarius",
@@ -5484,8 +5483,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {14342, 2},
 				[3] = {13468},
-				[4] = {14227, 4},
-			},
+				[4] = {14227, 4}
+			}
 		},
 				[18446] = {
 			["name"] = "Tailoring: Wizardweave Robe",
@@ -5499,8 +5498,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {14048, 8},
 				[2] = {11176, 2},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 				[18450] = {
 			["name"] = "Tailoring: Wizardweave Turban",
@@ -5515,8 +5514,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 6},
 				[2] = {11176, 4},
 				[3] = {7910},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 				[22759] = {
 			["name"] = "Tailoring: Flarecore Wraps",
@@ -5532,8 +5531,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 8},
 				[3] = {7078, 2},
 				[4] = {12810, 6},
-				[5] = {14341, 4},
-			},
+				[5] = {14341, 4}
+			}
 		},
 		[2963] = {
 			["name"] = "Tailoring: Bolt of Linen Cloth",
@@ -5545,8 +5544,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2589, 2},
-			},
+				[1] = {2589, 2}
+			}
 		},
 		[3915] = {
 			["name"] = "Tailoring: Brown Linen Shirt",
@@ -5559,8 +5558,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[2387] = {
 			["name"] = "Tailoring: Linen Cloak",
@@ -5573,8 +5572,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[12044] = {
 			["name"] = "Tailoring: Simple Linen Pants",
@@ -5587,8 +5586,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[2393] = {
 			["name"] = "Tailoring: White Linen Shirt",
@@ -5602,8 +5601,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996},
 				[2] = {2320},
-				[3] = {2324},
-			},
+				[3] = {2324}
+			}
 		},
 		[2385] = {
 			["name"] = "Tailoring: Brown Linen Vest",
@@ -5616,8 +5615,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[8776] = {
 			["name"] = "Tailoring: Linen Belt",
@@ -5630,8 +5629,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[12045] = {
 			["name"] = "Tailoring: Simple Linen Boots",
@@ -5645,8 +5644,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 2},
 				[2] = {2318},
-				[3] = {2320},
-			},
+				[3] = {2320}
+			}
 		},
 		[7623] = {
 			["name"] = "Tailoring: Brown Linen Robe",
@@ -5659,8 +5658,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 3},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[7624] = {
 			["name"] = "Tailoring: White Linen Robe",
@@ -5674,8 +5673,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 3},
 				[2] = {2320},
-				[3] = {2324},
-			},
+				[3] = {2324}
+			}
 		},
 		[3914] = {
 			["name"] = "Tailoring: Brown Linen Pants",
@@ -5688,8 +5687,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 2},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[3840] = {
 			["name"] = "Tailoring: Heavy Linen Gloves",
@@ -5702,8 +5701,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 2},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[2389] = {
 			["name"] = "Tailoring: Red Linen Robe",
@@ -5717,8 +5716,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 2},
 				[2] = {2320, 2},
-				[3] = {2604, 2},
-			},
+				[3] = {2604, 2}
+			}
 		},
 		[2394] = {
 			["name"] = "Tailoring: Blue Linen Shirt",
@@ -5732,8 +5731,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 2},
 				[2] = {2320},
-				[3] = {6260},
-			},
+				[3] = {6260}
+			}
 		},
 		[2392] = {
 			["name"] = "Tailoring: Red Linen Shirt",
@@ -5747,8 +5746,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2996, 2},
 				[2] = {2320},
-				[3] = {2604},
-			},
+				[3] = {2604}
+			}
 		},
 		[8465] = {
 			["name"] = "Tailoring: Simple Dress",
@@ -5763,8 +5762,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2996, 2},
 				[2] = {2320},
 				[3] = {6260},
-				[4] = {2324},
-			},
+				[4] = {2324}
+			}
 		},
 		[3755] = {
 			["name"] = "Tailoring: Linen Bag",
@@ -5777,8 +5776,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2996, 3},
-				[2] = {2320, 3},
-			},
+				[2] = {2320, 3}
+			}
 		},
 		[2329] = {
 			["name"] = "Alchemy: Elixir of Lion's Strength",
@@ -5792,8 +5791,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2449},
 				[2] = {765},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[7183] = {
 			["name"] = "Alchemy: Elixir of Minor Defense",
@@ -5806,8 +5805,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {765, 2},
-				[2] = {3371},
-			},
+				[2] = {3371}
+			}
 		},
 		[2330] = {
 			["name"] = "Alchemy: Minor Healing Potion",
@@ -5821,8 +5820,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2447},
 				[2] = {765},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3170] = {
 			["name"] = "Alchemy: Weak Troll's Blood Potion",
@@ -5836,8 +5835,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2447},
 				[2] = {2449, 2},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2331] = {
 			["name"] = "Alchemy: Minor Mana Potion",
@@ -5851,8 +5850,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {785},
 				[2] = {765},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2332] = {
 			["name"] = "Alchemy: Minor Rejuvenation Potion",
@@ -5866,8 +5865,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {785, 2},
 				[2] = {2447},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[4508] = {
 			["name"] = "Alchemy: Discolored Healing Potion",
@@ -5881,8 +5880,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3164},
 				[2] = {2447},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3230] = {
 			["name"] = "Alchemy: Elixir of Minor Agility",
@@ -5896,8 +5895,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2452},
 				[2] = {765},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2334] = {
 			["name"] = "Alchemy: Elixir of Minor Fortitude",
@@ -5911,8 +5910,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2449},
 				[2] = {2447},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2334] = {
 			["name"] = "Alchemy: Elixir of Minor Fortitude",
@@ -5926,8 +5925,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2449, 2},
 				[2] = {2447},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2337] = {
 			["name"] = "Alchemy: Lesser Healing Potion",
@@ -5940,8 +5939,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {118},
-				[2] = {2450},
-			},
+				[2] = {2450}
+			}
 		},
 		[6617] = {
 			["name"] = "Alchemy: Rage Potion",
@@ -5955,8 +5954,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {5635},
 				[2] = {2450},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[2335] = {
 			["name"] = "Alchemy: Swiftness Potion",
@@ -5970,8 +5969,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2452},
 				[2] = {2450},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[7836] = {
 			["name"] = "Alchemy: Blackmouth Oil",
@@ -5984,8 +5983,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6358, 2},
-				[2] = {3371},
-			},
+				[2] = {3371}
+			}
 		},
 		[8240] = {
 			["name"] = "Alchemy: Elixir of Giant Growth",
@@ -5999,8 +5998,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6522},
 				[2] = {2449},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[7179] = {
 			["name"] = "Alchemy: Elixir of Water Breathing",
@@ -6014,8 +6013,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3820},
 				[2] = {6370, 2},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3171] = {
 			["name"] = "Alchemy: Elixir of Wisdom",
@@ -6029,8 +6028,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {785},
 				[2] = {2450, 2},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[7255] = {
 			["name"] = "Alchemy: Holy Protection Potion",
@@ -6044,8 +6043,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2453},
 				[2] = {2452},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[7841] = {
 			["name"] = "Alchemy: Swim Speed Potion",
@@ -6059,8 +6058,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2452},
 				[2] = {6370},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3447] = {
 			["name"] = "Alchemy: Healing Potion",
@@ -6074,8 +6073,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2453},
 				[2] = {2450},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3172] = {
 			["name"] = "Alchemy: Minor Magic Resistance Potion",
@@ -6089,8 +6088,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {785, 3},
 				[2] = {3355},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3173] = {
 			["name"] = "Alchemy: Lesser Mana Potion",
@@ -6104,8 +6103,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {785},
 				[2] = {3820},
-				[3] = {3371},
-			},
+				[3] = {3371}
+			}
 		},
 		[3174] = {
 			["name"] = "Alchemy: Elixir of Poison Resistance",
@@ -6119,8 +6118,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {1288},
 				[2] = {2453},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3176] = {
 			["name"] = "Alchemy: Strong Troll's Blood Potion",
@@ -6134,8 +6133,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2453, 2},
 				[2] = {2450, 2},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7837] = {
 			["name"] = "Alchemy: Fire Oil",
@@ -6148,8 +6147,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6359, 2},
-				[2] = {3371},
-			},
+				[2] = {3371}
+			}
 		},
 		[3177] = {
 			["name"] = "Alchemy: Elixir of Defense",
@@ -6163,8 +6162,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3355},
 				[2] = {3820},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7256] = {
 			["name"] = "Alchemy: Shadow Protection Potion",
@@ -6178,8 +6177,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3369},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7845] = {
 			["name"] = "Alchemy: Elixir of Firepower",
@@ -6193,8 +6192,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6371, 2},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[2333] = {
 			["name"] = "Alchemy: Elixir of Lesser Agility",
@@ -6208,8 +6207,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3355},
 				[2] = {2452},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3188] = {
 			["name"] = "Alchemy: Elixir of Ogre's Strength",
@@ -6223,8 +6222,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2449},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[6624] = {
 			["name"] = "Alchemy: Free Action Potion",
@@ -6238,8 +6237,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6370, 2},
 				[2] = {3820},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7181] = {
 			["name"] = "Alchemy: Greater Healing Potion",
@@ -6253,8 +6252,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3357},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3452] = {
 			["name"] = "Alchemy: Mana Potion",
@@ -6268,8 +6267,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3820},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3448] = {
 			["name"] = "Alchemy: Lesser Invisibility Potion",
@@ -6283,8 +6282,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3818},
 				[2] = {3355},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3449] = {
 			["name"] = "Alchemy: Shadow Oil",
@@ -6298,8 +6297,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3818, 4},
 				[2] = {3369, 4},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7257] = {
 			["name"] = "Alchemy: Fire Protection Potion",
@@ -6313,8 +6312,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4402},
 				[2] = {6371},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3450] = {
 			["name"] = "Alchemy: Elixir of Fortitude",
@@ -6328,8 +6327,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3355},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[6618] = {
 			["name"] = "Alchemy: Great Rage Potion",
@@ -6343,8 +6342,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {5637},
 				[2] = {3356},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3451] = {
 			["name"] = "Alchemy: Mighty Troll's Blood Potion",
@@ -6358,8 +6357,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3357},
 				[2] = {2453},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11449] = {
 			["name"] = "Alchemy: Elixir of Agility",
@@ -6373,8 +6372,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3820},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7258] = {
 			["name"] = "Alchemy: Frost Protection Potion",
@@ -6388,8 +6387,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3819},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[21923] = {
 			["name"] = "Alchemy: Elixir of Frost Power",
@@ -6403,8 +6402,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3819, 2},
 				[2] = {3358},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[7259] = {
 			["name"] = "Alchemy: Nature Protection Potion",
@@ -6418,8 +6417,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3357},
 				[2] = {3820},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3453] = {
 			["name"] = "Alchemy: Elixir of Detect Lesser Invisibility",
@@ -6433,8 +6432,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3358},
 				[2] = {3818},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11450] = {
 			["name"] = "Alchemy: Elixir of Greater Defense",
@@ -6448,8 +6447,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3355},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[12609] = {
 			["name"] = "Alchemy: Catseye Elixir",
@@ -6463,8 +6462,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3821},
 				[2] = {3818},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[3454] = {
 			["name"] = "Alchemy: Frost Oil",
@@ -6478,8 +6477,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3358, 4},
 				[2] = {3819, 2},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11459] = {
 			["name"] = "Alchemy: Philosopher's Stone",
@@ -6494,8 +6493,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3575, 4},
 				[2] = {9262},
 				[3] = {8831, 4},
-				[4] = {4625, 4},
-			},
+				[4] = {4625, 4}
+			}
 		},
 		[11448] = {
 			["name"] = "Alchemy: Greater Mana Potion",
@@ -6509,8 +6508,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3358},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11451] = {
 			["name"] = "Alchemy: Oil of Immolation",
@@ -6524,8 +6523,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4625},
 				[2] = {3821},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11456] = {
 			["name"] = "Alchemy: Goblin Rocket Fuel",
@@ -6539,8 +6538,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4625},
 				[2] = {9260},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 		[11453] = {
 			["name"] = "Alchemy: Magic Resistance Potion",
@@ -6554,8 +6553,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3358},
 				[2] = {8831},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11452] = {
 			["name"] = "Alchemy: Restorative Potion",
@@ -6569,8 +6568,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7067},
 				[2] = {3821},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[22808] = {
 			["name"] = "Alchemy: Elixir of Greater Water Breathing",
@@ -6584,8 +6583,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7972},
 				[2] = {8831, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[4942] = {
 			["name"] = "Alchemy: Lesser Stoneshield Potion",
@@ -6599,8 +6598,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3858},
 				[2] = {3821},
-				[3] = {3372},
-			},
+				[3] = {3372}
+			}
 		},
 	    [11457] = {
 			["name"] = "Alchemy: Superior Healing Potion",
@@ -6614,8 +6613,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8838},
 				[2] = {3358},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11479] = {
 			["name"] = "Alchemy: Transmute: Iron to Gold",
@@ -6627,8 +6626,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3575},
-			},
+				[1] = {3575}
+			}
 		},
 		[11480] = {
 			["name"] = "Alchemy: Transmute: Mithril to Truesilver",
@@ -6640,8 +6639,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3860},
-			},
+				[1] = {3860}
+			}
 		},
 		[11458] = {
 			["name"] = "Alchemy: Wildvine Potion",
@@ -6655,8 +6654,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8153},
 				[2] = {8831},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[15833] = {
 			["name"] = "Alchemy: Dreamless Sleep Potion",
@@ -6669,8 +6668,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8831, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11460] = {
 			["name"] = "Alchemy: Elixir of Detect Undead",
@@ -6683,8 +6682,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8836},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11461] = {
 			["name"] = "Alchemy: Arcane Elixir",
@@ -6698,8 +6697,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8839},
 				[2] = {3821},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11465] = {
 			["name"] = "Alchemy: Elixir of Greater Intellect",
@@ -6713,8 +6712,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8839},
 				[2] = {3358},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11464] = {
 			["name"] = "Alchemy: Invisibility Potion",
@@ -6728,8 +6727,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8845},
 				[2] = {8838},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11468] = {
 			["name"] = "Alchemy: Elixir of Dream Vision",
@@ -6742,8 +6741,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8831, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[11467] = {
 			["name"] = "Alchemy: Elixir of Greater Agility",
@@ -6757,8 +6756,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8838},
 				[2] = {3821},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11466] = {
 			["name"] = "Alchemy: Gift of Arthas",
@@ -6772,8 +6771,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8836},
 				[2] = {8839},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11473] = {
 			["name"] = "Alchemy: Ghost Dye",
@@ -6787,8 +6786,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8845, 2},
 				[2] = {4342},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11472] = {
 			["name"] = "Alchemy: Elixir of Giants",
@@ -6802,8 +6801,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8838},
 				[2] = {8846},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11477] = {
 			["name"] = "Alchemy: Elixir of Demonslaying",
@@ -6817,8 +6816,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8846},
 				[2] = {8845},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11478] = {
 			["name"] = "Alchemy: Elixir of Detect Demon",
@@ -6831,8 +6830,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8846, 2},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[26277] = {
 			["name"] = "Alchemy: Elixir of Greater Firepower",
@@ -6846,8 +6845,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6371, 3},
 				[2] = {4625, 3},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[11476] = {
 			["name"] = "Alchemy: Elixir of Shadow Power",
@@ -6860,8 +6859,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8845, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[17551] = {
 			["name"] = "Alchemy: Stonescale Oil",
@@ -6874,8 +6873,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {13422},
-				[2] = {3372},
-			},
+				[2] = {3372}
+			}
 		},
 		[3175] = {
 			["name"] = "Alchemy: Limited Invulnerability Potion",
@@ -6889,8 +6888,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8839, 2},
 				[2] = {8845},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17552] = {
 			["name"] = "Alchemy: Mighty Rage Potion",
@@ -6903,8 +6902,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8846, 3},
-				[2] = {8925},
-			},
+				[2] = {8925}
+			}
 		},
 		[17553] = {
 			["name"] = "Alchemy: Superior Mana Potion",
@@ -6918,8 +6917,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8838, 2},
 				[2] = {8839, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17554] = {
 			["name"] = "Alchemy: Elixir of Superior Defense",
@@ -6933,8 +6932,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13423, 2},
 				[2] = {8838},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17555] = {
 			["name"] = "Alchemy: Elixir of the Sages",
@@ -6948,8 +6947,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13463},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17187] = {
 			["name"] = "Alchemy: Transmute: Arcanite",
@@ -6962,8 +6961,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359},
-				[2] = {12363},
-			},
+				[2] = {12363}
+			}
 		},
 		[17559] = {
 			["name"] = "Alchemy: Transmute: Air to Fire",
@@ -6975,8 +6974,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7082},
-			},
+				[1] = {7082}
+			}
 		},
 		[17566] = {
 			["name"] = "Alchemy: Transmute: Earth to Life",
@@ -6988,8 +6987,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7076},
-			},
+				[1] = {7076}
+			}
 		},
 		[17561] = {
 			["name"] = "Alchemy: Transmute: Earth to Water",
@@ -7001,8 +7000,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7076},
-			},
+				[1] = {7076}
+			}
 		},
 		[17560] = {
 			["name"] = "Alchemy: Transmute: Fire to Earth",
@@ -7014,8 +7013,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7078},
-			},
+				[1] = {7078}
+			}
 		},
 		[17565] = {
 			["name"] = "Alchemy: Transmute: Life to Earth",
@@ -7027,8 +7026,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12803},
-			},
+				[1] = {12803}
+			}
 		},
 		[17563] = {
 			["name"] = "Alchemy: Transmute: Undeath to Water",
@@ -7040,8 +7039,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12808},
-			},
+				[1] = {12808}
+			}
 		},
 		[17562] = {
 			["name"] = "Alchemy: Transmute: Water to Air",
@@ -7053,8 +7052,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7080},
-			},
+				[1] = {7080}
+			}
 		},
 		[17564] = {
 			["name"] = "Alchemy: Transmute: Water to Undeath",
@@ -7066,8 +7065,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7080},
-			},
+				[1] = {7080}
+			}
 		},
 		[17557] = {
 			["name"] = "Alchemy: Elixir of Brute Force",
@@ -7081,8 +7080,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8846, 2},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[24366] = {
 			["name"] = "Alchemy: Greater Dreamless Sleep Potion",
@@ -7096,8 +7095,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13463, 2},
 				[2] = {13464},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[24365] = {
 			["name"] = "Alchemy: Mageblood Potion",
@@ -7111,8 +7110,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13463},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17556] = {
 			["name"] = "Alchemy: Major Healing Potion",
@@ -7126,8 +7125,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13464, 2},
 				[2] = {13465},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17571] = {
 			["name"] = "Alchemy: Elixir of the Mongoose",
@@ -7141,8 +7140,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13465, 2},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17570] = {
 			["name"] = "Alchemy: Greater Stoneshield Potion",
@@ -7156,8 +7155,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13423, 3},
 				[2] = {10620},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17573] = {
 			["name"] = "Alchemy: Greater Arcane Elixir",
@@ -7171,8 +7170,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13463, 3},
 				[2] = {13465},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[24367] = {
 			["name"] = "Alchemy: Living Action Potion",
@@ -7187,8 +7186,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {13467, 2},
 				[2] = {13465, 2},
 				[3] = {10286, 2},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[17572] = {
 			["name"] = "Alchemy: Purification Potion",
@@ -7202,8 +7201,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13467, 2},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17577] = {
 			["name"] = "Alchemy: Greater Arcane Protection Potion",
@@ -7217,8 +7216,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {11176},
 				[2] = {13463},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17574] = {
 			["name"] = "Alchemy: Greater Fire Protection Potion",
@@ -7232,8 +7231,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7068},
 				[2] = {13463},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17575] = {
 			["name"] = "Alchemy: Greater Frost Protection Potion",
@@ -7247,8 +7246,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7070},
 				[2] = {13463},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17576] = {
 			["name"] = "Alchemy: Greater Nature Protection Potion",
@@ -7262,8 +7261,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7067},
 				[2] = {13463},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17578] = {
 			["name"] = "Alchemy: Greater Shadow Protection Potion",
@@ -7277,8 +7276,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3824},
 				[2] = {13463},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[24368] = {
 			["name"] = "Alchemy: Major Troll's Blood Potion",
@@ -7292,8 +7291,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8846},
 				[2] = {13466, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[17580] = {
 			["name"] = "Alchemy: Major Mana Potion",
@@ -7307,8 +7306,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {13463, 3},
 				[2] = {13467, 2},
-				[3] = {8925},
-			},
+				[3] = {8925}
+			}
 		},
 		[25146] = {
 			["name"] = "Alchemy: Transmute: Elemental Fire",
@@ -7320,8 +7319,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 3,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7077},
-			},
+				[1] = {7077}
+			}
 		},
 		[22732] = {
 			["name"] = "Alchemy: Major Rejuvenation Potion",
@@ -7336,8 +7335,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {10286},
 				[2] = {13464, 4},
 				[3] = {13463, 4},
-				[4] = {18256},
-			},
+				[4] = {18256}
+			}
 		},
 		[24266] = {
 			["name"] = "Alchemy: Gurubashi Mojo Madness",
@@ -7352,8 +7351,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12938},
 				[2] = {19943},
 				[3] = {12804, 6},
-				[4] = {13468},
-			},
+				[4] = {13468}
+			}
 		},
 		[17638] = {
 			["name"] = "Alchemy: Flask of Chromatic Resistance",
@@ -7368,8 +7367,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {13467, 30},
 				[2] = {13465, 10},
 				[3] = {13468},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[17636] = {
 			["name"] = "Alchemy: Flask of Distilled Wisdom",
@@ -7384,8 +7383,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {13463, 30},
 				[2] = {13467, 10},
 				[3] = {13468},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[17634] = {
 			["name"] = "Alchemy: Flask of Petrification",
@@ -7400,8 +7399,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {13423, 30},
 				[2] = {13465, 10},
 				[3] = {13468},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[17637] = {
 			["name"] = "Alchemy: Flask of Supreme Power",
@@ -7416,8 +7415,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {13463, 30},
 				[2] = {13465, 10},
 				[3] = {13468},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[17635] = {
 			["name"] = "Alchemy: Flask of the Titans",
@@ -7432,8 +7431,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8846, 30},
 				[2] = {13423, 10},
 				[3] = {13468},
-				[4] = {8925},
-			},
+				[4] = {8925}
+			}
 		},
 		[2657] = {
 			["name"] = "Smelting: Smelt Copper",
@@ -7445,8 +7444,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2770},
-			},
+				[1] = {2770}
+			}
 		},
 		[3304] = {
 			["name"] = "Smelting: Smelt Tin",
@@ -7458,8 +7457,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2771},
-			},
+				[1] = {2771}
+			}
 		},
 		[2659] = {
 			["name"] = "Smelting: Smelt Bronze",
@@ -7472,8 +7471,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2840},
-				[2] = {3576},
-			},
+				[2] = {3576}
+			}
 		},
 		[2658] = {
 			["name"] = "Smelting: Smelt Silver",
@@ -7485,8 +7484,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2775},
-			},
+				[1] = {2775}
+			}
 		},
 		[3307] = {
 			["name"] = "Smelting: Smelt Iron",
@@ -7498,8 +7497,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2772},
-			},
+				[1] = {2772}
+			}
 		},
 		[3308] = {
 			["name"] = "Smelting: Smelt Gold",
@@ -7511,8 +7510,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2776},
-			},
+				[1] = {2776}
+			}
 		},
 		[3569] = {
 			["name"] = "Smelting: Smelt Steel",
@@ -7525,8 +7524,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3575},
-				[2] = {3857},
-			},
+				[2] = {3857}
+			}
 		},
 		[10097] = {
 			["name"] = "Smelting: Smelt Mithril",
@@ -7538,8 +7537,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3858},
-			},
+				[1] = {3858}
+			}
 		},
 		[10098] = {
 			["name"] = "Smelting: Smelt Truesilver",
@@ -7551,8 +7550,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7911},
-			},
+				[1] = {7911}
+			}
 		},
 		[14891] = {
 			["name"] = "Smelting: Smelt Dark Iron",
@@ -7564,8 +7563,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {11370, 8},
-			},
+				[1] = {11370, 8}
+			}
 		},
 		[16153] = {
 			["name"] = "Smelting: Smelt Thorium",
@@ -7577,8 +7576,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {10620},
-			},
+				[1] = {10620}
+			}
 		},
 		[22967] = {
 			["name"] = "Smelting: Smelt Elementium",
@@ -7593,8 +7592,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {18562},
 				[2] = {12360, 10},
 				[3] = {17010},
-				[4] = {18567, 3},
-			},
+				[4] = {18567, 3}
+			}
 		},
 		[100000] = {
 			["name"] = "Mining: Copper Vein",
@@ -7605,7 +7604,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2770,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100001] = {
 			["name"] = "Mining: Incendicite Mineral Vein",
@@ -7616,7 +7615,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 3340,
 			["craftQuantityMin"] = 1,
 			["craftQuantityMax"] = 2,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100002] = {
 			["name"] = "Mining: Tin Vein",
@@ -7627,7 +7626,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2771,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100003] = {
 			["name"] = "Mining: Silver Vein",
@@ -7638,7 +7637,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2775,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100004] = {
 			["name"] = "Mining: Ooze Covered Silver Vein",
@@ -7649,7 +7648,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2775,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100005] = {
 			["name"] = "Mining: Lesser Bloodstone Deposit",
@@ -7660,7 +7659,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 4278,
 			["craftQuantityMin"] = 1,
 			["craftQuantityMax"] = 3,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100006] = {
 			["name"] = "Mining: Iron Deposit",
@@ -7671,7 +7670,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2772,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100007] = {
 			["name"] = "Mining: Indurium Mineral Vein",
@@ -7682,7 +7681,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 5833,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100008] = {
 			["name"] = "Mining: Gold Vein",
@@ -7693,7 +7692,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2776,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100009] = {
 			["name"] = "Mining: Ooze Covered Gold Vein",
@@ -7704,7 +7703,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 2776,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100010] = {
 			["name"] = "Mining: Mithril Deposit",
@@ -7715,7 +7714,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 3858,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100011] = {
 			["name"] = "Mining: Ooze Covered Mithril Deposit",
@@ -7726,7 +7725,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 3858,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100012] = {
 			["name"] = "Mining: Truesilver Deposit",
@@ -7737,7 +7736,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 7911,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100013] = {
 			["name"] = "Mining: Ooze Covered Truesilver Deposit",
@@ -7748,7 +7747,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 7911,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100014] = {
 			["name"] = "Mining: Dark Iron Deposit",
@@ -7759,7 +7758,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 11370,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 4,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100015] = {
 			["name"] = "Mining: Small Thorium Vein",
@@ -7770,7 +7769,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 10620,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 3,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100016] = {
 			["name"] = "Mining: Ooze Covered Thorium Vein",
@@ -7781,7 +7780,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 10620,
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = 3,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100017] = {
 			["name"] = "Mining: Rich Thorium Vein",
@@ -7792,7 +7791,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 10620,
 			["craftQuantityMin"] = 4,
 			["craftQuantityMax"] = 5,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100018] = {
 			["name"] = "Mining: Ooze Covered Rich Thorium Vein",
@@ -7803,7 +7802,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 10620,
 			["craftQuantityMin"] = 4,
 			["craftQuantityMax"] = 5,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100019] = {
 			["name"] = "Mining: Hakkari Thorium Vein",
@@ -7814,7 +7813,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 10620,
 			["craftQuantityMin"] = 4,
 			["craftQuantityMax"] = 5,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100020] = {
 			["name"] = "Mining: Hakkari Thorium Vein",
@@ -7825,7 +7824,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 19774,
 			["craftQuantityMin"] = 1,
 			["craftQuantityMax"] = 2,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100021] = {
 			["name"] = "Mining: Small Obsidian Chunk",
@@ -7836,7 +7835,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 22202,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100022] = {
 			["name"] = "Mining: Small Obsidian Chunk",
@@ -7847,7 +7846,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 22203,
 			["craftQuantityMin"] = 0,
 			["craftQuantityMax"] = 1,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100023] = {
 			["name"] = "Mining: Large Obsidian Chunk",
@@ -7858,7 +7857,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 22202,
 			["craftQuantityMin"] = 1,
 			["craftQuantityMax"] = 3,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[100024] = {
 			["name"] = "Mining: Large Obsidian Chunk",
@@ -7869,7 +7868,7 @@ GetSpellInfoVanillaDB = {
 			["craftItem"] = 22203,
 			["craftQuantityMin"] = 0,
 			["craftQuantityMax"] = 1,
-			["reagents"] = "",
+			["reagents"] = ""
 		},
 		[3918] = {
 			["name"] = "Engineering: Rough Blasting Powder",
@@ -7881,8 +7880,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2835},
-			},
+				[1] = {2835}
+			}
 		},
 		[3920] = {
 			["name"] = "Engineering: Crafted Light Shot",
@@ -7895,8 +7894,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4357},
-				[2] = {2840},
-			},
+				[2] = {2840}
+			}
 		},
 		[3919] = {
 			["name"] = "Engineering: Rough Dynamite",
@@ -7909,8 +7908,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4357, 2},
-				[2] = {2589},
-			},
+				[2] = {2589}
+			}
 		},
 		[3922] = {
 			["name"] = "Engineering: Handful of Copper Bolts",
@@ -7922,8 +7921,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840},
-			},
+				[1] = {2840}
+			}
 		},
 		[3923] = {
 			["name"] = "Engineering: Rough Copper Bomb",
@@ -7938,8 +7937,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2840},
 				[2] = {4359},
 				[3] = {4357, 2},
-				[4] = {2589},
-			},
+				[4] = {2589}
+			}
 		},
 		[7430] = {
 			["name"] = "Engineering: Arclight Spanner",
@@ -7951,8 +7950,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 6},
-			},
+				[1] = {2840, 6}
+			}
 		},
 		[3925] = {
 			["name"] = "Engineering: Rough Boomstick",
@@ -7966,8 +7965,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4361},
 				[2] = {4359},
-				[3] = {4399},
-			},
+				[3] = {4399}
+			}
 		},
 		[3924] = {
 			["name"] = "Engineering: Copper Tube",
@@ -7980,8 +7979,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2840, 2},
-				[2] = {2880},
-			},
+				[2] = {2880}
+			}
 		},
 		[3977] = {
 			["name"] = "Engineering: Crude Scope",
@@ -7995,8 +7994,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4361},
 				[2] = {774},
-				[3] = {4359},
-			},
+				[3] = {4359}
+			}
 		},
 		[3926] = {
 			["name"] = "Engineering: Copper Modulator",
@@ -8010,8 +8009,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4359, 2},
 				[2] = {2840},
-				[3] = {2589, 2},
-			},
+				[3] = {2589, 2}
+			}
 		},
 		[3929] = {
 			["name"] = "Engineering: Coarse Blasting Powder",
@@ -8023,8 +8022,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2836},
-			},
+				[1] = {2836}
+			}
 		},
 		[3930] = {
 			["name"] = "Engineering: Crafted Heavy Shot",
@@ -8037,8 +8036,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4364},
-				[2] = {2840},
-			},
+				[2] = {2840}
+			}
 		},
 		[3931] = {
 			["name"] = "Engineering: Coarse Dynamite",
@@ -8051,8 +8050,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = 3,
 			["reagents"] = {
 				[1] = {4364, 3},
-				[2] = {2589},
-			},
+				[2] = {2589}
+			}
 		},
 		[3928] = {
 			["name"] = "Engineering: Mechanical Squirrel",
@@ -8067,8 +8066,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4363},
 				[2] = {4359},
 				[3] = {2840},
-				[4] = {774, 2},
-			},
+				[4] = {774, 2}
+			}
 		},
 		[3932] = {
 			["name"] = "Engineering: Target Dummy",
@@ -8083,8 +8082,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4363},
 				[2] = {4359, 2},
 				[3] = {2841},
-				[4] = {2592},
-			},
+				[4] = {2592}
+			}
 		},
 		[3973] = {
 			["name"] = "Engineering: Silver Contact",
@@ -8096,8 +8095,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 5,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2842},
-			},
+				[1] = {2842}
+			}
 		},
 		[8339] = {
 			["name"] = "Engineering: Ez-Thro Dynamite",
@@ -8110,8 +8109,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = 3,
 			["reagents"] = {
 				[1] = {4364, 4},
-				[2] = {2592},
-			},
+				[2] = {2592}
+			}
 		},
 		[8334] = {
 			["name"] = "Engineering: Practice Lock",
@@ -8125,8 +8124,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841},
 				[2] = {4359, 2},
-				[3] = {2880},
-			},
+				[3] = {2880}
+			}
 		},
 		[3933] = {
 			["name"] = "Engineering: Small Seaforium Charge",
@@ -8141,8 +8140,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4364, 2},
 				[2] = {4363},
 				[3] = {2318},
-				[4] = {159},
-			},
+				[4] = {159}
+			}
 		},
 		[3934] = {
 			["name"] = "Engineering: Flying Tiger Goggles",
@@ -8155,8 +8154,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 6},
-				[2] = {818, 2},
-			},
+				[2] = {818, 2}
+			}
 		},
 		[3938] = {
 			["name"] = "Engineering: Bronze Tube",
@@ -8169,8 +8168,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2841, 2},
-				[2] = {2880},
-			},
+				[2] = {2880}
+			}
 		},
 		[3937] = {
 			["name"] = "Engineering: Large Copper Bomb",
@@ -8184,8 +8183,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 3},
 				[2] = {4364, 4},
-				[3] = {4404},
-			},
+				[3] = {4404}
+			}
 		},
 		[3936] = {
 			["name"] = "Engineering: Deadly Blunderbuss",
@@ -8200,8 +8199,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4361, 2},
 				[2] = {4359, 4},
 				[3] = {4399},
-				[4] = {2319, 2},
-			},
+				[4] = {2319, 2}
+			}
 		},
 		[3978] = {
 			["name"] = "Engineering: Standard Scope",
@@ -8214,8 +8213,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4371},
-				[2] = {1206},
-			},
+				[2] = {1206}
+			}
 		},
 		[3941] = {
 			["name"] = "Engineering: Small Bronze Bomb",
@@ -8230,8 +8229,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4364, 4},
 				[2] = {2841, 2},
 				[3] = {4404},
-				[4] = {2592},
-			},
+				[4] = {2592}
+			}
 		},
 		[3939] = {
 			["name"] = "Engineering: Lovingly Crafted Boomstick",
@@ -8246,8 +8245,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371, 2},
 				[2] = {4359, 2},
 				[3] = {4400},
-				[4] = {1206, 3},
-			},
+				[4] = {1206, 3}
+			}
 		},
 		[3940] = {
 			["name"] = "Engineering: Shadow Goggles",
@@ -8260,8 +8259,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2319, 4},
-				[2] = {1210, 2},
-			},
+				[2] = {1210, 2}
+			}
 		},
 		[3947] = {
 			["name"] = "Engineering: Crafted Solid Shot",
@@ -8274,8 +8273,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {2841},
-			},
+				[2] = {2841}
+			}
 		},
 		[3945] = {
 			["name"] = "Engineering: Heavy Blasting Powder",
@@ -8287,8 +8286,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2838},
-			},
+				[1] = {2838}
+			}
 		},
 		[3946] = {
 			["name"] = "Engineering: Heavy Dynamite",
@@ -8301,8 +8300,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = 5,
 			["reagents"] = {
 				[1] = {4377, 2},
-				[2] = {2592},
-			},
+				[2] = {2592}
+			}
 		},
 		[26416] = {
 			["name"] = "Engineering: Small Blue Rocket",
@@ -8315,8 +8314,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4364},
-				[2] = {2319},
-			},
+				[2] = {2319}
+			}
 		},
 		[26417] = {
 			["name"] = "Engineering: Small Green Rocket",
@@ -8329,8 +8328,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4364},
-				[2] = {2319},
-			},
+				[2] = {2319}
+			}
 		},
 		[26418] = {
 			["name"] = "Engineering: Small Red Rocket",
@@ -8343,8 +8342,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4364},
-				[2] = {2319},
-			},
+				[2] = {2319}
+			}
 		},
 		[3944] = {
 			["name"] = "Engineering: Flame Deflector",
@@ -8358,8 +8357,8 @@ GetSpellInfoVanillaDB = {
 			["extra"] = "|cffffffff5 Charges",
 			["reagents"] = {
 				[1] = {4375},
-				[2] = {4402},
-			},
+				[2] = {4402}
+			}
 		},
 		[3942] = {
 			["name"] = "Engineering: Whirring Bronze Gizmo",
@@ -8372,8 +8371,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2841, 2},
-				[2] = {2592},
-			},
+				[2] = {2592}
+			}
 		},
 		[9269] = {
 			["name"] = "Engineering: Gnomish Universal Remote",
@@ -8389,8 +8388,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4375},
 				[3] = {814, 2},
 				[4] = {818},
-				[5] = {774},
-			},
+				[5] = {774}
+			}
 		},
 		[3949] = {
 			["name"] = "Engineering: Silver-plated Shotgun",
@@ -8405,8 +8404,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371, 2},
 				[2] = {4375, 2},
 				[3] = {4400},
-				[4] = {2842, 3},
-			},
+				[4] = {2842, 3}
+			}
 		},
 		[6458] = {
 			["name"] = "Engineering: Ornate Spyglass",
@@ -8421,8 +8420,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371, 2},
 				[2] = {4375, 2},
 				[3] = {4363},
-				[4] = {1206},
-			},
+				[4] = {1206}
+			}
 		},
 		[3950] = {
 			["name"] = "Engineering: Big Bronze Bomb",
@@ -8436,8 +8435,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4377, 2},
 				[2] = {2841, 3},
-				[3] = {4404},
-			},
+				[3] = {4404}
+			}
 		},
 		[3952] = {
 			["name"] = "Engineering: Minor Recombobulator",
@@ -8453,8 +8452,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371},
 				[2] = {4375, 2},
 				[3] = {2319, 2},
-				[4] = {1206},
-			},
+				[4] = {1206}
+			}
 		},
 		[3953] = {
 			["name"] = "Engineering: Bronze Framework",
@@ -8468,8 +8467,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 2},
 				[2] = {2319},
-				[3] = {2592},
-			},
+				[3] = {2592}
+			}
 		},
 		[3954] = {
 			["name"] = "Engineering: Moonsight Rifle",
@@ -8484,8 +8483,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371, 3},
 				[2] = {4375, 3},
 				[3] = {4400},
-				[4] = {1705, 2},
-			},
+				[4] = {1705, 2}
+			}
 		},
 		[9271] = {
 			["name"] = "Engineering: Aquadynamic Fish Attractor",
@@ -8499,8 +8498,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 2},
 				[2] = {6530},
-				[3] = {4364},
-			},
+				[3] = {4364}
+			}
 		},
 		[23067] = {
 			["name"] = "Engineering: Blue Firework",
@@ -8513,8 +8512,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[23068] = {
 			["name"] = "Engineering: Green Firework",
@@ -8527,8 +8526,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[23066] = {
 			["name"] = "Engineering: Red Firework",
@@ -8541,8 +8540,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[12584] = {
 			["name"] = "Engineering: Gold Power Core",
@@ -8554,8 +8553,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 3,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3577},
-			},
+				[1] = {3577}
+			}
 		},
 		[3956] = {
 			["name"] = "Engineering: Green Tinted Goggles",
@@ -8569,8 +8568,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 4},
 				[2] = {1206, 2},
-				[3] = {4368},
-			},
+				[3] = {4368}
+			}
 		},
 		[3955] = {
 			["name"] = "Engineering: Explosive Sheep",
@@ -8585,8 +8584,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4382},
 				[2] = {4375},
 				[3] = {4377, 2},
-				[4] = {2592, 2},
-			},
+				[4] = {2592, 2}
+			}
 		},
 		[12895] = {
 			["name"] = "Engineering: Inlaid Mithril Cylinder Plans",
@@ -8599,8 +8598,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10648},
-				[2] = {10647},
-			},
+				[2] = {10647}
+			}
 		},
 		[15633] = {
 			["name"] = "Engineering: Lil' Smoky",
@@ -8616,8 +8615,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4389, 3},
 				[3] = {7191},
 				[4] = {3860, 2},
-				[5] = {6037},
-			},
+				[5] = {6037}
+			}
 		},
 		[12899] = {
 			["name"] = "Engineering: Gnomish Shrink Ray",
@@ -8633,8 +8632,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10560},
 				[3] = {3860, 4},
 				[4] = {8151, 4},
-				[5] = {1529, 2},
-			},
+				[5] = {1529, 2}
+			}
 		},
 		[12897] = {
 			["name"] = "Engineering: Gnomish Goggles",
@@ -8650,8 +8649,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10559},
 				[3] = {10558, 2},
 				[4] = {8151, 2},
-				[5] = {4234, 2},
-			},
+				[5] = {4234, 2}
+			}
 		},
 		[12902] = {
 			["name"] = "Engineering: Gnomish Net-o-Matic Projector",
@@ -8667,8 +8666,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10285, 2},
 				[3] = {4337, 4},
 				[4] = {10505, 2},
-				[5] = {3860, 4},
-			},
+				[5] = {3860, 4}
+			}
 		},
 		[12903] = {
 			["name"] = "Engineering: Gnomish Harm Prevention Belt",
@@ -8684,8 +8683,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3860, 4},
 				[3] = {6037, 2},
 				[4] = {10560},
-				[5] = {7909, 2},
-			},
+				[5] = {7909, 2}
+			}
 		},
 		[12905] = {
 			["name"] = "Engineering: Gnomish Rocket Boots",
@@ -8701,8 +8700,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10559, 2},
 				[3] = {4234, 4},
 				[4] = {10505, 8},
-				[5] = {4389, 4},
-			},
+				[5] = {4389, 4}
+			}
 		},
 		[12906] = {
 			["name"] = "Engineering: Gnomish Battle Chicken",
@@ -8719,8 +8718,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {3860, 6},
 				[4] = {9060, 2},
 				[5] = {10558},
-				[6] = {1529, 2},
-			},
+				[6] = {1529, 2}
+			}
 		},
 		[12907] = {
 			["name"] = "Engineering: Gnomish Mind Control Cap",
@@ -8736,8 +8735,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {6037, 4},
 				[3] = {10558},
 				[4] = {7910, 2},
-				[5] = {4338, 4},
-			},
+				[5] = {4338, 4}
+			}
 		},
 		[12759] = {
 			["name"] = "Engineering: Gnomish Death Ray",
@@ -8753,8 +8752,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10560},
 				[3] = {12808},
 				[4] = {7972, 4},
-				[5] = {9060},
-			},
+				[5] = {9060}
+			}
 		},
 		[23129] = {
 			["name"] = "Engineering: World Enlarger",
@@ -8770,8 +8769,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15994, 2},
 				[3] = {10558},
 				[4] = {10560},
-				[5] = {3864},
-			},
+				[5] = {3864}
+			}
 		},
 		[23489] = {
 			["name"] = "Engineering: Ultrasafe Transporter - Gadgetzan",
@@ -8788,8 +8787,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7075, 4},
 				[4] = {7079, 2},
 				[5] = {7909, 4},
-				[6] = {9060},
-			},
+				[6] = {9060}
+			}
 		},
 		[23096] = {
 			["name"] = "Engineering: Alarm-O-Bot",
@@ -8805,8 +8804,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15994, 2},
 				[3] = {8170, 4},
 				[4] = {7910},
-				[5] = {7191},
-			},
+				[5] = {7191}
+			}
 		},
 		[13240] = {
 			["name"] = "Engineering: The Mortar: Reloaded",
@@ -8821,8 +8820,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10577},
 				[2] = {3860},
-				[3] = {10505, 3},
-			},
+				[3] = {10505, 3}
+			}
 		},
 		[12716] = {
 			["name"] = "Engineering: Goblin Mortar",
@@ -8839,8 +8838,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3860, 4},
 				[3] = {10505, 5},
 				[4] = {10558},
-				[5] = {7068},
-			},
+				[5] = {7068}
+			}
 		},
 		[12715] = {
 			["name"] = "Engineering: Goblin Rocket Fuel Recipe",
@@ -8853,8 +8852,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10648},
-				[2] = {10647},
-			},
+				[2] = {10647}
+			}
 		},
 		[15628] = {
 			["name"] = "Engineering: Pet Bombling",
@@ -8869,8 +8868,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4394},
 				[2] = {7077},
 				[3] = {7191},
-				[4] = {3860, 6},
-			},
+				[4] = {3860, 6}
+			}
 		},
 		[12760] = {
 			["name"] = "Engineering: Goblin Sapper Charge",
@@ -8884,8 +8883,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4338},
 				[2] = {10505, 3},
-				[3] = {10560},
-			},
+				[3] = {10560}
+			}
 		},
 		[12718] = {
 			["name"] = "Engineering: Goblin Construction Helmet",
@@ -8899,8 +8898,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 8},
 				[2] = {3864},
-				[3] = {7068, 4},
-			},
+				[3] = {7068, 4}
+			}
 		},
 		[12717] = {
 			["name"] = "Engineering: Goblin Mining Helmet",
@@ -8914,8 +8913,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 8},
 				[2] = {3864},
-				[3] = {7067, 4},
-			},
+				[3] = {7067, 4}
+			}
 		},
 		[8895] = {
 			["name"] = "Engineering: Goblin Rocket Boots",
@@ -8931,8 +8930,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10559, 2},
 				[3] = {4234, 4},
 				[4] = {9061, 2},
-				[5] = {10560},
-			},
+				[5] = {10560}
+			}
 		},
 		[12755] = {
 			["name"] = "Engineering: Goblin Bomb Dispenser",
@@ -8948,8 +8947,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10505, 4},
 				[3] = {6037, 6},
 				[4] = {10560},
-				[5] = {4407, 2},
-			},
+				[5] = {4407, 2}
+			}
 		},
 		[12754] = {
 			["name"] = "Engineering: The Big One",
@@ -8964,8 +8963,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {10561},
 				[2] = {9061},
 				[3] = {10507, 6},
-				[4] = {10560},
-			},
+				[4] = {10560}
+			}
 		},
 		[12908] = {
 			["name"] = "Engineering: Goblin Dragon Gun",
@@ -8981,8 +8980,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {9061, 4},
 				[3] = {3860, 6},
 				[4] = {6037, 6},
-				[5] = {10560},
-			},
+				[5] = {10560}
+			}
 		},
 		[12758] = {
 			["name"] = "Engineering: Goblin Rocket Helmet",
@@ -8997,8 +8996,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {10543},
 				[2] = {9061, 4},
 				[3] = {3860, 4},
-				[4] = {10560},
-			},
+				[4] = {10560}
+			}
 		},
 		[23486] = {
 			["name"] = "Engineering: Dimensional Ripper - Everlook",
@@ -9014,8 +9013,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {18631},
 				[3] = {7077, 4},
 				[4] = {7910, 2},
-				[5] = {10586},
-			},
+				[5] = {10586}
+			}
 		},
 		[23078] = {
 			["name"] = "Engineering: Goblin Jumper Cables XL",
@@ -9031,8 +9030,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {18631, 2},
 				[3] = {7191, 2},
 				[4] = {14227, 2},
-				[5] = {7910, 2},
-			},
+				[5] = {7910, 2}
+			}
 		},
 		[3957] = {
 			["name"] = "Engineering: Ice Deflector",
@@ -9046,8 +9045,8 @@ GetSpellInfoVanillaDB = {
 			["extra"] = "|cffffffff5 Charges",
 			["reagents"] = {
 				[1] = {4375},
-				[2] = {3829},
-			},
+				[2] = {3829}
+			}
 		},
 		[3958] = {
 			["name"] = "Engineering: Iron Strut",
@@ -9059,8 +9058,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3575, 2},
-			},
+				[1] = {3575, 2}
+			}
 		},
 		[3959] = {
 			["name"] = "Engineering: Discombobulator Ray",
@@ -9076,8 +9075,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4375, 3},
 				[2] = {4306, 2},
 				[3] = {1529},
-				[4] = {4371},
-			},
+				[4] = {4371}
+			}
 		},
 		[9273] = {
 			["name"] = "Engineering: Goblin Jumper Cables",
@@ -9094,8 +9093,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {814, 2},
 				[4] = {4306, 2},
 				[5] = {1210, 2},
-				[6] = {7191},
-			},
+				[6] = {7191}
+			}
 		},
 		[3960] = {
 			["name"] = "Engineering: Portable Bronze Mortar",
@@ -9111,8 +9110,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4371, 4},
 				[2] = {4387},
 				[3] = {4377, 4},
-				[4] = {2319, 4},
-			},
+				[4] = {2319, 4}
+			}
 		},
 		[3961] = {
 			["name"] = "Engineering: Gyrochronatom",
@@ -9125,8 +9124,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3575},
-				[2] = {10558},
-			},
+				[2] = {10558}
+			}
 		},
 		[12585] = {
 			["name"] = "Engineering: Solid Blasting Powder",
@@ -9138,8 +9137,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7912, 2},
-			},
+				[1] = {7912, 2}
+			}
 		},
 		[12586] = {
 			["name"] = "Engineering: Solid Dynamite",
@@ -9152,8 +9151,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10505},
-				[2] = {4306},
-			},
+				[2] = {4306}
+			}
 		},
 		[26420] = {
 			["name"] = "Engineering: Large Blue Rocket",
@@ -9166,8 +9165,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[26421] = {
 			["name"] = "Engineering: Large Green Rocket",
@@ -9180,8 +9179,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[26422] = {
 			["name"] = "Engineering: Large Red Rocket",
@@ -9194,8 +9193,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4377},
-				[2] = {4234},
-			},
+				[2] = {4234}
+			}
 		},
 		[3963] = {
 			["name"] = "Engineering: Compact Harvest Reaper Kit",
@@ -9210,8 +9209,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4387, 2},
 				[2] = {4382},
 				[3] = {4389, 2},
-				[4] = {4234, 4},
-			},
+				[4] = {4234, 4}
+			}
 		},
 		[12590] = {
 			["name"] = "Engineering: Gyromatic Micro-Adjustor",
@@ -9223,8 +9222,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3859, 4},
-			},
+				[1] = {3859, 4}
+			}
 		},
 		[3962] = {
 			["name"] = "Engineering: Iron Grenade",
@@ -9238,8 +9237,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575},
 				[2] = {4377},
-				[3] = {4306},
-			},
+				[3] = {4306}
+			}
 		},
 		[12587] = {
 			["name"] = "Engineering: Bright-Eye Goggles",
@@ -9252,8 +9251,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 6},
-				[2] = {3864, 2},
-			},
+				[2] = {3864, 2}
+			}
 		},
 		[3979] = {
 			["name"] = "Engineering: Accurate Scope",
@@ -9267,8 +9266,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4371},
 				[2] = {1529},
-				[3] = {3864},
-			},
+				[3] = {3864}
+			}
 		},
 		[3965] = {
 			["name"] = "Engineering: Advanced Target Dummy",
@@ -9283,8 +9282,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4387},
 				[2] = {4382},
 				[3] = {4389},
-				[4] = {4234, 4},
-			},
+				[4] = {4234, 4}
+			}
 		},
 		[8243] = {
 			["name"] = "Engineering: Flash Bomb",
@@ -9298,8 +9297,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4611},
 				[2] = {4377},
-				[3] = {4306},
-			},
+				[3] = {4306}
+			}
 		},
 		[3966] = {
 			["name"] = "Engineering: Craftsman's Monocle",
@@ -9312,8 +9311,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 6},
-				[2] = {3864, 2},
-			},
+				[2] = {3864, 2}
+			}
 		},
 		[3967] = {
 			["name"] = "Engineering: Big Iron Bomb",
@@ -9327,8 +9326,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 3},
 				[2] = {4377, 3},
-				[3] = {4404},
-			},
+				[3] = {4404}
+			}
 		},
 		[21940] = {
 			["name"] = "Engineering: Snowmaster 9000",
@@ -9343,8 +9342,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 8},
 				[2] = {4389, 4},
 				[3] = {17202, 4},
-				[4] = {3829},
-			},
+				[4] = {3829}
+			}
 		},
 		[12589] = {
 			["name"] = "Engineering: Mithril Tube",
@@ -9356,8 +9355,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3860, 3},
-			},
+				[1] = {3860, 3}
+			}
 		},
 		[3968] = {
 			["name"] = "Engineering: Goblin Land Mine",
@@ -9371,8 +9370,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4377, 3},
 				[2] = {3575, 2},
-				[3] = {4389},
-			},
+				[3] = {4389}
+			}
 		},
 		[23069] = {
 			["name"] = "Engineering: EZ-Thro Dynamite II",
@@ -9385,8 +9384,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10505},
-				[2] = {4338, 2},
-			},
+				[2] = {4338, 2}
+			}
 		},
 		[3972] = {
 			["name"] = "Engineering: Large Seaforium Charge",
@@ -9400,8 +9399,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10505, 2},
 				[2] = {4234, 2},
-				[3] = {159},
-			},
+				[3] = {159}
+			}
 		},
 		[15255] = {
 			["name"] = "Engineering: Mechanical Repair Kit",
@@ -9415,8 +9414,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860},
 				[2] = {4338},
-				[3] = {10505},
-			},
+				[3] = {10505}
+			}
 		},
 		[12591] = {
 			["name"] = "Engineering: Unstable Trigger",
@@ -9430,8 +9429,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860},
 				[2] = {4338},
-				[3] = {10505},
-			},
+				[3] = {10505}
+			}
 		},
 		[3971] = {
 			["name"] = "Engineering: Gnomish Cloaking Device",
@@ -9447,8 +9446,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {1529, 2},
 				[3] = {1705, 2},
 				[4] = {3864, 2},
-				[5] = {7191},
-			},
+				[5] = {7191}
+			}
 		},
 		[3969] = {
 			["name"] = "Engineering: Mechanical Dragonling",
@@ -9464,8 +9463,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4387, 4},
 				[3] = {4389, 4},
 				[4] = {3864, 2},
-				[5] = {7191},
-			},
+				[5] = {7191}
+			}
 		},
 		[12594] = {
 			["name"] = "Engineering: Fire Goggles",
@@ -9480,8 +9479,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4385},
 				[2] = {3864, 2},
 				[3] = {7068, 2},
-				[4] = {4234, 4},
-			},
+				[4] = {4234, 4}
+			}
 		},
 		[12595] = {
 			["name"] = "Engineering: Mithril Blunderbuss",
@@ -9497,8 +9496,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10560},
 				[3] = {4400},
 				[4] = {3860, 4},
-				[5] = {7068, 2},
-			},
+				[5] = {7068, 2}
+			}
 		},
 		[12596] = {
 			["name"] = "Engineering: Hi-Impact Mithril Slugs",
@@ -9511,8 +9510,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860},
-				[2] = {10505},
-			},
+				[2] = {10505}
+			}
 		},
 		[12597] = {
 			["name"] = "Engineering: Deadly Scope",
@@ -9526,8 +9525,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10559},
 				[2] = {7909, 2},
-				[3] = {4304, 2},
-			},
+				[3] = {4304, 2}
+			}
 		},
 		[12599] = {
 			["name"] = "Engineering: Mithril Casing",
@@ -9539,8 +9538,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3860, 3},
-			},
+				[1] = {3860, 3}
+			}
 		},
 		[12603] = {
 			["name"] = "Engineering: Mithril Frag Bomb",
@@ -9554,8 +9553,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10561},
 				[2] = {10560},
-				[3] = {10505},
-			},
+				[3] = {10505}
+			}
 		},
 		[12607] = {
 			["name"] = "Engineering: Catseye Ultra Goggles",
@@ -9569,8 +9568,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 4},
 				[2] = {7909, 2},
-				[3] = {10592},
-			},
+				[3] = {10592}
+			}
 		},
 		[12614] = {
 			["name"] = "Engineering: Mithril Heavy-bore Rifle",
@@ -9586,8 +9585,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10560},
 				[3] = {4400},
 				[4] = {3860, 6},
-				[5] = {3864, 2},
-			},
+				[5] = {3864, 2}
+			}
 		},
 		[26423] = {
 			["name"] = "Engineering: Blue Rocket Cluster",
@@ -9600,8 +9599,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10505},
-				[2] = {4304},
-			},
+				[2] = {4304}
+			}
 		},
 		[26424] = {
 			["name"] = "Engineering: Green Rocket Cluster",
@@ -9614,8 +9613,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10505},
-				[2] = {4304},
-			},
+				[2] = {4304}
+			}
 		},
 		[26425] = {
 			["name"] = "Engineering: Red Rocket Cluster",
@@ -9628,8 +9627,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {10505},
-				[2] = {4304},
-			},
+				[2] = {4304}
+			}
 		},
 		[12616] = {
 			["name"] = "Engineering: Parachute Cloak",
@@ -9644,8 +9643,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4339, 4},
 				[2] = {10285, 2},
 				[3] = {10560},
-				[4] = {10505, 4},
-			},
+				[4] = {10505, 4}
+			}
 		},
 		[12615] = {
 			["name"] = "Engineering: Spellpower Goggles Xtreme",
@@ -9658,8 +9657,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 4},
-				[2] = {7910, 2},
-			},
+				[2] = {7910, 2}
+			}
 		},
 		[26442] = {
 			["name"] = "Engineering: Firework Launcher",
@@ -9674,8 +9673,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {9060},
 				[2] = {9061},
 				[3] = {10560},
-				[4] = {10561},
-			},
+				[4] = {10561}
+			}
 		},
 		[12617] = {
 			["name"] = "Engineering: Deepdive Helmet",
@@ -9691,8 +9690,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10561},
 				[3] = {6037},
 				[4] = {818, 4},
-				[5] = {774, 4},
-			},
+				[5] = {774, 4}
+			}
 		},
 		[12618] = {
 			["name"] = "Engineering: Rose Colored Goggles",
@@ -9705,8 +9704,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 6},
-				[2] = {7910, 2},
-			},
+				[2] = {7910, 2}
+			}
 		},
 		[12619] = {
 			["name"] = "Engineering: Hi-Explosive Bomb",
@@ -9720,8 +9719,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10561, 2},
 				[2] = {10560},
-				[3] = {10505, 2},
-			},
+				[3] = {10505, 2}
+			}
 		},
 		[12620] = {
 			["name"] = "Engineering: Sniper Scope",
@@ -9735,8 +9734,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10559},
 				[2] = {7910},
-				[3] = {6037, 2},
-			},
+				[3] = {6037, 2}
+			}
 		},
 		[12621] = {
 			["name"] = "Engineering: Mithril Gyro-Shot",
@@ -9749,8 +9748,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 2},
-				[2] = {10505, 2},
-			},
+				[2] = {10505, 2}
+			}
 		},
 		[12622] = {
 			["name"] = "Engineering: Green Lens",
@@ -9767,8 +9766,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {1529, 3},
 				[3] = {7909, 3},
 				[4] = {10286, 2},
-				[5] = {8153, 2},
-			},
+				[5] = {8153, 2}
+			}
 		},
 		[19788] = {
 			["name"] = "Engineering: Dense Blasting Powder",
@@ -9780,8 +9779,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12365, 2},
-			},
+				[1] = {12365, 2}
+			}
 		},
 		[23070] = {
 			["name"] = "Engineering: Dense Dynamite",
@@ -9794,8 +9793,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {15992, 2},
-				[2] = {14047, 3},
-			},
+				[2] = {14047, 3}
+			}
 		},
 		[23507] = {
 			["name"] = "Engineering: Snake Burst Firework",
@@ -9809,8 +9808,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {15992, 2},
 				[2] = {14047, 2},
-				[3] = {8150},
-			},
+				[3] = {8150}
+			}
 		},
 		[12624] = {
 			["name"] = "Engineering: Mithril Mechanical Dragonling",
@@ -9827,8 +9826,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {6037, 4},
 				[4] = {9060, 2},
 				[5] = {9061, 2},
-				[6] = {7910, 2},
-			},
+				[6] = {7910, 2}
+			}
 		},
 		[19567] = {
 			["name"] = "Engineering: Salt Shaker",
@@ -9843,8 +9842,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {10561},
 				[2] = {12359, 6},
 				[3] = {10558},
-				[4] = {10560, 4},
-			},
+				[4] = {10560, 4}
+			}
 		},
 		[26011] = {
 			["name"] = "Engineering: Tranquil Mechanical Yeti",
@@ -9860,8 +9859,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15994, 4},
 				[3] = {7079, 2},
 				[4] = {18631, 2},
-				[5] = {10558},
-			},
+				[5] = {10558}
+			}
 		},
 		[23071] = {
 			["name"] = "Engineering: Truesilver Transformer",
@@ -9875,8 +9874,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6037, 2},
 				[2] = {7067, 2},
-				[3] = {7069},
-			},
+				[3] = {7069}
+			}
 		},
 		[23077] = {
 			["name"] = "Engineering: Gyrofreeze Ice Reflector",
@@ -9893,8 +9892,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12361, 2},
 				[4] = {7078, 4},
 				[5] = {3829, 2},
-				[6] = {13467, 4},
-			},
+				[6] = {13467, 4}
+			}
 		},
 		[19792] = {
 			["name"] = "Engineering: Thorium Rifle",
@@ -9910,8 +9909,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {10561, 2},
 				[3] = {15994, 2},
 				[4] = {12359, 4},
-				[5] = {10546},
-			},
+				[5] = {10546}
+			}
 		},
 		[19790] = {
 			["name"] = "Engineering: Thorium Grenade",
@@ -9926,8 +9925,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {15994},
 				[2] = {12359, 3},
 				[3] = {15992, 3},
-				[4] = {14047, 3},
-			},
+				[4] = {14047, 3}
+			}
 		},
 		[19791] = {
 			["name"] = "Engineering: Thorium Widget",
@@ -9940,8 +9939,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 3},
-				[2] = {14047},
-			},
+				[2] = {14047}
+			}
 		},
 		[19793] = {
 			["name"] = "Engineering: Lifelike Mechanical Toad",
@@ -9956,8 +9955,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12803},
 				[2] = {15994, 4},
 				[3] = {10558},
-				[4] = {8170},
-			},
+				[4] = {8170}
+			}
 		},
 		[19794] = {
 			["name"] = "Engineering: Spellpower Goggles Xtreme Plus",
@@ -9972,8 +9971,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {10502},
 				[2] = {7910, 4},
 				[3] = {12810, 2},
-				[4] = {14047, 8},
-			},
+				[4] = {14047, 8}
+			}
 		},
 		[26426] = {
 			["name"] = "Engineering: Large Blue Rocket Cluster",
@@ -9986,8 +9985,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {15992},
-				[2] = {8170},
-			},
+				[2] = {8170}
+			}
 		},
 		[26427] = {
 			["name"] = "Engineering: Large Green Rocket Cluster",
@@ -10000,8 +9999,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {15992},
-				[2] = {8170},
-			},
+				[2] = {8170}
+			}
 		},
 		[26428] = {
 			["name"] = "Engineering: Large Red Rocket Cluster",
@@ -10014,8 +10013,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {15992},
-				[2] = {8170},
-			},
+				[2] = {8170}
+			}
 		},
 		[23080] = {
 			["name"] = "Engineering: Powerful Seaforium Charge",
@@ -10030,8 +10029,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {15994, 2},
 				[2] = {15992, 3},
 				[3] = {8170, 2},
-				[4] = {159},
-			},
+				[4] = {159}
+			}
 		},
 		[23079] = {
 			["name"] = "Engineering: Major Recombobulator",
@@ -10046,8 +10045,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {16000, 2},
 				[2] = {18631},
-				[3] = {14047, 2},
-			},
+				[3] = {14047, 2}
+			}
 		},
 		[19796] = {
 			["name"] = "Engineering: Dark Iron Rifle",
@@ -10064,8 +10063,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {10546, 2},
 				[4] = {12361, 2},
 				[5] = {12799, 2},
-				[6] = {8170, 4},
-			},
+				[6] = {8170, 4}
+			}
 		},
 		[19814] = {
 			["name"] = "Engineering: Masterwork Target Dummy",
@@ -10082,8 +10081,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {15994, 2},
 				[4] = {6037},
 				[5] = {8170, 2},
-				[6] = {14047, 4},
-			},
+				[6] = {14047, 4}
+			}
 		},
 		[19795] = {
 			["name"] = "Engineering: Thorium Tube",
@@ -10095,8 +10094,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12359, 6},
-			},
+				[1] = {12359, 6}
+			}
 		},
 		[19799] = {
 			["name"] = "Engineering: Dark Iron Bomb",
@@ -10111,8 +10110,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {15994, 2},
 				[2] = {11371},
 				[3] = {15992, 3},
-				[4] = {14047, 3},
-			},
+				[4] = {14047, 3}
+			}
 		},
 		[19800] = {
 			["name"] = "Engineering: Thorium Shells",
@@ -10125,8 +10124,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 2},
-				[2] = {15992},
-			},
+				[2] = {15992}
+			}
 		},
 		[19815] = {
 			["name"] = "Engineering: Delicate Arcanite Converter",
@@ -10139,8 +10138,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12360},
-				[2] = {14227},
-			},
+				[2] = {14227}
+			}
 		},
 		[23081] = {
 			["name"] = "Engineering: Hyper-Radiant Flame Reflector",
@@ -10156,8 +10155,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {18631, 3},
 				[3] = {7080, 6},
 				[4] = {7910, 4},
-				[5] = {12800, 2},
-			},
+				[5] = {12800, 2}
+			}
 		},
 		[19825] = {
 			["name"] = "Engineering: Master Engineer's Goggles",
@@ -10171,8 +10170,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {10500},
 				[2] = {12364, 2},
-				[3] = {12810, 4},
-			},
+				[3] = {12810, 4}
+			}
 		},
 		[19819] = {
 			["name"] = "Engineering: Voice Amplification Modulator",
@@ -10187,8 +10186,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {16006, 2},
 				[2] = {10558},
 				[3] = {15994},
-				[4] = {12799},
-			},
+				[4] = {12799}
+			}
 		},
 		[22793] = {
 			["name"] = "Engineering: Biznicks 247x128 Accurascope",
@@ -10204,8 +10203,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7076, 2},
 				[3] = {16006, 4},
 				[4] = {11371, 6},
-				[5] = {16000},
-			},
+				[5] = {16000}
+			}
 		},
 		[24356] = {
 			["name"] = "Engineering: Bloodvine Goggles",
@@ -10221,8 +10220,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {19774, 5},
 				[3] = {16006, 2},
 				[4] = {12804, 8},
-				[5] = {12810, 4},
-			},
+				[5] = {12810, 4}
+			}
 		},
 		[24357] = {
 			["name"] = "Engineering: Bloodvine Lens",
@@ -10238,8 +10237,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {19774, 5},
 				[3] = {16006},
 				[4] = {12804, 8},
-				[5] = {12810, 4},
-			},
+				[5] = {12810, 4}
+			}
 		},
 		[19833] = {
 			["name"] = "Engineering: Flawless Arcanite Rifle",
@@ -10256,8 +10255,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7078, 2},
 				[4] = {7076, 2},
 				[5] = {12800, 2},
-				[6] = {12810, 2},
-			},
+				[6] = {12810, 2}
+			}
 		},
 		[23082] = {
 			["name"] = "Engineering: Ultra-Flash Shadow Reflector",
@@ -10274,8 +10273,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12803, 6},
 				[4] = {12808, 4},
 				[5] = {12800, 2},
-				[6] = {12799, 2},
-			},
+				[6] = {12799, 2}
+			}
 		},
 		[19831] = {
 			["name"] = "Engineering: Arcane Bomb",
@@ -10289,8 +10288,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {16006},
 				[2] = {12359, 3},
-				[3] = {14047},
-			},
+				[3] = {14047}
+			}
 		},
 		[22704] = {
 			["name"] = "Engineering: Field Repair Bot 74A",
@@ -10306,8 +10305,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {8170, 4},
 				[3] = {7191},
 				[4] = {7067, 2},
-				[5] = {7068},
-			},
+				[5] = {7068}
+			}
 		},
 		[19830] = {
 			["name"] = "Engineering: Arcanite Dragonling",
@@ -10324,8 +10323,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12655, 10},
 				[4] = {15994, 6},
 				[5] = {10558, 4},
-				[6] = {12810, 6},
-			},
+				[6] = {12810, 6}
+			}
 		},
 		[22795] = {
 			["name"] = "Engineering: Core Marksman Rifle",
@@ -10341,8 +10340,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17011, 2},
 				[3] = {12360, 6},
 				[4] = {16006, 2},
-				[5] = {16000, 2},
-			},
+				[5] = {16000, 2}
+			}
 		},
 		[22797] = {
 			["name"] = "Engineering: Force Reactive Disk",
@@ -10358,8 +10357,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {16006, 2},
 				[3] = {7082, 8},
 				[4] = {12803, 12},
-				[5] = {7076, 8},
-			},
+				[5] = {7076, 8}
+			}
 		},
 		[16978] = {
 			["name"] = "Blacksmithing: Blazing Rapier",
@@ -10375,8 +10374,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7078, 4},
 				[3] = {7077, 4},
 				[4] = {12800, 2},
-				[5] = {12644, 2},
-			},
+				[5] = {12644, 2}
+			}
 		},
 		[16985] = {
 			["name"] = "Blacksmithing: Corruption",
@@ -10394,8 +10393,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {12808, 8},
 				[5] = {12361, 2},
 				[6] = {12644, 2},
-				[7] = {8170, 4},
-			},
+				[7] = {8170, 4}
+			}
 		},
 		[16992] = {
 			["name"] = "Blacksmithing: Frostguard",
@@ -10412,8 +10411,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12800, 8},
 				[4] = {7080, 4},
 				[5] = {12644, 2},
-				[6] = {12810, 4},
-			},
+				[6] = {12810, 4}
+			}
 		},
 		[20890] = {
 			["name"] = "Blacksmithing: Dark Iron Reaver",
@@ -10428,8 +10427,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {11371, 16},
 				[2] = {17010, 12},
 				[3] = {11382, 2},
-				[4] = {12810, 2},
-			},
+				[4] = {12810, 2}
+			}
 		},
 		[16990] = {
 			["name"] = "Blacksmithing: Arcanite Champion",
@@ -10446,8 +10445,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12811},
 				[4] = {12799, 4},
 				[5] = {12810, 8},
-				[6] = {12644, 2},
-			},
+				[6] = {12644, 2}
+			}
 		},
 		[27832] = {
 			["name"] = "Blacksmithing: Sageblade",
@@ -10462,8 +10461,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12360, 12},
 				[2] = {20725, 2},
 				[3] = {13512, 2},
-				[4] = {12810, 4},
-			},
+				[4] = {12810, 4}
+			}
 		},
 		[23652] = {
 			["name"] = "Blacksmithing: Blackguard",
@@ -10479,8 +10478,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 6},
 				[3] = {12360, 10},
 				[4] = {11371, 6},
-				[5] = {12809, 12},
-			},
+				[5] = {12809, 12}
+			}
 		},
 		[16973] = {
 			["name"] = "Blacksmithing: Enchanted Battlehammer",
@@ -10496,8 +10495,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 6},
 				[3] = {12364, 2},
 				[4] = {12804, 4},
-				[5] = {8170, 4},
-			},
+				[5] = {8170, 4}
+			}
 		},
 		[16983] = {
 			["name"] = "Blacksmithing: Serenity",
@@ -10514,8 +10513,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12804, 4},
 				[4] = {12799, 2},
 				[5] = {12361, 2},
-				[6] = {12364},
-			},
+				[6] = {12364}
+			}
 		},
 		[16988] = {
 			["name"] = "Blacksmithing: Hammer of the Titans",
@@ -10531,8 +10530,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12360, 15},
 				[3] = {12809, 4},
 				[4] = {12810, 6},
-				[5] = {7076, 10},
-			},
+				[5] = {7076, 10}
+			}
 		},
 		[16993] = {
 			["name"] = "Blacksmithing: Masterwork Stormhammer",
@@ -10548,8 +10547,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12364, 8},
 				[3] = {12799, 8},
 				[4] = {7076, 6},
-				[5] = {12810, 4},
-			},
+				[5] = {12810, 4}
+			}
 		},
 		[23650] = {
 			["name"] = "Blacksmithing: Ebon Hand",
@@ -10565,8 +10564,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 7},
 				[3] = {12360, 12},
 				[4] = {11371, 8},
-				[5] = {12800, 4},
-			},
+				[5] = {12800, 4}
+			}
 		},
 		[27830] = {
 			["name"] = "Blacksmithing: Persuader",
@@ -10583,8 +10582,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12808, 20},
 				[4] = {20520, 20},
 				[5] = {15417, 10},
-				[6] = {12753, 2},
-			},
+				[6] = {12753, 2}
+			}
 		},
 		[16970] = {
 			["name"] = "Blacksmithing: Dawn's Edge",
@@ -10601,8 +10600,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7910, 4},
 				[4] = {12361, 4},
 				[5] = {12644, 2},
-				[6] = {8170, 4},
-			},
+				[6] = {8170, 4}
+			}
 		},
 		[16991] = {
 			["name"] = "Blacksmithing: Annihilator",
@@ -10619,8 +10618,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12808, 10},
 				[4] = {12364, 8},
 				[5] = {12644, 2},
-				[6] = {12810, 4},
-			},
+				[6] = {12810, 4}
+			}
 		},
 		[16994] = {
 			["name"] = "Blacksmithing: Arcanite Reaper",
@@ -10634,8 +10633,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12360, 20},
 				[2] = {12810, 6},
-				[3] = {12644, 2},
-			},
+				[3] = {12644, 2}
+			}
 		},
 		[20897] = {
 			["name"] = "Blacksmithing: Dark Iron Destroyer",
@@ -10650,8 +10649,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {11371, 18},
 				[2] = {17011, 12},
 				[3] = {11382, 2},
-				[4] = {12644, 2},
-			},
+				[4] = {12644, 2}
+			}
 		},
 		[23653] = {
 			["name"] = "Blacksmithing: Nightfall",
@@ -10667,8 +10666,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 5},
 				[3] = {12360, 10},
 				[4] = {11371, 12},
-				[5] = {12364, 4},
-			},
+				[5] = {12364, 4}
+			}
 		},
 		[12260] = {
 			["name"] = "Blacksmithing: Rough Copper Vest",
@@ -10680,8 +10679,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 4},
-			},
+				[1] = {2840, 4}
+			}
 		},
 		[2660] = {
 			["name"] = "Blacksmithing: Rough Sharpening Stone",
@@ -10693,8 +10692,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2835},
-			},
+				[1] = {2835}
+			}
 		},
 		[3115] = {
 			["name"] = "Blacksmithing: Rough Weightstone",
@@ -10707,8 +10706,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2835},
-				[2] = {2589},
-			},
+				[2] = {2589}
+			}
 		},
 		[2663] = {
 			["name"] = "Blacksmithing: Copper Bracers",
@@ -10720,8 +10719,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 2},
-			},
+				[1] = {2840, 2}
+			}
 		},
 		[2662] = {
 			["name"] = "Blacksmithing: Copper Chain Pants",
@@ -10733,8 +10732,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 4},
-			},
+				[1] = {2840, 4}
+			}
 		},
 		[2737] = {
 			["name"] = "Blacksmithing: Copper Mace",
@@ -10748,8 +10747,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 6},
 				[2] = {2880},
-				[3] = {2589, 2},
-			},
+				[3] = {2589, 2}
+			}
 		},
 		[2738] = {
 			["name"] = "Blacksmithing: Copper Axe",
@@ -10763,8 +10762,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 6},
 				[2] = {2880},
-				[3] = {2589, 2},
-			},
+				[3] = {2589, 2}
+			}
 		},
 		[3319] = {
 			["name"] = "Blacksmithing: Copper Chain Boots",
@@ -10776,8 +10775,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 8},
-			},
+				[1] = {2840, 8}
+			}
 		},
 		[3320] = {
 			["name"] = "Blacksmithing: Rough Grinding Stone",
@@ -10789,8 +10788,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2835, 2},
-			},
+				[1] = {2835, 2}
+			}
 		},
 		[2739] = {
 			["name"] = "Blacksmithing: Copper Shortsword",
@@ -10804,8 +10803,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 6},
 				[2] = {2880},
-				[3] = {2589, 2},
-			},
+				[3] = {2589, 2}
+			}
 		},
 		[9983] = {
 			["name"] = "Blacksmithing: Copper Claymore",
@@ -10820,8 +10819,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2840, 10},
 				[2] = {2880, 2},
 				[3] = {3470},
-				[4] = {2318},
-			},
+				[4] = {2318}
+			}
 		},
 		[8880] = {
 			["name"] = "Blacksmithing: Copper Dagger",
@@ -10836,8 +10835,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2840, 6},
 				[2] = {2880},
 				[3] = {3470},
-				[4] = {2318},
-			},
+				[4] = {2318}
+			}
 		},
 		[2661] = {
 			["name"] = "Blacksmithing: Copper Chain Belt",
@@ -10849,8 +10848,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 6},
-			},
+				[1] = {2840, 6}
+			}
 		},
 		[3293] = {
 			["name"] = "Blacksmithing: Copper Battle Axe",
@@ -10866,8 +10865,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {2880, 2},
 				[3] = {774, 2},
 				[4] = {3470, 2},
-				[5] = {2318, 2},
-			},
+				[5] = {2318, 2}
+			}
 		},
 		[3321] = {
 			["name"] = "Blacksmithing: Copper Chain Vest",
@@ -10881,8 +10880,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 8},
 				[2] = {774},
-				[3] = {3470, 2},
-			},
+				[3] = {3470, 2}
+			}
 		},
 		[3323] = {
 			["name"] = "Blacksmithing: Runed Copper Gauntlets",
@@ -10895,8 +10894,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2840, 8},
-				[2] = {3470, 2},
-			},
+				[2] = {3470, 2}
+			}
 		},
 		[3324] = {
 			["name"] = "Blacksmithing: Runed Copper Pants",
@@ -10910,8 +10909,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 8},
 				[2] = {2321, 2},
-				[3] = {3470, 3},
-			},
+				[3] = {3470, 3}
+			}
 		},
 		[3325] = {
 			["name"] = "Blacksmithing: Gemmed Copper Gauntlets",
@@ -10926,8 +10925,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 8},
 				[2] = {818},
-				[3] = {774},
-			},
+				[3] = {774}
+			}
 		},
 		[2665] = {
 			["name"] = "Blacksmithing: Coarse Sharpening Stone",
@@ -10939,8 +10938,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2836},
-			},
+				[1] = {2836}
+			}
 		},
 		[3116] = {
 			["name"] = "Blacksmithing: Coarse Weightstone",
@@ -10953,8 +10952,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2836},
-				[2] = {2592},
-			},
+				[2] = {2592}
+			}
 		},
 		[7408] = {
 			["name"] = "Blacksmithing: Heavy Copper Maul",
@@ -10968,8 +10967,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 12},
 				[2] = {2880, 2},
-				[3] = {2318, 2},
-			},
+				[3] = {2318, 2}
+			}
 		},
 		[2666] = {
 			["name"] = "Blacksmithing: Runed Copper Belt",
@@ -10981,8 +10980,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2840, 10},
-			},
+				[1] = {2840, 10}
+			}
 		},
 		[3294] = {
 			["name"] = "Blacksmithing: Thick War Axe",
@@ -10998,8 +10997,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {2880, 2},
 				[3] = {2842, 2},
 				[4] = {3470, 2},
-				[5] = {2318, 2},
-			},
+				[5] = {2318, 2}
+			}
 		},
 		[3326] = {
 			["name"] = "Blacksmithing: Coarse Grinding Stone",
@@ -11011,8 +11010,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2836, 2},
-			},
+				[1] = {2836, 2}
+			}
 		},
 		[2667] = {
 			["name"] = "Blacksmithing: Runed Copper Breastplate",
@@ -11026,8 +11025,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 12},
 				[2] = {1210},
-				[3] = {3470, 2},
-			},
+				[3] = {3470, 2}
+			}
 		},
 		[2664] = {
 			["name"] = "Blacksmithing: Runed Copper Bracers",
@@ -11040,8 +11039,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2840, 10},
-				[2] = {3470, 3},
-			},
+				[2] = {3470, 3}
+			}
 		},
 		[7817] = {
 			["name"] = "Blacksmithing: Rough Bronze Boots",
@@ -11054,8 +11053,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2841, 6},
-				[2] = {3470, 6},
-			},
+				[2] = {3470, 6}
+			}
 		},
 		[3292] = {
 			["name"] = "Blacksmithing: Heavy Copper Broadsword",
@@ -11070,8 +11069,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2840, 14},
 				[2] = {2880, 2},
 				[3] = {818, 2},
-				[4] = {2319, 2},
-			},
+				[4] = {2319, 2}
+			}
 		},
 		[7818] = {
 			["name"] = "Blacksmithing: Silver Rod",
@@ -11084,8 +11083,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2842},
-				[2] = {3470, 2},
-			},
+				[2] = {3470, 2}
+			}
 		},
 		[19666] = {
 			["name"] = "Blacksmithing: Silver Skeleton Key",
@@ -11098,8 +11097,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2842},
-				[2] = {3470},
-			},
+				[2] = {3470}
+			}
 		},
 		[8367] = {
 			["name"] = "Blacksmithing: Ironforge Breastplate",
@@ -11113,8 +11112,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2840, 16},
 				[2] = {818, 2},
-				[3] = {3470, 3},
-			},
+				[3] = {3470, 3}
+			}
 		},
 		[3491] = {
 			["name"] = "Blacksmithing: Big Bronze Knife",
@@ -11130,8 +11129,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {2880, 4},
 				[3] = {3470, 2},
 				[4] = {818},
-				[5] = {2319},
-			},
+				[5] = {2319}
+			}
 		},
 		[2668] = {
 			["name"] = "Blacksmithing: Rough Bronze Leggings",
@@ -11143,8 +11142,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2841, 6},
-			},
+				[1] = {2841, 6}
+			}
 		},
 		[2670] = {
 			["name"] = "Blacksmithing: Rough Bronze Cuirass",
@@ -11156,8 +11155,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2841, 7},
-			},
+				[1] = {2841, 7}
+			}
 		},
 		[2740] = {
 			["name"] = "Blacksmithing: Bronze Mace",
@@ -11171,8 +11170,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 6},
 				[2] = {2880, 4},
-				[3] = {2319},
-			},
+				[3] = {2319}
+			}
 		},
 		[3328] = {
 			["name"] = "Blacksmithing: Rough Bronze Shoulders",
@@ -11186,8 +11185,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 5},
 				[2] = {1210},
-				[3] = {3478},
-			},
+				[3] = {3478}
+			}
 		},
 		[6517] = {
 			["name"] = "Blacksmithing: Pearl-handled Dagger",
@@ -11202,8 +11201,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2841, 6},
 				[2] = {3466},
 				[3] = {5498, 2},
-				[4] = {3478, 2},
-			},
+				[4] = {3478, 2}
+			}
 		},
 		[2741] = {
 			["name"] = "Blacksmithing: Bronze Axe",
@@ -11217,8 +11216,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 7},
 				[2] = {2880, 4},
-				[3] = {2319},
-			},
+				[3] = {2319}
+			}
 		},
 		[2742] = {
 			["name"] = "Blacksmithing: Bronze Shortsword",
@@ -11232,8 +11231,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 5},
 				[2] = {2880, 4},
-				[3] = {2319, 2},
-			},
+				[3] = {2319, 2}
+			}
 		},
 		[2672] = {
 			["name"] = "Blacksmithing: Patterned Bronze Bracers",
@@ -11246,8 +11245,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2841, 5},
-				[2] = {3478, 2},
-			},
+				[2] = {3478, 2}
+			}
 		},
 		[2674] = {
 			["name"] = "Blacksmithing: Heavy Sharpening Stone",
@@ -11259,8 +11258,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2838},
-			},
+				[1] = {2838}
+			}
 		},
 		[3117] = {
 			["name"] = "Blacksmithing: Heavy Weightstone",
@@ -11273,8 +11272,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2838},
-				[2] = {2592},
-			},
+				[2] = {2592}
+			}
 		},
 		[3337] = {
 			["name"] = "Blacksmithing: Heavy Grinding Stone",
@@ -11286,8 +11285,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2838, 3},
-			},
+				[1] = {2838, 3}
+			}
 		},
 		[9985] = {
 			["name"] = "Blacksmithing: Bronze Warhammer",
@@ -11301,8 +11300,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 8},
 				[2] = {3466},
-				[3] = {2319},
-			},
+				[3] = {2319}
+			}
 		},
 		[3295] = {
 			["name"] = "Blacksmithing: Deadly Bronze Poniard",
@@ -11319,8 +11318,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {2459},
 				[4] = {1210, 2},
 				[5] = {3478, 2},
-				[6] = {2319, 2},
-			},
+				[6] = {2319, 2}
+			}
 		},
 		[3330] = {
 			["name"] = "Blacksmithing: Silvered Bronze Shoulders",
@@ -11334,8 +11333,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 8},
 				[2] = {2842, 2},
-				[3] = {3478, 2},
-			},
+				[3] = {3478, 2}
+			}
 		},
 		[9986] = {
 			["name"] = "Blacksmithing: Bronze Greatsword",
@@ -11349,8 +11348,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 12},
 				[2] = {3466, 2},
-				[3] = {2319, 2},
-			},
+				[3] = {2319, 2}
+			}
 		},
 		[3296] = {
 			["name"] = "Blacksmithing: Heavy Bronze Mace",
@@ -11367,8 +11366,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {1206},
 				[4] = {1210},
 				[5] = {3478, 2},
-				[6] = {2319, 2},
-			},
+				[6] = {2319, 2}
+			}
 		},
 		[3331] = {
 			["name"] = "Blacksmithing: Silvered Bronze Boots",
@@ -11382,8 +11381,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 6},
 				[2] = {2842},
-				[3] = {3478, 2},
-			},
+				[3] = {3478, 2}
+			}
 		},
 		[2673] = {
 			["name"] = "Blacksmithing: Silvered Bronze Breastplate",
@@ -11398,8 +11397,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2841, 10},
 				[2] = {2842, 2},
 				[3] = {3478, 2},
-				[4] = {1705},
-			},
+				[4] = {1705}
+			}
 		},
 		[9987] = {
 			["name"] = "Blacksmithing: Bronze Battle Axe",
@@ -11413,8 +11412,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 14},
 				[2] = {3466},
-				[3] = {2319, 2},
-			},
+				[3] = {2319, 2}
+			}
 		},
 		[3333] = {
 			["name"] = "Blacksmithing: Silvered Bronze Gauntlets",
@@ -11428,8 +11427,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 8},
 				[2] = {2842},
-				[3] = {3478, 2},
-			},
+				[3] = {3478, 2}
+			}
 		},
 		[6518] = {
 			["name"] = "Blacksmithing: Iridescent Hammer",
@@ -11445,8 +11444,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466},
 				[3] = {5500},
 				[4] = {3478, 2},
-				[5] = {2319, 2},
-			},
+				[5] = {2319, 2}
+			}
 		},
 		[3334] = {
 			["name"] = "Blacksmithing: Green Iron Boots",
@@ -11461,8 +11460,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3575, 4},
 				[2] = {1705, 2},
 				[3] = {3478, 2},
-				[4] = {2605},
-			},
+				[4] = {2605}
+			}
 		},
 		[3297] = {
 			["name"] = "Blacksmithing: Mighty Iron Hammer",
@@ -11479,8 +11478,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {3391},
 				[4] = {1705, 2},
 				[5] = {3478, 2},
-				[6] = {2319, 2},
-			},
+				[6] = {2319, 2}
+			}
 		},
 		[2675] = {
 			["name"] = "Blacksmithing: Shining Silver Breastplate",
@@ -11496,8 +11495,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {1206, 2},
 				[3] = {1705, 2},
 				[4] = {5500, 2},
-				[5] = {2842, 4},
-			},
+				[5] = {2842, 4}
+			}
 		},
 		[8768] = {
 			["name"] = "Blacksmithing: Iron Buckle",
@@ -11509,8 +11508,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = 2,
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3575},
-			},
+				[1] = {3575}
+			}
 		},
 		[19667] = {
 			["name"] = "Blacksmithing: Golden Skeleton Key",
@@ -11523,8 +11522,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3577},
-				[2] = {3486},
-			},
+				[2] = {3486}
+			}
 		},
 		[14379] = {
 			["name"] = "Blacksmithing: Golden Rod",
@@ -11537,8 +11536,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3577},
-				[2] = {3478, 2},
-			},
+				[2] = {3478, 2}
+			}
 		},
 		[7221] = {
 			["name"] = "Blacksmithing: Iron Shield Spike",
@@ -11551,8 +11550,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3575, 6},
-				[2] = {3478, 4},
-			},
+				[2] = {3478, 4}
+			}
 		},
 		[3336] = {
 			["name"] = "Blacksmithing: Green Iron Gauntlets",
@@ -11567,8 +11566,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3575, 4},
 				[2] = {5498, 2},
 				[3] = {3478, 2},
-				[4] = {2605},
-			},
+				[4] = {2605}
+			}
 		},
 		[10003] = {
 			["name"] = "Blacksmithing: The Shatterer",
@@ -11586,8 +11585,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {3864, 5},
 				[5] = {1529, 5},
 				[6] = {7966, 4},
-				[7] = {4304, 4},
-			},
+				[7] = {4304, 4}
+			}
 		},
 		[10007] = {
 			["name"] = "Blacksmithing: Phantom Blade",
@@ -11605,8 +11604,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {3823, 2},
 				[5] = {7909, 6},
 				[6] = {7966, 4},
-				[7] = {4304, 2},
-			},
+				[7] = {4304, 2}
+			}
 		},
 		[10011] = {
 			["name"] = "Blacksmithing: Blight",
@@ -11622,8 +11621,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7972, 10},
 				[3] = {6037, 10},
 				[4] = {7966, 6},
-				[5] = {4304, 6},
-			},
+				[5] = {4304, 6}
+			}
 		},
 		[10015] = {
 			["name"] = "Blacksmithing: Truesilver Champion",
@@ -11640,8 +11639,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7910, 6},
 				[4] = {7081, 4},
 				[5] = {7966, 8},
-				[6] = {4304, 6},
-			},
+				[6] = {4304, 6}
+			}
 		},
 		[15292] = {
 			["name"] = "Blacksmithing: Dark Iron Pulverizer",
@@ -11654,8 +11653,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {11371, 18},
-				[2] = {7077, 4},
-			},
+				[2] = {7077, 4}
+			}
 		},
 		[15294] = {
 			["name"] = "Blacksmithing: Dark Iron Sunderer",
@@ -11668,8 +11667,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {11371, 26},
-				[2] = {7077, 4},
-			},
+				[2] = {7077, 4}
+			}
 		},
 		[16995] = {
 			["name"] = "Blacksmithing: Heartseeker",
@@ -11687,8 +11686,8 @@ GetSpellInfoVanillaDB = {
 				[4] = {7910, 6},
 				[5] = {12800, 6},
 				[6] = {12799, 6},
-				[7] = {12644, 4},
-			},
+				[7] = {12644, 4}
+			}
 		},
 		[23638] = {
 			["name"] = "Blacksmithing: Black Amnesty",
@@ -11704,8 +11703,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 6},
 				[3] = {12360, 12},
 				[4] = {11382},
-				[5] = {11371, 4},
-			},
+				[5] = {11371, 4}
+			}
 		},
 		[23639] = {
 			["name"] = "Blacksmithing: Blackfury",
@@ -11720,8 +11719,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {17011, 5},
 				[2] = {17010, 2},
 				[3] = {12360, 16},
-				[4] = {11371, 6},
-			},
+				[4] = {11371, 6}
+			}
 		},
 		[9954] = {
 			["name"] = "Blacksmithing: Truesilver Gauntlets",
@@ -11738,8 +11737,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7909, 3},
 				[4] = {3864, 3},
 				[5] = {5966},
-				[6] = {7966, 2},
-			},
+				[6] = {7966, 2}
+			}
 		},
 		[9974] = {
 			["name"] = "Blacksmithing: Truesilver Breastplate",
@@ -11755,8 +11754,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {6037, 24},
 				[3] = {7910, 4},
 				[4] = {7971, 4},
-				[5] = {7966, 2},
-			},
+				[5] = {7966, 2}
+			}
 		},
 		[16650] = {
 			["name"] = "Blacksmithing: Wildthorn Mail",
@@ -11772,8 +11771,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 2},
 				[3] = {12803, 4},
 				[4] = {8153, 4},
-				[5] = {12364},
-			},
+				[5] = {12364}
+			}
 		},
 		[16667] = {
 			["name"] = "Blacksmithing: Demon Forged Breastplate",
@@ -11788,8 +11787,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 40},
 				[2] = {12662, 10},
 				[3] = {12361, 4},
-				[4] = {7910, 4},
-			},
+				[4] = {7910, 4}
+			}
 		},
 		[15296] = {
 			["name"] = "Blacksmithing: Dark Iron Plate",
@@ -11802,8 +11801,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {11371, 20},
-				[2] = {7077, 8},
-			},
+				[2] = {7077, 8}
+			}
 		},
 		[16655] = {
 			["name"] = "Blacksmithing: Fiery Plate Gauntlets",
@@ -11818,8 +11817,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 20},
 				[2] = {12655, 6},
 				[3] = {7078, 2},
-				[4] = {7910, 4},
-			},
+				[4] = {7910, 4}
+			}
 		},
 		[16661] = {
 			["name"] = "Blacksmithing: Storm Gauntlets",
@@ -11834,8 +11833,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 20},
 				[2] = {12655, 4},
 				[3] = {7080, 4},
-				[4] = {12361, 4},
-			},
+				[4] = {12361, 4}
+			}
 		},
 		[20874] = {
 			["name"] = "Blacksmithing: Dark Iron Bracers",
@@ -11849,8 +11848,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {11371, 4},
 				[2] = {17010, 2},
-				[3] = {17011, 2},
-			},
+				[3] = {17011, 2}
+			}
 		},
 		[20872] = {
 			["name"] = "Blacksmithing: Fiery Chain Girdle",
@@ -11864,8 +11863,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {11371, 6},
 				[2] = {17010, 3},
-				[3] = {17011, 3},
-			},
+				[3] = {17011, 3}
+			}
 		},
 		[16745] = {
 			["name"] = "Blacksmithing: Enchanted Thorium Breastplate",
@@ -11882,8 +11881,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7076, 4},
 				[4] = {7080, 4},
 				[5] = {12364, 2},
-				[6] = {12800, 2},
-			},
+				[6] = {12800, 2}
+			}
 		},
 		[16742] = {
 			["name"] = "Blacksmithing: Enchanted Thorium Helm",
@@ -11899,8 +11898,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 16},
 				[3] = {7076, 6},
 				[4] = {12799, 2},
-				[5] = {12800},
-			},
+				[5] = {12800}
+			}
 		},
 		[16744] = {
 			["name"] = "Blacksmithing: Enchanted Thorium Leggings",
@@ -11916,8 +11915,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 20},
 				[3] = {7080, 6},
 				[4] = {12361, 2},
-				[5] = {12364},
-			},
+				[5] = {12364}
+			}
 		},
 		[16728] = {
 			["name"] = "Blacksmithing: Helm of the Great Chief",
@@ -11933,8 +11932,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 4},
 				[3] = {8168, 60},
 				[4] = {12799, 6},
-				[5] = {12364, 2},
-			},
+				[5] = {12364, 2}
+			}
 		},
 		[16724] = {
 			["name"] = "Blacksmithing: Whitesoul Helm",
@@ -11950,8 +11949,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 4},
 				[3] = {6037, 6},
 				[4] = {3577, 6},
-				[5] = {12800, 2},
-			},
+				[5] = {12800, 2}
+			}
 		},
 		[24399] = {
 			["name"] = "Blacksmithing: Dark Iron Boots",
@@ -11967,8 +11966,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {17011, 3},
 				[2] = {17010, 3},
 				[3] = {17012, 4},
-				[4] = {11371, 6},
-			},
+				[4] = {11371, 6}
+			}
 		},
 		[23637] = {
 			["name"] = "Blacksmithing: Dark Iron Gauntlets",
@@ -11984,8 +11983,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17010, 5},
 				[3] = {17012, 4},
 				[4] = {11371, 4},
-				[5] = {11382, 2},
-			},
+				[5] = {11382, 2}
+			}
 		},
 		[23636] = {
 			["name"] = "Blacksmithing: Dark Iron Helm",
@@ -11999,8 +11998,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {17011, 4},
 				[2] = {17010, 2},
-				[3] = {11371, 4},
-			},
+				[3] = {11371, 4}
+			}
 		},
 		[20876] = {
 			["name"] = "Blacksmithing: Dark Iron Leggings",
@@ -12014,8 +12013,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {11371, 16},
 				[2] = {17010, 4},
-				[3] = {17011, 6},
-			},
+				[3] = {17011, 6}
+			}
 		},
 		[20873] = {
 			["name"] = "Blacksmithing: Fiery Chain Shoulders",
@@ -12029,8 +12028,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {11371, 16},
 				[2] = {17010, 4},
-				[3] = {17011, 5},
-			},
+				[3] = {17011, 5}
+			}
 		},
 		[16746] = {
 			["name"] = "Blacksmithing: Invulnerable Mail",
@@ -12045,8 +12044,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12360, 30},
 				[2] = {12655, 30},
 				[3] = {12364, 6},
-				[4] = {12800, 6},
-			},
+				[4] = {12800, 6}
+			}
 		},
 		[16729] = {
 			["name"] = "Blacksmithing: Lionheart Helm",
@@ -12062,8 +12061,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12360, 12},
 				[3] = {8146, 40},
 				[4] = {12361, 10},
-				[5] = {12800, 4},
-			},
+				[5] = {12800, 4}
+			}
 		},
 		[16741] = {
 			["name"] = "Blacksmithing: Stronghold Gauntlets",
@@ -12079,8 +12078,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12655, 20},
 				[3] = {7076, 10},
 				[4] = {12361, 4},
-				[5] = {12799, 4},
-			},
+				[5] = {12799, 4}
+			}
 		},
 		[27829] = {
 			["name"] = "Blacksmithing: Titanic Leggings",
@@ -12095,8 +12094,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12360, 12},
 				[2] = {12655, 20},
 				[3] = {7076, 10},
-				[4] = {13510, 2},
-			},
+				[4] = {13510, 2}
+			}
 		},
 		[3506] = {
 			["name"] = "Blacksmithing: Green Iron Leggings",
@@ -12110,8 +12109,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 8},
 				[2] = {3486},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[12259] = {
 			["name"] = "Blacksmithing: Silvered Bronze Leggings",
@@ -12125,8 +12124,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2841, 12},
 				[2] = {2842, 4},
-				[3] = {3478, 2},
-			},
+				[3] = {3478, 2}
+			}
 		},
 		[3494] = {
 			["name"] = "Blacksmithing: Solid Iron Maul",
@@ -12142,8 +12141,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {3486},
 				[4] = {2842, 4},
-				[5] = {4234, 2},
-			},
+				[5] = {4234, 2}
+			}
 		},
 		[9813] = {
 			["name"] = "Blacksmithing: Barbaric Iron Breastplate",
@@ -12156,8 +12155,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3575, 20},
-				[2] = {3486, 4},
-			},
+				[2] = {3486, 4}
+			}
 		},
 		[9811] = {
 			["name"] = "Blacksmithing: Barbaric Iron Shoulders",
@@ -12172,8 +12171,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3575, 8},
 				[2] = {5635, 4},
 				[3] = {1210, 2},
-				[4] = {3486, 2},
-			},
+				[4] = {3486, 2}
+			}
 		},
 		[3504] = {
 			["name"] = "Blacksmithing: Green Iron Shoulders",
@@ -12187,8 +12186,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 7},
 				[2] = {3486},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[3492] = {
 			["name"] = "Blacksmithing: Hardened Iron Shortsword",
@@ -12204,8 +12203,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {3486},
 				[4] = {1705, 2},
-				[5] = {4234, 3},
-			},
+				[5] = {4234, 3}
+			}
 		},
 		[3501] = {
 			["name"] = "Blacksmithing: Green Iron Bracers",
@@ -12218,8 +12217,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3575, 6},
-				[2] = {2605},
-			},
+				[2] = {2605}
+			}
 		},
 		[7222] = {
 			["name"] = "Blacksmithing: Iron Counterweight",
@@ -12233,8 +12232,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 4},
 				[2] = {3478, 2},
-				[3] = {1705},
-			},
+				[3] = {1705}
+			}
 		},
 		[3495] = {
 			["name"] = "Blacksmithing: Golden Iron Destroyer",
@@ -12251,8 +12250,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {1705, 2},
 				[4] = {3466, 2},
 				[5] = {4234, 2},
-				[6] = {3486, 2},
-			},
+				[6] = {3486, 2}
+			}
 		},
 		[3507] = {
 			["name"] = "Blacksmithing: Golden Scale Leggings",
@@ -12266,8 +12265,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 10},
 				[2] = {3577, 2},
-				[3] = {3486},
-			},
+				[3] = {3486}
+			}
 		},
 		[3502] = {
 			["name"] = "Blacksmithing: Green Iron Helm",
@@ -12281,8 +12280,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 12},
 				[2] = {3864},
-				[3] = {2605},
-			},
+				[3] = {2605}
+			}
 		},
 		[9814] = {
 			["name"] = "Blacksmithing: Barbaric Iron Helm",
@@ -12296,8 +12295,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 10},
 				[2] = {5637, 2},
-				[3] = {5635, 2},
-			},
+				[3] = {5635, 2}
+			}
 		},
 		[3505] = {
 			["name"] = "Blacksmithing: Golden Scale Shoulders",
@@ -12311,8 +12310,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3859, 6},
 				[2] = {3577, 2},
-				[3] = {3486},
-			},
+				[3] = {3486}
+			}
 		},
 		[3493] = {
 			["name"] = "Blacksmithing: Jade Serpentblade",
@@ -12328,8 +12327,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {3486, 2},
 				[4] = {1529, 2},
-				[5] = {4234, 3},
-			},
+				[5] = {4234, 3}
+			}
 		},
 		[3508] = {
 			["name"] = "Blacksmithing: Green Iron Hauberk",
@@ -12345,8 +12344,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3486, 4},
 				[3] = {1529, 2},
 				[4] = {1206, 2},
-				[5] = {4255},
-			},
+				[5] = {4255}
+			}
 		},
 		[9818] = {
 			["name"] = "Blacksmithing: Barbaric Iron Boots",
@@ -12361,8 +12360,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3575, 12},
 				[2] = {5637, 4},
 				[3] = {818, 4},
-				[4] = {3486, 2},
-			},
+				[4] = {3486, 2}
+			}
 		},
 		[15972] = {
 			["name"] = "Blacksmithing: Glinting Steel Dagger",
@@ -12378,8 +12377,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {1206},
 				[4] = {7067},
-				[5] = {4234},
-			},
+				[5] = {4234}
+			}
 		},
 		[3496] = {
 			["name"] = "Blacksmithing: Moonsteel Broadsword",
@@ -12395,8 +12394,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {3486, 2},
 				[4] = {1705, 3},
-				[5] = {4234, 3},
-			},
+				[5] = {4234, 3}
+			}
 		},
 		[9820] = {
 			["name"] = "Blacksmithing: Barbaric Iron Gloves",
@@ -12410,8 +12409,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3575, 14},
 				[2] = {3486, 3},
-				[3] = {5637, 2},
-			},
+				[3] = {5637, 2}
+			}
 		},
 		[3498] = {
 			["name"] = "Blacksmithing: Massive Iron Axe",
@@ -12427,8 +12426,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3466, 2},
 				[3] = {3486, 2},
 				[4] = {3577, 4},
-				[5] = {4234, 2},
-			},
+				[5] = {4234, 2}
+			}
 		},
 		[3513] = {
 			["name"] = "Blacksmithing: Polished Steel Boots",
@@ -12443,8 +12442,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3859, 8},
 				[2] = {3864},
 				[3] = {1705},
-				[4] = {3486, 2},
-			},
+				[4] = {3486, 2}
+			}
 		},
 		[7223] = {
 			["name"] = "Blacksmithing: Golden Scale Bracers",
@@ -12457,8 +12456,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3859, 5},
-				[2] = {3486, 2},
-			},
+				[2] = {3486, 2}
+			}
 		},
 		[7224] = {
 			["name"] = "Blacksmithing: Steel Weapon Chain",
@@ -12472,8 +12471,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3859, 8},
 				[2] = {3486, 2},
-				[3] = {4234, 4},
-			},
+				[3] = {4234, 4}
+			}
 		},
 		[21913] = {
 			["name"] = "Blacksmithing: Edge of Winter",
@@ -12489,8 +12488,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {3829},
 				[3] = {7070, 2},
 				[4] = {7069, 2},
-				[5] = {4234, 2},
-			},
+				[5] = {4234, 2}
+			}
 		},
 		[3503] = {
 			["name"] = "Blacksmithing: Golden Scale Coif",
@@ -12504,8 +12503,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3859, 8},
 				[2] = {3577, 2},
-				[3] = {3486, 2},
-			},
+				[3] = {3486, 2}
+			}
 		},
 		[15973] = {
 			["name"] = "Blacksmithing: Searing Golden Blade",
@@ -12520,8 +12519,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3859, 10},
 				[2] = {3577, 4},
 				[3] = {7068, 2},
-				[4] = {4234, 2},
-			},
+				[4] = {4234, 2}
+			}
 		},
 		[3511] = {
 			["name"] = "Blacksmithing: Golden Scale Cuirass",
@@ -12536,8 +12535,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3859, 12},
 				[2] = {3577, 2},
 				[3] = {3486, 4},
-				[4] = {1529, 2},
-			},
+				[4] = {1529, 2}
+			}
 		},
 		[9920] = {
 			["name"] = "Blacksmithing: Solid Grinding Stone",
@@ -12549,8 +12548,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7912, 4},
-			},
+				[1] = {7912, 4}
+			}
 		},
 		[9918] = {
 			["name"] = "Blacksmithing: Solid Sharpening Stone",
@@ -12562,8 +12561,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {7912},
-			},
+				[1] = {7912}
+			}
 		},
 		[9921] = {
 			["name"] = "Blacksmithing: Solid Weightstone",
@@ -12576,8 +12575,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {7912},
-				[2] = {4306},
-			},
+				[2] = {4306}
+			}
 		},
 		[19668] = {
 			["name"] = "Blacksmithing: Truesilver Skeleton Key",
@@ -12590,8 +12589,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6037},
-				[2] = {7966},
-			},
+				[2] = {7966}
+			}
 		},
 		[14380] = {
 			["name"] = "Blacksmithing: Truesilver Rod",
@@ -12604,8 +12603,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {6037},
-				[2] = {3486},
-			},
+				[2] = {3486}
+			}
 		},
 		[3497] = {
 			["name"] = "Blacksmithing: Frost Tiger Blade",
@@ -12622,8 +12621,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {3486, 2},
 				[4] = {1529, 2},
 				[5] = {3829},
-				[6] = {4234, 4},
-			},
+				[6] = {4234, 4}
+			}
 		},
 		[3515] = {
 			["name"] = "Blacksmithing: Golden Scale Boots",
@@ -12638,8 +12637,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3859, 10},
 				[2] = {3577, 4},
 				[3] = {3486, 4},
-				[4] = {3864},
-			},
+				[4] = {3864}
+			}
 		},
 		[3500] = {
 			["name"] = "Blacksmithing: Shadow Crescent Axe",
@@ -12656,8 +12655,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {3486, 3},
 				[4] = {3864, 2},
 				[5] = {3824},
-				[6] = {4234, 3},
-			},
+				[6] = {4234, 3}
+			}
 		},
 		[9916] = {
 			["name"] = "Blacksmithing: Steel Breastplate",
@@ -12670,8 +12669,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3859, 16},
-				[2] = {3486, 3},
-			},
+				[2] = {3486, 3}
+			}
 		},
 		[11454] = {
 			["name"] = "Blacksmithing: Inlaid Mithril Cylinder",
@@ -12685,8 +12684,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 5},
 				[2] = {3577},
-				[3] = {6037},
-			},
+				[3] = {6037}
+			}
 		},
 		[11643] = {
 			["name"] = "Blacksmithing: Golden Scale Gauntlets",
@@ -12701,8 +12700,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3859, 10},
 				[2] = {3577, 4},
 				[3] = {3486, 4},
-				[4] = {3864},
-			},
+				[4] = {3864}
+			}
 		},
 		[9928] = {
 			["name"] = "Blacksmithing: Heavy Mithril Gauntlet",
@@ -12715,8 +12714,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 6},
-				[2] = {4338, 4},
-			},
+				[2] = {4338, 4}
+			}
 		},
 		[9926] = {
 			["name"] = "Blacksmithing: Heavy Mithril Shoulder",
@@ -12729,8 +12728,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 8},
-				[2] = {4234, 6},
-			},
+				[2] = {4234, 6}
+			}
 		},
 		[9933] = {
 			["name"] = "Blacksmithing: Heavy Mithril Pants",
@@ -12743,8 +12742,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 10},
-				[2] = {1705, 2},
-			},
+				[2] = {1705, 2}
+			}
 		},
 		[9931] = {
 			["name"] = "Blacksmithing: Mithril Scale Pants",
@@ -12756,8 +12755,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3860, 12},
-			},
+				[1] = {3860, 12}
+			}
 		},
 		[9993] = {
 			["name"] = "Blacksmithing: Heavy Mithril Axe",
@@ -12772,8 +12771,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 12},
 				[2] = {3864, 2},
 				[3] = {7966},
-				[4] = {4234, 4},
-			},
+				[4] = {4234, 4}
+			}
 		},
 		[9937] = {
 			["name"] = "Blacksmithing: Mithril Scale Bracers",
@@ -12786,8 +12785,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 8},
-				[2] = {3864, 2},
-			},
+				[2] = {3864, 2}
+			}
 		},
 		[9939] = {
 			["name"] = "Blacksmithing: Mithril Shield Spike",
@@ -12801,8 +12800,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 4},
 				[2] = {6037, 2},
-				[3] = {7966, 4},
-			},
+				[3] = {7966, 4}
+			}
 		},
 		[9935] = {
 			["name"] = "Blacksmithing: Steel Plate Helm",
@@ -12815,8 +12814,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3859, 14},
-				[2] = {7966},
-			},
+				[2] = {7966}
+			}
 		},
 		[9950] = {
 			["name"] = "Blacksmithing: Ornate Mithril Gloves",
@@ -12831,8 +12830,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 10},
 				[2] = {4338, 6},
 				[3] = {6037},
-				[4] = {7966},
-			},
+				[4] = {7966}
+			}
 		},
 		[9945] = {
 			["name"] = "Blacksmithing: Ornate Mithril Pants",
@@ -12847,8 +12846,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 12},
 				[2] = {6037},
 				[3] = {7966},
-				[4] = {7909},
-			},
+				[4] = {7909}
+			}
 		},
 		[9995] = {
 			["name"] = "Blacksmithing: Blue Glittering Axe",
@@ -12863,8 +12862,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 16},
 				[2] = {7909, 2},
 				[3] = {7966},
-				[4] = {4304, 4},
-			},
+				[4] = {4304, 4}
+			}
 		},
 		[9952] = {
 			["name"] = "Blacksmithing: Ornate Mithril Shoulders",
@@ -12878,8 +12877,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 12},
 				[2] = {6037},
-				[3] = {4304, 6},
-			},
+				[3] = {4304, 6}
+			}
 		},
 		[9997] = {
 			["name"] = "Blacksmithing: Wicked Mithril Blade",
@@ -12894,8 +12893,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 14},
 				[2] = {6037, 4},
 				[3] = {7966},
-				[4] = {4304, 2},
-			},
+				[4] = {4304, 2}
+			}
 		},
 		[9972] = {
 			["name"] = "Blacksmithing: Ornate Mithril Breastplate",
@@ -12910,8 +12909,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 16},
 				[2] = {6037, 6},
 				[3] = {7077},
-				[4] = {7966},
-			},
+				[4] = {7966}
+			}
 		},
 		[9979] = {
 			["name"] = "Blacksmithing: Ornate Mithril Boots",
@@ -12927,8 +12926,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {6037, 2},
 				[3] = {4304, 4},
 				[4] = {7966},
-				[5] = {7909},
-			},
+				[5] = {7909}
+			}
 		},
 		[9980] = {
 			["name"] = "Blacksmithing: Ornate Mithril Helm",
@@ -12943,8 +12942,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 16},
 				[2] = {6037, 2},
 				[3] = {7971},
-				[4] = {7966},
-			},
+				[4] = {7966}
+			}
 		},
 		[9959] = {
 			["name"] = "Blacksmithing: Ornate Mithril Helm",
@@ -12956,8 +12955,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {3860, 16},
-			},
+				[1] = {3860, 16}
+			}
 		},
 		[9961] = {
 			["name"] = "Blacksmithing: Mithril Coif",
@@ -12970,8 +12969,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 10},
-				[2] = {4338, 6},
-			},
+				[2] = {4338, 6}
+			}
 		},
 		[10001] = {
 			["name"] = "Blacksmithing: Big Black Mace",
@@ -12987,8 +12986,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7971},
 				[3] = {1210, 4},
 				[4] = {7966},
-				[5] = {4304, 2},
-			},
+				[5] = {4304, 2}
+			}
 		},
 		[9968] = {
 			["name"] = "Blacksmithing: Heavy Mithril Boots",
@@ -13001,8 +13000,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 14},
-				[2] = {4304, 4},
-			},
+				[2] = {4304, 4}
+			}
 		},
 		[9966] = {
 			["name"] = "Blacksmithing: Mithril Scale Shoulders",
@@ -13016,8 +13015,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {3860, 14},
 				[2] = {4304, 4},
-				[3] = {3864, 4},
-			},
+				[3] = {3864, 4}
+			}
 		},
 		[9964] = {
 			["name"] = "Blacksmithing: Mithril Spurs",
@@ -13030,8 +13029,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 4},
-				[2] = {7966, 3},
-			},
+				[2] = {7966, 3}
+			}
 		},
 		[10005] = {
 			["name"] = "Blacksmithing: Dazzling Mithril Rapier",
@@ -13048,8 +13047,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {1705, 2},
 				[4] = {1206, 2},
 				[5] = {7966},
-				[6] = {4338, 2},
-			},
+				[6] = {4338, 2}
+			}
 		},
 		[9970] = {
 			["name"] = "Blacksmithing: Heavy Mithril Helm",
@@ -13062,8 +13061,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 14},
-				[2] = {7909},
-			},
+				[2] = {7909}
+			}
 		},
 		[10009] = {
 			["name"] = "Blacksmithing: Runed Mithril Hammer",
@@ -13078,8 +13077,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {3860, 18},
 				[2] = {7075, 2},
 				[3] = {7966},
-				[4] = {4304, 4},
-			},
+				[4] = {4304, 4}
+			}
 		},
 		[16639] = {
 			["name"] = "Blacksmithing: Dense Grinding Stone",
@@ -13091,8 +13090,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12365, 4},
-			},
+				[1] = {12365, 4}
+			}
 		},
 		[16641] = {
 			["name"] = "Blacksmithing: Dense Sharpening Stone",
@@ -13104,8 +13103,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {12365},
-			},
+				[1] = {12365}
+			}
 		},
 		[16640] = {
 			["name"] = "Blacksmithing: Dense Weightstone",
@@ -13118,8 +13117,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12365},
-				[2] = {14047},
-			},
+				[2] = {14047}
+			}
 		},
 		[16642] = {
 			["name"] = "Blacksmithing: Thorium Armor",
@@ -13133,8 +13132,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 16},
 				[2] = {12361},
-				[3] = {11188, 4},
-			},
+				[3] = {11188, 4}
+			}
 		},
 		[16643] = {
 			["name"] = "Blacksmithing: Thorium Belt",
@@ -13147,8 +13146,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 12},
-				[2] = {11186, 4},
-			},
+				[2] = {11186, 4}
+			}
 		},
 		[16644] = {
 			["name"] = "Blacksmithing: Thorium Bracers",
@@ -13161,8 +13160,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 12},
-				[2] = {11184, 4},
-			},
+				[2] = {11184, 4}
+			}
 		},
 		[10013] = {
 			["name"] = "Blacksmithing: Ebon Shiv",
@@ -13178,8 +13177,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {6037, 6},
 				[3] = {7910, 2},
 				[4] = {7966},
-				[5] = {4304, 2},
-			},
+				[5] = {4304, 2}
+			}
 		},
 		[16645] = {
 			["name"] = "Blacksmithing: Radiant Belt",
@@ -13192,8 +13191,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 10},
-				[2] = {7077, 2},
-			},
+				[2] = {7077, 2}
+			}
 		},
 		[16647] = {
 			["name"] = "Blacksmithing: Imperial Plate Belt",
@@ -13207,8 +13206,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 22},
 				[2] = {8170, 6},
-				[3] = {7909},
-			},
+				[3] = {7909}
+			}
 		},
 		[16646] = {
 			["name"] = "Blacksmithing: Imperial Plate Shoulders",
@@ -13222,8 +13221,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 24},
 				[2] = {8170, 6},
-				[3] = {3864, 2},
-			},
+				[3] = {3864, 2}
+			}
 		},
 		[15293] = {
 			["name"] = "Blacksmithing: Dark Iron Mail",
@@ -13236,8 +13235,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {11371, 10},
-				[2] = {7077, 2},
-			},
+				[2] = {7077, 2}
+			}
 		},
 		[16649] = {
 			["name"] = "Blacksmithing: Imperial Plate Bracers",
@@ -13250,8 +13249,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 20},
-				[2] = {7910},
-			},
+				[2] = {7910}
+			}
 		},
 		[16648] = {
 			["name"] = "Blacksmithing: Radiant Breastplate",
@@ -13265,8 +13264,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 18},
 				[2] = {7077, 2},
-				[3] = {7910},
-			},
+				[3] = {7910}
+			}
 		},
 		[20201] = {
 			["name"] = "Blacksmithing: Arcanite Rod",
@@ -13279,8 +13278,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12360, 3},
-				[2] = {12644},
-			},
+				[2] = {12644}
+			}
 		},
 		[19669] = {
 			["name"] = "Blacksmithing: Arcanite Skeleton Key",
@@ -13293,8 +13292,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12360},
-				[2] = {12644},
-			},
+				[2] = {12644}
+			}
 		},
 		[16651] = {
 			["name"] = "Blacksmithing: Thorium Shield Spike",
@@ -13308,8 +13307,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 4},
 				[2] = {12644, 4},
-				[3] = {7076, 2},
-			},
+				[3] = {7076, 2}
+			}
 		},
 		[16969] = {
 			["name"] = "Blacksmithing: Ornate Thorium Handaxe",
@@ -13324,8 +13323,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 20},
 				[2] = {12799, 2},
 				[3] = {12644, 2},
-				[4] = {8170, 4},
-			},
+				[4] = {8170, 4}
+			}
 		},
 		[15295] = {
 			["name"] = "Blacksmithing: Dark Iron Shoulders",
@@ -13338,8 +13337,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {11371, 6},
-				[2] = {7077},
-			},
+				[2] = {7077}
+			}
 		},
 		[16652] = {
 			["name"] = "Blacksmithing: Thorium Boots",
@@ -13353,8 +13352,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 20},
 				[2] = {8170, 8},
-				[3] = {11185, 4},
-			},
+				[3] = {11185, 4}
+			}
 		},
 		[16653] = {
 			["name"] = "Blacksmithing: Thorium Helm",
@@ -13368,8 +13367,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 24},
 				[2] = {7910},
-				[3] = {11188, 4},
-			},
+				[3] = {11188, 4}
+			}
 		},
 		[16971] = {
 			["name"] = "Blacksmithing: Huge Thorium Battleaxe",
@@ -13383,8 +13382,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 40},
 				[2] = {12644, 6},
-				[3] = {8170, 6},
-			},
+				[3] = {8170, 6}
+			}
 		},
 		[23629] = {
 			["name"] = "Blacksmithing: Heavy Timbermaw Boots",
@@ -13398,8 +13397,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12360, 4},
 				[2] = {7076, 6},
-				[3] = {12803, 6},
-			},
+				[3] = {12803, 6}
+			}
 		},
 		[28463] = {
 			["name"] = "Blacksmithing: Ironvine Belt",
@@ -13412,8 +13411,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12655, 6},
-				[2] = {12803, 2},
-			},
+				[2] = {12803, 2}
+			}
 		},
 		[28461] = {
 			["name"] = "Blacksmithing: Ironvine Breastplate",
@@ -13428,8 +13427,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12655, 12},
 				[2] = {19726, 2},
 				[3] = {12360, 2},
-				[4] = {12803, 2},
-			},
+				[4] = {12803, 2}
+			}
 		},
 		[28462] = {
 			["name"] = "Blacksmithing: Ironvine Gloves",
@@ -13443,8 +13442,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12655, 8},
 				[2] = {19726},
-				[3] = {12803, 2},
-			},
+				[3] = {12803, 2}
+			}
 		},
 		[27588] = {
 			["name"] = "Blacksmithing: Light Obsidian Belt",
@@ -13457,8 +13456,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {22202, 14},
-				[2] = {12810, 4},
-			},
+				[2] = {12810, 4}
+			}
 		},
 		[27589] = {
 			["name"] = "Blacksmithing: Black Grasp of the Destroyer",
@@ -13473,8 +13472,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22203, 8},
 				[2] = {22202, 24},
 				[3] = {12810, 8},
-				[4] = {13512},
-			},
+				[4] = {13512}
+			}
 		},
 		[28244] = {
 			["name"] = "Blacksmithing: Icebane Bracers",
@@ -13489,8 +13488,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 4},
 				[2] = {12359, 12},
 				[3] = {12360, 2},
-				[4] = {7080, 2},
-			},
+				[4] = {7080, 2}
+			}
 		},
 		[28242] = {
 			["name"] = "Blacksmithing: Icebane Breastplate",
@@ -13505,8 +13504,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 7},
 				[2] = {12359, 16},
 				[3] = {12360, 2},
-				[4] = {7080, 4},
-			},
+				[4] = {7080, 4}
+			}
 		},
 		[28243] = {
 			["name"] = "Blacksmithing: Icebane Gauntlets",
@@ -13521,8 +13520,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22682, 5},
 				[2] = {12359, 12},
 				[3] = {12360, 2},
-				[4] = {7080, 2},
-			},
+				[4] = {7080, 2}
+			}
 		},
 		[27586] = {
 			["name"] = "Blacksmithing: Jagged Obsidian Shield",
@@ -13537,8 +13536,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {22203, 8},
 				[2] = {22202, 24},
 				[3] = {12655, 8},
-				[4] = {7076, 4},
-			},
+				[4] = {7076, 4}
+			}
 		},
 		[27590] = {
 			["name"] = "Blacksmithing: Obsidian Mail Tunic",
@@ -13554,8 +13553,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {22202, 36},
 				[3] = {12810, 12},
 				[4] = {12809, 10},
-				[5] = {12800, 4},
-			},
+				[5] = {12800, 4}
+			}
 		},
 		[27587] = {
 			["name"] = "Blacksmithing: Thick Obsidian Breastplate",
@@ -13571,8 +13570,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {22202, 40},
 				[3] = {12655, 12},
 				[4] = {7076, 10},
-				[5] = {12364, 4},
-			},
+				[5] = {12364, 4}
+			}
 		},
 		[16654] = {
 			["name"] = "Blacksmithing: Radiant Gloves",
@@ -13585,8 +13584,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 18},
-				[2] = {7077, 4},
-			},
+				[2] = {7077, 4}
+			}
 		},
 		[16656] = {
 			["name"] = "Blacksmithing: Radiant Boots",
@@ -13599,8 +13598,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 14},
-				[2] = {7077, 4},
-			},
+				[2] = {7077, 4}
+			}
 		},
 		[16660] = {
 			["name"] = "Blacksmithing: Dawnbringer Shoulders",
@@ -13615,8 +13614,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 20},
 				[2] = {12360, 4},
 				[3] = {12364, 2},
-				[4] = {7080, 2},
-			},
+				[4] = {7080, 2}
+			}
 		},
 		[23632] = {
 			["name"] = "Blacksmithing: Girdle of the Dawn",
@@ -13630,8 +13629,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 8},
 				[2] = {6037, 6},
-				[3] = {12811},
-			},
+				[3] = {12811}
+			}
 		},
 		[23628] = {
 			["name"] = "Blacksmithing: Heavy Timbermaw Belt",
@@ -13645,8 +13644,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 12},
 				[2] = {7076, 3},
-				[3] = {12803, 3},
-			},
+				[3] = {12803, 3}
+			}
 		},
 		[16984] = {
 			["name"] = "Blacksmithing: Volcanic Hammer",
@@ -13661,8 +13660,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 30},
 				[2] = {7077, 4},
 				[3] = {7910, 4},
-				[4] = {8170, 4},
-			},
+				[4] = {8170, 4}
+			}
 		},
 		[16657] = {
 			["name"] = "Blacksmithing: Imperial Plate Boots",
@@ -13676,8 +13675,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 34},
 				[2] = {7910},
-				[3] = {7909},
-			},
+				[3] = {7909}
+			}
 		},
 		[16658] = {
 			["name"] = "Blacksmithing: Imperial Plate Helm",
@@ -13690,8 +13689,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 34},
-				[2] = {7910, 2},
-			},
+				[2] = {7910, 2}
+			}
 		},
 		[16659] = {
 			["name"] = "Blacksmithing: Radiant Circlet",
@@ -13704,8 +13703,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 18},
-				[2] = {7910, 4},
-			},
+				[2] = {7910, 4}
+			}
 		},
 		[22757] = {
 			["name"] = "Blacksmithing: Elemental Sharpening Stone",
@@ -13718,8 +13717,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {7067, 2},
-				[2] = {12365, 3},
-			},
+				[2] = {12365, 3}
+			}
 		},
 		[16663] = {
 			["name"] = "Blacksmithing: Imperial Plate Chest",
@@ -13732,8 +13731,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 40},
-				[2] = {7910, 2},
-			},
+				[2] = {7910, 2}
+			}
 		},
 		[16730] = {
 			["name"] = "Blacksmithing: Imperial Plate Leggings",
@@ -13746,8 +13745,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 44},
-				[2] = {7910, 2},
-			},
+				[2] = {7910, 2}
+			}
 		},
 		[16725] = {
 			["name"] = "Blacksmithing: Radiant Leggings",
@@ -13760,8 +13759,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 20},
-				[2] = {7077, 4},
-			},
+				[2] = {7077, 4}
+			}
 		},
 		[16731] = {
 			["name"] = "Blacksmithing: Runic Breastplate",
@@ -13775,8 +13774,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 40},
 				[2] = {12360, 2},
-				[3] = {7910},
-			},
+				[3] = {7910}
+			}
 		},
 		[16665] = {
 			["name"] = "Blacksmithing: Runic Plate Boots",
@@ -13790,8 +13789,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 20},
 				[2] = {12360, 2},
-				[3] = {2842, 10},
-			},
+				[3] = {2842, 10}
+			}
 		},
 		[16726] = {
 			["name"] = "Blacksmithing: Runic Plate Helm",
@@ -13806,8 +13805,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 30},
 				[2] = {12360, 2},
 				[3] = {6037, 2},
-				[4] = {12364},
-			},
+				[4] = {12364}
+			}
 		},
 		[16732] = {
 			["name"] = "Blacksmithing: Runic Plate Leggings",
@@ -13821,8 +13820,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 40},
 				[2] = {12360, 2},
-				[3] = {7910},
-			},
+				[3] = {7910}
+			}
 		},
 		[16664] = {
 			["name"] = "Blacksmithing: Runic Plate Shoulders",
@@ -13836,8 +13835,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 20},
 				[2] = {12360, 2},
-				[3] = {3577, 6},
-			},
+				[3] = {3577, 6}
+			}
 		},
 		[16662] = {
 			["name"] = "Blacksmithing: Thorium Leggings",
@@ -13850,8 +13849,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 26},
-				[2] = {11186, 4},
-			},
+				[2] = {11186, 4}
+			}
 		},
 		[24136] = {
 			["name"] = "Blacksmithing: Bloodsoul Breastplate",
@@ -13866,8 +13865,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 20},
 				[2] = {19774, 10},
 				[3] = {19726, 2},
-				[4] = {7910, 2},
-			},
+				[4] = {7910, 2}
+			}
 		},
 		[24137] = {
 			["name"] = "Blacksmithing: Bloodsoul Shoulders",
@@ -13882,8 +13881,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 16},
 				[2] = {19774, 8},
 				[3] = {19726, 2},
-				[4] = {7910},
-			},
+				[4] = {7910}
+			}
 		},
 		[24138] = {
 			["name"] = "Blacksmithing: Bloodsoul Gauntlets",
@@ -13898,8 +13897,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 12},
 				[2] = {19774, 6},
 				[3] = {19726, 2},
-				[4] = {12810, 4},
-			},
+				[4] = {12810, 4}
+			}
 		},
 		[24914] = {
 			["name"] = "Blacksmithing: Darkrune Breastplate",
@@ -13913,8 +13912,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 20},
 				[2] = {20520, 10},
-				[3] = {6037, 10},
-			},
+				[3] = {6037, 10}
+			}
 		},
 		[24912] = {
 			["name"] = "Blacksmithing: Darkrune Gauntlets",
@@ -13929,8 +13928,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 12},
 				[2] = {20520, 6},
 				[3] = {6037, 6},
-				[4] = {12810, 2},
-			},
+				[4] = {12810, 2}
+			}
 		},
 		[24913] = {
 			["name"] = "Blacksmithing: Darkrune Helm",
@@ -13945,8 +13944,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12359, 16},
 				[2] = {20520, 8},
 				[3] = {6037, 8},
-				[4] = {11754},
-			},
+				[4] = {11754}
+			}
 		},
 		[24139] = {
 			["name"] = "Blacksmithing: Darksoul Breastplate",
@@ -13960,8 +13959,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 20},
 				[2] = {19774, 14},
-				[3] = {12799, 2},
-			},
+				[3] = {12799, 2}
+			}
 		},
 		[24140] = {
 			["name"] = "Blacksmithing: Darksoul Leggings",
@@ -13975,8 +13974,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 18},
 				[2] = {19774, 12},
-				[3] = {12799, 2},
-			},
+				[3] = {12799, 2}
+			}
 		},
 		[24141] = {
 			["name"] = "Blacksmithing: Darksoul Shoulders",
@@ -13990,8 +13989,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12359, 16},
 				[2] = {19774, 10},
-				[3] = {12799},
-			},
+				[3] = {12799}
+			}
 		},
 		[23633] = {
 			["name"] = "Blacksmithing: Gloves of the Dawn",
@@ -14005,8 +14004,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12360, 2},
 				[2] = {6037, 10},
-				[3] = {12811},
-			},
+				[3] = {12811}
+			}
 		},
 		[27585] = {
 			["name"] = "Blacksmithing: Heavy Obsidian Belt",
@@ -14020,8 +14019,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {22202, 14},
 				[2] = {12655, 4},
-				[3] = {7076, 2},
-			},
+				[3] = {7076, 2}
+			}
 		},
 		[9957] = {
 			["name"] = "Blacksmithing: Orcish War Leggings",
@@ -14034,8 +14033,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {3860, 12},
-				[2] = {7067},
-			},
+				[2] = {7067}
+			}
 		},
 		[2881] = {
 			["name"] = "Leatherworking: Light Leather",
@@ -14047,8 +14046,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2934, 3},
-			},
+				[1] = {2934, 3}
+			}
 		},
 		[2152] = {
 			["name"] = "Leatherworking: Light Armor Kit",
@@ -14060,8 +14059,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2318},
-			},
+				[1] = {2318}
+			}
 		},
 		[2149] = {
 			["name"] = "Leatherworking: Handstitched Leather Boots",
@@ -14074,8 +14073,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 2},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[9059] = {
 			["name"] = "Leatherworking: Handstitched Leather Bracers",
@@ -14088,8 +14087,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 2},
-				[2] = {2320, 3},
-			},
+				[2] = {2320, 3}
+			}
 		},
 		[9058] = {
 			["name"] = "Leatherworking: Handstitched Leather Cloak",
@@ -14102,8 +14101,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 2},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[7126] = {
 			["name"] = "Leatherworking: Handstitched Leather Vest",
@@ -14116,8 +14115,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 3},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[2153] = {
 			["name"] = "Leatherworking: Handstitched Leather Pants",
@@ -14130,8 +14129,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 4},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[3753] = {
 			["name"] = "Leatherworking: Handstitched Leather Belt",
@@ -14144,8 +14143,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 6},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[9060] = {
 			["name"] = "Leatherworking: Light Leather Quiver",
@@ -14158,8 +14157,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 4},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[9062] = {
 			["name"] = "Leatherworking: Small Leather Ammo Pouch",
@@ -14172,8 +14171,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 3},
-				[2] = {2320, 4},
-			},
+				[2] = {2320, 4}
+			}
 		},
 		[3816] = {
 			["name"] = "Leatherworking: Cured Light Hide",
@@ -14186,8 +14185,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {783},
-				[2] = {4289},
-			},
+				[2] = {4289}
+			}
 		},
 		[9064] = {
 			["name"] = "Leatherworking: Rugged Leather Pants",
@@ -14200,8 +14199,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 5},
-				[2] = {2320, 5},
-			},
+				[2] = {2320, 5}
+			}
 		},
 		[2160] = {
 			["name"] = "Leatherworking: Embossed Leather Vest",
@@ -14214,8 +14213,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 8},
-				[2] = {2320, 4},
-			},
+				[2] = {2320, 4}
+			}
 		},
 		[5244] = {
 			["name"] = "Leatherworking: Kodo Hide Bag",
@@ -14229,8 +14228,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {5082, 3},
 				[2] = {2318, 4},
-				[3] = {2320},
-			},
+				[3] = {2320}
+			}
 		},
 		[2161] = {
 			["name"] = "Leatherworking: Embossed Leather Boots",
@@ -14243,8 +14242,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 8},
-				[2] = {2320, 5},
-			},
+				[2] = {2320, 5}
+			}
 		},
 		[3756] = {
 			["name"] = "Leatherworking: Embossed Leather Gloves",
@@ -14257,8 +14256,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 3},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[2162] = {
 			["name"] = "Leatherworking: Embossed Leather Cloak",
@@ -14271,8 +14270,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 5},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[2163] = {
 			["name"] = "Leatherworking: White Leather Jerkin",
@@ -14286,8 +14285,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2318, 8},
 				[2] = {2320, 2},
-				[3] = {2324},
-			},
+				[3] = {2324}
+			}
 		},
 		[9065] = {
 			["name"] = "Leatherworking: Light Leather Bracers",
@@ -14300,8 +14299,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 6},
-				[2] = {2320, 4},
-			},
+				[2] = {2320, 4}
+			}
 		},
 		[3759] = {
 			["name"] = "Leatherworking: Embossed Leather Pants",
@@ -14315,8 +14314,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4231},
 				[2] = {2318, 6},
-				[3] = {2320, 2},
-			},
+				[3] = {2320, 2}
+			}
 		},
 		[2164] = {
 			["name"] = "Leatherworking: Fine Leather Gloves",
@@ -14330,8 +14329,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4231},
 				[2] = {2318, 4},
-				[3] = {2320, 2},
-			},
+				[3] = {2320, 2}
+			}
 		},
 		[3763] = {
 			["name"] = "Leatherworking: Fine Leather Belt",
@@ -14344,8 +14343,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 6},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[2159] = {
 			["name"] = "Leatherworking: Fine Leather Cloak",
@@ -14358,8 +14357,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 10},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[3761] = {
 			["name"] = "Leatherworking: Fine Leather Tunic",
@@ -14373,8 +14372,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4231, 3},
 				[2] = {2318, 6},
-				[3] = {2320, 4},
-			},
+				[3] = {2320, 4}
+			}
 		},
 		[8322] = {
 			["name"] = "Leatherworking: Moonglow Vest",
@@ -14389,8 +14388,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2318, 6},
 				[2] = {4231},
 				[3] = {2320, 4},
-				[4] = {5498},
-			},
+				[4] = {5498}
+			}
 		},
 		[7953] = {
 			["name"] = "Leatherworking: Deviate Scale Cloak",
@@ -14404,8 +14403,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6470, 8},
 				[2] = {4231},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[6702] = {
 			["name"] = "Leatherworking: Murloc Scale Belt",
@@ -14419,8 +14418,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {5784, 8},
 				[2] = {2318, 6},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[2158] = {
 			["name"] = "Leatherworking: Fine Leather Boots",
@@ -14433,8 +14432,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2318, 7},
-				[2] = {2320, 2},
-			},
+				[2] = {2320, 2}
+			}
 		},
 		[9068] = {
 			["name"] = "Leatherworking: Light Leather Pants",
@@ -14448,8 +14447,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2318, 10},
 				[2] = {4231},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[6703] = {
 			["name"] = "Leatherworking: Murloc Scale Breastplate",
@@ -14464,8 +14463,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {5784, 12},
 				[2] = {4231},
 				[3] = {2318, 8},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[20648] = {
 			["name"] = "Leatherworking: Medium Leather",
@@ -14477,8 +14476,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2318, 4},
-			},
+				[1] = {2318, 4}
+			}
 		},
 		[3817] = {
 			["name"] = "Leatherworking: Cured Medium Hide",
@@ -14491,8 +14490,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4232},
-				[2] = {4289},
-			},
+				[2] = {4289}
+			}
 		},
 		[2165] = {
 			["name"] = "Leatherworking: Medium Armor Kit",
@@ -14505,8 +14504,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2319, 4},
-				[2] = {2320},
-			},
+				[2] = {2320}
+			}
 		},
 		[9070] = {
 			["name"] = "Leatherworking: Black Whelp Cloak",
@@ -14520,8 +14519,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7286, 12},
 				[2] = {2319, 4},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[24940] = {
 			["name"] = "Leatherworking: Black Whelp Tunic",
@@ -14536,8 +14535,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2319, 8},
 				[2] = {7286, 8},
 				[3] = {4231},
-				[4] = {2321, 2},
-			},
+				[4] = {2321, 2}
+			}
 		},
 		[2169] = {
 			["name"] = "Leatherworking: Dark Leather Tunic",
@@ -14551,8 +14550,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 6},
 				[2] = {2321},
-				[3] = {4340},
-			},
+				[3] = {4340}
+			}
 		},
 		[3762] = {
 			["name"] = "Leatherworking: Hillman's Leather Vest",
@@ -14566,8 +14565,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4243},
 				[2] = {4231, 2},
-				[3] = {2320, 2},
-			},
+				[3] = {2320, 2}
+			}
 		},
 		[2167] = {
 			["name"] = "Leatherworking: Dark Leather Boots",
@@ -14581,8 +14580,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 4},
 				[2] = {2321, 2},
-				[3] = {4340},
-			},
+				[3] = {4340}
+			}
 		},
 		[7954] = {
 			["name"] = "Leatherworking: Deviate Scale Gloves",
@@ -14596,8 +14595,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6471, 2},
 				[2] = {6470, 6},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[7133] = {
 			["name"] = "Leatherworking: Fine Leather Pants",
@@ -14611,8 +14610,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 8},
 				[2] = {2997},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[2168] = {
 			["name"] = "Leatherworking: Dark Leather Cloak",
@@ -14626,8 +14625,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 8},
 				[2] = {2321},
-				[3] = {4340},
-			},
+				[3] = {4340}
+			}
 		},
 		[7955] = {
 			["name"] = "Leatherworking: Deviate Scale Belt",
@@ -14641,8 +14640,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {6471, 10},
 				[2] = {6470, 10},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[7135] = {
 			["name"] = "Leatherworking: Dark Leather Pants",
@@ -14656,8 +14655,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 12},
 				[2] = {4340},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[3767] = {
 			["name"] = "Leatherworking: Hillman's Belt",
@@ -14671,8 +14670,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 8},
 				[2] = {3383},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9074] = {
 			["name"] = "Leatherworking: Nimble Leather Gloves",
@@ -14686,8 +14685,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2357},
 				[2] = {2319, 6},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[9072] = {
 			["name"] = "Leatherworking: Red Whelp Gloves",
@@ -14701,8 +14700,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7287, 6},
 				[2] = {2319, 4},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[2166] = {
 			["name"] = "Leatherworking: Toughened Leather Armor",
@@ -14716,8 +14715,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 10},
 				[2] = {4231, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3765] = {
 			["name"] = "Leatherworking: Dark Leather Gloves",
@@ -14732,8 +14731,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2312},
 				[2] = {4233},
 				[3] = {2321},
-				[4] = {4340},
-			},
+				[4] = {4340}
+			}
 		},
 		[3766] = {
 			["name"] = "Leatherworking: Dark Leather Belt",
@@ -14748,8 +14747,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2312},
 				[2] = {4233},
 				[3] = {2321, 2},
-				[4] = {4340},
-			},
+				[4] = {4340}
+			}
 		},
 		[9145] = {
 			["name"] = "Leatherworking: Fletcher's Gloves",
@@ -14763,8 +14762,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 8},
 				[2] = {5116, 4},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3768] = {
 			["name"] = "Leatherworking: Hillman's Shoulders",
@@ -14778,8 +14777,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4233},
 				[2] = {2319, 4},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[3770] = {
 			["name"] = "Leatherworking: Toughened Leather Gloves",
@@ -14795,8 +14794,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4233, 2},
 				[3] = {3389, 2},
 				[4] = {3182, 2},
-				[5] = {2321, 2},
-			},
+				[5] = {2321, 2}
+			}
 		},
 		[9147] = {
 			["name"] = "Leatherworking: Earthen Leather Shoulders",
@@ -14810,8 +14809,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 6},
 				[2] = {7067},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9146] = {
 			["name"] = "Leatherworking: Herbalist's Gloves",
@@ -14825,8 +14824,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 8},
 				[2] = {3356, 4},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3769] = {
 			["name"] = "Leatherworking: Dark Leather Shoulders",
@@ -14841,8 +14840,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2319, 12},
 				[2] = {3390},
 				[3] = {4340},
-				[4] = {2321, 2},
-			},
+				[4] = {2321, 2}
+			}
 		},
 		[9148] = {
 			["name"] = "Leatherworking: Pilferer's Gloves",
@@ -14856,8 +14855,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2319, 10},
 				[2] = {5373, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9149] = {
 			["name"] = "Leatherworking: Heavy Earthen Gloves",
@@ -14872,8 +14871,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {2319, 12},
 				[2] = {7067, 2},
 				[3] = {2997, 2},
-				[4] = {2321, 2},
-			},
+				[4] = {2321, 2}
+			}
 		},
 		[3764] = {
 			["name"] = "Leatherworking: Hillman's Leather Gloves",
@@ -14886,8 +14885,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2319, 14},
-				[2] = {2321, 4},
-			},
+				[2] = {2321, 4}
+			}
 		},
 		[20649] = {
 			["name"] = "Leatherworking: Heavy Leather",
@@ -14899,8 +14898,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {2319, 5},
-			},
+				[1] = {2319, 5}
+			}
 		},
 		[23190] = {
 			["name"] = "Leatherworking: Heavy Leather Ball",
@@ -14913,8 +14912,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 2},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[3818] = {
 			["name"] = "Leatherworking: Cured Heavy Hide",
@@ -14927,8 +14926,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4235},
-				[2] = {4289, 3},
-			},
+				[2] = {4289, 3}
+			}
 		},
 		[3771] = {
 			["name"] = "Leatherworking: Barbaric Gloves",
@@ -14942,8 +14941,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 6},
 				[2] = {5637, 2},
-				[3] = {2321},
-			},
+				[3] = {2321}
+			}
 		},
 		[9194] = {
 			["name"] = "Leatherworking: Heavy Leather Ammo Pouch",
@@ -14956,8 +14955,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 8},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[9193] = {
 			["name"] = "Leatherworking: Heavy Quiver",
@@ -14970,8 +14969,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 8},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[3780] = {
 			["name"] = "Leatherworking: Heavy Armor Kit",
@@ -14984,8 +14983,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 5},
-				[2] = {2321},
-			},
+				[2] = {2321}
+			}
 		},
 		[3760] = {
 			["name"] = "Leatherworking: Hillman's Cloak",
@@ -14998,8 +14997,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4234, 5},
-				[2] = {2321, 2},
-			},
+				[2] = {2321, 2}
+			}
 		},
 		[23399] = {
 			["name"] = "Leatherworking: Barbaric Bracers",
@@ -15015,8 +15014,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4236, 2},
 				[3] = {5498, 4},
 				[4] = {4461},
-				[5] = {5637, 4},
-			},
+				[5] = {5637, 4}
+			}
 		},
 		[3772] = {
 			["name"] = "Leatherworking: Green Leather Armor",
@@ -15030,8 +15029,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 9},
 				[2] = {2605, 2},
-				[3] = {2321, 4},
-			},
+				[3] = {2321, 4}
+			}
 		},
 		[3774] = {
 			["name"] = "Leatherworking: Green Leather Belt",
@@ -15047,8 +15046,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {4234, 5},
 				[3] = {2321},
 				[4] = {2605},
-				[5] = {7071},
-			},
+				[5] = {7071}
+			}
 		},
 		[7147] = {
 			["name"] = "Leatherworking: Guardian Pants",
@@ -15062,8 +15061,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 12},
 				[2] = {4305, 2},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9195] = {
 			["name"] = "Leatherworking: Dusky Leather Leggings",
@@ -15077,8 +15076,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 10},
 				[2] = {2325},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[4097] = {
 			["name"] = "Leatherworking: Raptor Hide Belt",
@@ -15092,8 +15091,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4461, 4},
 				[2] = {4234, 4},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[4096] = {
 			["name"] = "Leatherworking: Raptor Hide Harness",
@@ -15107,8 +15106,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4461, 6},
 				[2] = {4234, 4},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[7149] = {
 			["name"] = "Leatherworking: Barbaric Leggings",
@@ -15122,8 +15121,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 10},
 				[2] = {2321, 2},
-				[3] = {1206},
-			},
+				[3] = {1206}
+			}
 		},
 		[3775] = {
 			["name"] = "Leatherworking: Guardian Belt",
@@ -15138,8 +15137,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4236, 2},
 				[2] = {4234, 4},
 				[3] = {2321},
-				[4] = {7071},
-			},
+				[4] = {7071}
+			}
 		},
 		[6704] = {
 			["name"] = "Leatherworking: Thick Murloc Armor",
@@ -15154,8 +15153,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {5785, 12},
 				[2] = {4236},
 				[3] = {4234, 10},
-				[4] = {2321, 3},
-			},
+				[4] = {2321, 3}
+			}
 		},
 		[7151] = {
 			["name"] = "Leatherworking: Barbaric Shoulders",
@@ -15169,8 +15168,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 8},
 				[2] = {4236},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9196] = {
 			["name"] = "Leatherworking: Dusky Leather Armor",
@@ -15184,8 +15183,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 10},
 				[2] = {3824},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[9197] = {
 			["name"] = "Leatherworking: Green Whelp Armor",
@@ -15199,8 +15198,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7392, 4},
 				[2] = {4234, 10},
-				[3] = {2321, 2},
-			},
+				[3] = {2321, 2}
+			}
 		},
 		[3773] = {
 			["name"] = "Leatherworking: Guardian Armor",
@@ -15215,8 +15214,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4236, 2},
 				[2] = {4234, 12},
 				[3] = {3824},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[9198] = {
 			["name"] = "Leatherworking: Frost Leather Cloak",
@@ -15231,8 +15230,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4236, 2},
 				[2] = {4234, 12},
 				[3] = {3824},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[3776] = {
 			["name"] = "Leatherworking: Green Leather Bracers",
@@ -15247,8 +15246,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4236, 2},
 				[2] = {4234, 6},
 				[3] = {2605},
-				[4] = {2321},
-			},
+				[4] = {2321}
+			}
 		},
 		[3778] = {
 			["name"] = "Leatherworking: Gem-studded Leather Belt",
@@ -15264,8 +15263,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {5500, 2},
 				[3] = {1529, 2},
 				[4] = {3864},
-				[5] = {2321},
-			},
+				[5] = {2321}
+			}
 		},
 		[9201] = {
 			["name"] = "Leatherworking: Dusky Bracers",
@@ -15279,8 +15278,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 16},
 				[2] = {2325},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[7153] = {
 			["name"] = "Leatherworking: Guardian Cloak",
@@ -15294,8 +15293,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 14},
 				[2] = {4305, 2},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[21943] = {
 			["name"] = "Leatherworking: Gloves of the Greatfather",
@@ -15309,8 +15308,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 8},
 				[2] = {7067, 4},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[9202] = {
 			["name"] = "Leatherworking: Green Whelp Bracers",
@@ -15324,8 +15323,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {7392, 6},
 				[2] = {4234, 8},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[6705] = {
 			["name"] = "Leatherworking: Murloc Scale Bracers",
@@ -15340,8 +15339,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {5785, 16},
 				[2] = {4236},
 				[3] = {4234, 14},
-				[4] = {4291},
-			},
+				[4] = {4291}
+			}
 		},
 		[6661] = {
 			["name"] = "Leatherworking: Barbaric Harness",
@@ -15355,8 +15354,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 14},
 				[2] = {2321, 2},
-				[3] = {7071},
-			},
+				[3] = {7071}
+			}
 		},
 		[7156] = {
 			["name"] = "Leatherworking: Guardian Gloves",
@@ -15370,8 +15369,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 4},
 				[2] = {4236},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[9206] = {
 			["name"] = "Leatherworking: Dusky Belt",
@@ -15386,8 +15385,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4234, 10},
 				[2] = {4305, 2},
 				[3] = {2325, 2},
-				[4] = {7071},
-			},
+				[4] = {7071}
+			}
 		},
 		[3777] = {
 			["name"] = "Leatherworking: Guardian Leather Bracers",
@@ -15401,8 +15400,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 6},
 				[2] = {4236, 2},
-				[3] = {4291},
-			},
+				[3] = {4291}
+			}
 		},
 		[10482] = {
 			["name"] = "Leatherworking: Cured Thick Hide",
@@ -15415,8 +15414,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8169},
-				[2] = {8150},
-			},
+				[2] = {8150}
+			}
 		},
 		[20650] = {
 			["name"] = "Leatherworking: Thick Leather",
@@ -15428,8 +15427,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4234, 6},
-			},
+				[1] = {4234, 6}
+			}
 		},
 		[22711] = {
 			["name"] = "Leatherworking: Shadowskin Gloves",
@@ -15446,8 +15445,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7971, 2},
 				[4] = {4236, 2},
 				[5] = {1210, 4},
-				[6] = {8343},
-			},
+				[6] = {8343}
+			}
 		},
 		[3779] = {
 			["name"] = "Leatherworking: Barbaric Belt",
@@ -15464,8 +15463,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {4096, 2},
 				[4] = {5633},
 				[5] = {4291},
-				[6] = {7071},
-			},
+				[6] = {7071}
+			}
 		},
 		[10490] = {
 			["name"] = "Leatherworking: Comfortable Leather Hat",
@@ -15479,8 +15478,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4234, 12},
 				[2] = {4236, 2},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[9207] = {
 			["name"] = "Leatherworking: Dusky Boots",
@@ -15495,8 +15494,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4234, 8},
 				[2] = {7428, 2},
 				[3] = {3824},
-				[4] = {4291, 2},
-			},
+				[4] = {4291, 2}
+			}
 		},
 		[9208] = {
 			["name"] = "Leatherworking: Swift Boots",
@@ -15511,8 +15510,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4234, 10},
 				[2] = {2359, 2},
 				[3] = {4337, 2},
-				[4] = {4291},
-			},
+				[4] = {4291}
+			}
 		},
 		[10487] = {
 			["name"] = "Leatherworking: Thick Armor Kit",
@@ -15525,8 +15524,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 5},
-				[2] = {4291},
-			},
+				[2] = {4291}
+			}
 		},
 		[10507] = {
 			["name"] = "Leatherworking: Nightscape Headband",
@@ -15539,8 +15538,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 5},
-				[2] = {4291, 2},
-			},
+				[2] = {4291, 2}
+			}
 		},
 		[10499] = {
 			["name"] = "Leatherworking: Nightscape Tunic",
@@ -15553,8 +15552,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 7},
-				[2] = {4291, 2},
-			},
+				[2] = {4291, 2}
+			}
 		},
 		[10509] = {
 			["name"] = "Leatherworking: Turtle Scale Gloves",
@@ -15568,8 +15567,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 6},
 				[2] = {8167, 8},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10516] = {
 			["name"] = "Leatherworking: Nightscape Shoulders",
@@ -15583,8 +15582,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 8},
 				[2] = {4338, 6},
-				[3] = {4291, 3},
-			},
+				[3] = {4291, 3}
+			}
 		},
 		[10518] = {
 			["name"] = "Leatherworking: Turtle Scale Bracers",
@@ -15598,8 +15597,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 8},
 				[2] = {8167, 12},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10511] = {
 			["name"] = "Leatherworking: Turtle Scale Breastplate",
@@ -15613,8 +15612,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 6},
 				[2] = {8167, 12},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10520] = {
 			["name"] = "Leatherworking: Big Voodoo Robe",
@@ -15628,8 +15627,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8151, 4},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10531] = {
 			["name"] = "Leatherworking: Big Voodoo Mask",
@@ -15643,8 +15642,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 8},
 				[2] = {8151, 6},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10533] = {
 			["name"] = "Leatherworking: Tough Scorpid Bracers",
@@ -15658,8 +15657,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8151, 4},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[10525] = {
 			["name"] = "Leatherworking: Tough Scorpid Breastplate",
@@ -15673,8 +15672,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 12},
 				[2] = {8151, 12},
-				[3] = {4291, 4},
-			},
+				[3] = {4291, 4}
+			}
 		},
 		[10529] = {
 			["name"] = "Leatherworking: Wild Leather Shoulders",
@@ -15689,8 +15688,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8153},
-				[3] = {8172},
-			},
+				[3] = {8172}
+			}
 		},
 		[14930] = {
 			["name"] = "Leatherworking: Quickdraw Quiver",
@@ -15705,8 +15704,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4304, 12},
 				[2] = {8172},
 				[3] = {8949},
-				[4] = {4291, 4},
-			},
+				[4] = {4291, 4}
+			}
 		},
 		[14932] = {
 			["name"] = "Leatherworking: Thick Leather Ammo Pouch",
@@ -15721,8 +15720,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4304, 10},
 				[2] = {8172},
 				[3] = {8951},
-				[4] = {4291, 6},
-			},
+				[4] = {4291, 6}
+			}
 		},
 		[10542] = {
 			["name"] = "Leatherworking: Tough Scorpid Gloves",
@@ -15736,8 +15735,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 6},
 				[2] = {8154, 8},
-				[3] = {4291, 2},
-			},
+				[3] = {4291, 2}
+			}
 		},
 		[10546] = {
 			["name"] = "Leatherworking: Wild Leather Helmet",
@@ -15752,8 +15751,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8153, 2},
-				[3] = {8172},
-			},
+				[3] = {8172}
+			}
 		},
 		[10544] = {
 			["name"] = "Leatherworking: Wild Leather Vest",
@@ -15768,8 +15767,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 12},
 				[2] = {8153, 2},
-				[3] = {8172},
-			},
+				[3] = {8172}
+			}
 		},
 		[10548] = {
 			["name"] = "Leatherworking: Nightscape Pants",
@@ -15782,8 +15781,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 14},
-				[2] = {4291, 4},
-			},
+				[2] = {4291, 4}
+			}
 		},
 		[10552] = {
 			["name"] = "Leatherworking: Turtle Scale Helm",
@@ -15797,8 +15796,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 14},
 				[2] = {8167, 24},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10558] = {
 			["name"] = "Leatherworking: Nightscape Boots",
@@ -15811,8 +15810,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {4304, 16},
-				[2] = {8343, 2},
-			},
+				[2] = {8343, 2}
+			}
 		},
 		[10554] = {
 			["name"] = "Leatherworking: Tough Scorpid Boots",
@@ -15826,8 +15825,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 12},
 				[2] = {8154, 12},
-				[3] = {4291, 6},
-			},
+				[3] = {4291, 6}
+			}
 		},
 		[10556] = {
 			["name"] = "Leatherworking: Turtle Scale Leggings",
@@ -15841,8 +15840,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 14},
 				[2] = {8167, 28},
-				[3] = {8343},
-			},
+				[3] = {8343}
+			}
 		},
 		[10562] = {
 			["name"] = "Leatherworking: Big Voodoo Cloak",
@@ -15856,8 +15855,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 14},
 				[2] = {8152, 4},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[10560] = {
 			["name"] = "Leatherworking: Big Voodoo Pants",
@@ -15871,8 +15870,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8152, 6},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[10564] = {
 			["name"] = "Leatherworking: Tough Scorpid Shoulders",
@@ -15886,8 +15885,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 12},
 				[2] = {8154, 16},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[10568] = {
 			["name"] = "Leatherworking: Tough Scorpid Leggings",
@@ -15901,8 +15900,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 14},
 				[2] = {8154, 8},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[10566] = {
 			["name"] = "Leatherworking: Wild Leather Boots",
@@ -15917,8 +15916,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 14},
 				[2] = {8153, 4},
-				[3] = {8172, 2},
-			},
+				[3] = {8172, 2}
+			}
 		},
 		[22331] = {
 			["name"] = "Leatherworking: Rugged Leather",
@@ -15930,8 +15929,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {4304, 6},
-			},
+				[1] = {4304, 6}
+			}
 		},
 		[19047] = {
 			["name"] = "Leatherworking: Cured Rugged Hide",
@@ -15944,8 +15943,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {8171},
-				[2] = {15409},
-			},
+				[2] = {15409}
+			}
 		},
 		[19058] = {
 			["name"] = "Leatherworking: Rugged Armor Kit",
@@ -15957,8 +15956,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
-				[1] = {8170, 5},
-			},
+				[1] = {8170, 5}
+			}
 		},
 		[10570] = {
 			["name"] = "Leatherworking: Tough Scorpid Helm",
@@ -15972,8 +15971,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 10},
 				[2] = {8154, 20},
-				[3] = {8343, 2},
-			},
+				[3] = {8343, 2}
+			}
 		},
 		[10574] = {
 			["name"] = "Leatherworking: Wild Leather Cloak",
@@ -15988,8 +15987,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 16},
 				[2] = {8153, 6},
-				[3] = {8172, 2},
-			},
+				[3] = {8172, 2}
+			}
 		},
 		[10572] = {
 			["name"] = "Leatherworking: Wild Leather Leggings",
@@ -16004,8 +16003,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {4304, 16},
 				[2] = {8153, 6},
-				[3] = {8172, 2},
-			},
+				[3] = {8172, 2}
+			}
 		},
 		[19048] = {
 			["name"] = "Leatherworking: Heavy Scorpid Bracers",
@@ -16019,8 +16018,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 4},
 				[2] = {15408, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19049] = {
 			["name"] = "Leatherworking: Wicked Leather Gauntlets",
@@ -16034,8 +16033,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 8},
 				[2] = {2325},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19051] = {
 			["name"] = "Leatherworking: Heavy Scorpid Vest",
@@ -16049,8 +16048,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15408, 6},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19052] = {
 			["name"] = "Leatherworking: Wicked Leather Bracers",
@@ -16064,8 +16063,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 8},
 				[2] = {2325},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19055] = {
 			["name"] = "Leatherworking: Runic Leather Gauntlets",
@@ -16079,8 +16078,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 10},
 				[2] = {14047, 6},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[22815] = {
 			["name"] = "Leatherworking: Gordok Ogre Suit",
@@ -16095,8 +16094,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 4},
 				[2] = {14048, 2},
 				[3] = {18240},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19064] = {
 			["name"] = "Leatherworking: Heavy Scorpid Gauntlets",
@@ -16110,8 +16109,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15408, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19065] = {
 			["name"] = "Leatherworking: Runic Leather Bracers",
@@ -16126,8 +16125,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 6},
 				[2] = {7971},
 				[3] = {14047, 6},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19070] = {
 			["name"] = "Leatherworking: Heavy Scorpid Belt",
@@ -16141,8 +16140,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15408, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19072] = {
 			["name"] = "Leatherworking: Runic Leather Belt",
@@ -16156,8 +16155,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 12},
 				[2] = {14047, 10},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19071] = {
 			["name"] = "Leatherworking: Wicked Leather Headband",
@@ -16171,8 +16170,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 12},
 				[2] = {2325},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19079] = {
 			["name"] = "Leatherworking: Stormshroud Armor",
@@ -16188,8 +16187,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 3},
 				[3] = {7082, 3},
 				[4] = {15407},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[19075] = {
 			["name"] = "Leatherworking: Heavy Scorpid Leggings",
@@ -16203,8 +16202,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 8},
 				[2] = {15408, 12},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[23705] = {
 			["name"] = "Leatherworking: Dawn Treaders",
@@ -16220,8 +16219,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12809, 2},
 				[3] = {7080, 4},
 				[4] = {15407, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[23703] = {
 			["name"] = "Leatherworking: Might of the Timbermaw",
@@ -16237,8 +16236,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12804, 2},
 				[3] = {12803, 4},
 				[4] = {15407, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[19082] = {
 			["name"] = "Leatherworking: Runic Leather Headband",
@@ -16252,8 +16251,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 14},
 				[2] = {14047, 10},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19083] = {
 			["name"] = "Leatherworking: Wicked Leather Pants",
@@ -16268,8 +16267,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 16},
 				[2] = {15407, 10},
 				[3] = {2325, 3},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19090] = {
 			["name"] = "Leatherworking: Stormshroud Shoulders",
@@ -16285,8 +16284,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 3},
 				[3] = {7082, 3},
 				[4] = {12810},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[19088] = {
 			["name"] = "Leatherworking: Heavy Scorpid Helm",
@@ -16301,8 +16300,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 8},
 				[2] = {15408, 12},
 				[3] = {15407},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[28224] = {
 			["name"] = "Leatherworking: Icy Scale Bracers",
@@ -16318,8 +16317,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15408, 16},
 				[3] = {7080, 2},
 				[4] = {15407, 2},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[28222] = {
 			["name"] = "Leatherworking: Icy Scale Breastplate",
@@ -16335,8 +16334,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15408, 24},
 				[3] = {7080, 2},
 				[4] = {15407, 4},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[28223] = {
 			["name"] = "Leatherworking: Icy Scale Gauntlets",
@@ -16352,8 +16351,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15408, 16},
 				[3] = {7080, 2},
 				[4] = {15407, 3},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[23707] = {
 			["name"] = "Leatherworking: Lava Belt",
@@ -16367,8 +16366,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {17011, 5},
 				[2] = {15407, 4},
-				[3] = {14227, 4},
-			},
+				[3] = {14227, 4}
+			}
 		},
 		[28221] = {
 			["name"] = "Leatherworking: Polar Bracers",
@@ -16384,8 +16383,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 12},
 				[3] = {7080, 2},
 				[4] = {15407, 2},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[28220] = {
 			["name"] = "Leatherworking: Polar Gloves",
@@ -16401,8 +16400,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 12},
 				[3] = {7080, 2},
 				[4] = {15407, 3},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[28219] = {
 			["name"] = "Leatherworking: Polar Tunic",
@@ -16418,8 +16417,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 16},
 				[3] = {7080, 2},
 				[4] = {15407, 4},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[24124] = {
 			["name"] = "Leatherworking: Blood Tiger Breastplate",
@@ -16434,8 +16433,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19768, 35},
 				[2] = {19726, 2},
 				[3] = {15407, 3},
-				[4] = {14341, 3},
-			},
+				[4] = {14341, 3}
+			}
 		},
 		[24125] = {
 			["name"] = "Leatherworking: Blood Tiger Shoulders",
@@ -16450,8 +16449,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19768, 25},
 				[2] = {19726, 2},
 				[3] = {15407, 3},
-				[4] = {14341, 3},
-			},
+				[4] = {14341, 3}
+			}
 		},
 		[28474] = {
 			["name"] = "Leatherworking: Bramblewood Belt",
@@ -16465,8 +16464,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {12810, 4},
 				[2] = {12803, 2},
-				[3] = {15407},
-			},
+				[3] = {15407}
+			}
 		},
 		[28473] = {
 			["name"] = "Leatherworking: Bramblewood Boots",
@@ -16481,8 +16480,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12810, 6},
 				[2] = {18512, 2},
 				[3] = {12803, 2},
-				[4] = {15407, 2},
-			},
+				[4] = {15407, 2}
+			}
 		},
 		[28472] = {
 			["name"] = "Leatherworking: Bramblewood Helm",
@@ -16497,8 +16496,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {12810, 12},
 				[2] = {19726, 2},
 				[3] = {12803, 2},
-				[4] = {15407, 2},
-			},
+				[4] = {15407, 2}
+			}
 		},
 		[22727] = {
 			["name"] = "Leatherworking: Core Armor Kit",
@@ -16511,8 +16510,8 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {17012, 3},
-				[2] = {14341, 2},
-			},
+				[2] = {14341, 2}
+			}
 		},
 		[22921] = {
 			["name"] = "Leatherworking: Girdle of Insight",
@@ -16527,8 +16526,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 12},
 				[2] = {12804, 12},
 				[3] = {15407, 2},
-				[4] = {14341, 4},
-			},
+				[4] = {14341, 4}
+			}
 		},
 		[23706] = {
 			["name"] = "Leatherworking: Golden Mantle of the Dawn",
@@ -16544,8 +16543,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12803, 4},
 				[3] = {12809, 4},
 				[4] = {15407, 2},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[22922] = {
 			["name"] = "Leatherworking: Mongoose Boots",
@@ -16561,8 +16560,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7082, 6},
 				[3] = {11754, 4},
 				[4] = {15407, 2},
-				[5] = {14341, 4},
-			},
+				[5] = {14341, 4}
+			}
 		},
 		[19093] = {
 			["name"] = "Leatherworking: Onyxia Scale Cloak",
@@ -16576,8 +16575,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {15410},
 				[2] = {14044},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[24123] = {
 			["name"] = "Leatherworking: Primal Batskin Bracers",
@@ -16592,8 +16591,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19767, 8},
 				[2] = {15407, 3},
 				[3] = {12803, 4},
-				[4] = {14341, 3},
-			},
+				[4] = {14341, 3}
+			}
 		},
 		[24122] = {
 			["name"] = "Leatherworking: Primal Batskin Gloves",
@@ -16608,8 +16607,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19767, 10},
 				[2] = {15407, 4},
 				[3] = {12803, 4},
-				[4] = {14341, 3},
-			},
+				[4] = {14341, 3}
+			}
 		},
 		[24121] = {
 			["name"] = "Leatherworking: Primal Batskin Jerkin",
@@ -16624,8 +16623,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {19767, 14},
 				[2] = {15407, 5},
 				[3] = {12803, 4},
-				[4] = {14341, 4},
-			},
+				[4] = {14341, 4}
+			}
 		},
 		[24849] = {
 			["name"] = "Leatherworking: Sandstalker Bracers",
@@ -16639,8 +16638,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {20501},
 				[2] = {20498, 20},
-				[3] = {18512, 2},
-			},
+				[3] = {18512, 2}
+			}
 		},
 		[24851] = {
 			["name"] = "Leatherworking: Sandstalker Breastplate",
@@ -16655,8 +16654,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {20501, 3},
 				[2] = {20498, 40},
 				[3] = {18512, 2},
-				[4] = {15407, 2},
-			},
+				[4] = {15407, 2}
+			}
 		},
 		[24850] = {
 			["name"] = "Leatherworking: Sandstalker Gauntlets",
@@ -16671,8 +16670,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {20501, 2},
 				[2] = {20498, 30},
 				[3] = {18512, 2},
-				[4] = {15407},
-			},
+				[4] = {15407}
+			}
 		},
 		[24846] = {
 			["name"] = "Leatherworking: Spitfire Bracers",
@@ -16686,8 +16685,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {20500},
 				[2] = {20498, 20},
-				[3] = {7078, 2},
-			},
+				[3] = {7078, 2}
+			}
 		},
 		[24848] = {
 			["name"] = "Leatherworking: Spitfire Breastplate",
@@ -16702,8 +16701,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {20500, 3},
 				[2] = {20498, 40},
 				[3] = {7078, 2},
-				[4] = {15407, 2},
-			},
+				[4] = {15407, 2}
+			}
 		},
 		[24847] = {
 			["name"] = "Leatherworking: Spitfire Gauntlets",
@@ -16718,8 +16717,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {20500, 2},
 				[2] = {20498, 30},
 				[3] = {7078, 2},
-				[4] = {15407},
-			},
+				[4] = {15407}
+			}
 		},
 		[26279] = {
 			["name"] = "Leatherworking: Stormshroud Gloves",
@@ -16735,8 +16734,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 4},
 				[3] = {7082, 4},
 				[4] = {15407, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 		[22923] = {
 			["name"] = "Leatherworking: Swift Flight Bracers",
@@ -16752,8 +16751,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {18512, 8},
 				[3] = {15420, 60},
 				[4] = {15407, 4},
-				[5] = {14341, 4},
-			},
+				[5] = {14341, 4}
+			}
 		},
 		[23704] = {
 			["name"] = "Leatherworking: Timbermaw Brawlers",
@@ -16769,8 +16768,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12804, 6},
 				[3] = {12803, 6},
 				[4] = {15407, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 		[19100] = {
 			["name"] = "Leatherworking: Heavy Scorpid Shoulders",
@@ -16785,8 +16784,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 14},
 				[2] = {15408, 14},
 				[3] = {15407},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19102] = {
 			["name"] = "Leatherworking: Runic Leather Armor",
@@ -16802,8 +16801,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 4},
 				[3] = {14047, 16},
 				[4] = {15407},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[19091] = {
 			["name"] = "Leatherworking: Runic Leather Pants",
@@ -16818,8 +16817,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 18},
 				[2] = {14047, 12},
 				[3] = {12810, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19103] = {
 			["name"] = "Leatherworking: Runic Leather Shoulders",
@@ -16835,8 +16834,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12810, 4},
 				[3] = {14047, 18},
 				[4] = {15407},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19098] = {
 			["name"] = "Leatherworking: Wicked Leather Armor",
@@ -16852,8 +16851,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15407, 2},
 				[3] = {14256, 6},
 				[4] = {2325, 4},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19092] = {
 			["name"] = "Leatherworking: Wicked Leather Belt",
@@ -16867,8 +16866,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 14},
 				[2] = {2325, 2},
-				[3] = {14341, 2},
-			},
+				[3] = {14341, 2}
+			}
 		},
 		[10619] = {
 			["name"] = "Leatherworking: Dragonscale Gauntlets",
@@ -16883,8 +16882,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4304, 24},
 				[2] = {8165, 12},
 				[3] = {8343, 4},
-				[4] = {8172, 2},
-			},
+				[4] = {8172, 2}
+			}
 		},
 		[10650] = {
 			["name"] = "Leatherworking: Dragonscale Breastplate",
@@ -16899,8 +16898,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {4304, 40},
 				[2] = {8165, 30},
 				[3] = {8343, 4},
-				[4] = {8172, 4},
-			},
+				[4] = {8172, 4}
+			}
 		},
 		[19050] = {
 			["name"] = "Leatherworking: Green Dragonscale Breastplate",
@@ -16914,8 +16913,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 20},
 				[2] = {15412, 25},
-				[3] = {14341, 2},
-			},
+				[3] = {14341, 2}
+			}
 		},
 		[19060] = {
 			["name"] = "Leatherworking: Green Dragonscale Leggings",
@@ -16929,8 +16928,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 20},
 				[2] = {15412, 25},
-				[3] = {14341, 2},
-			},
+				[3] = {14341, 2}
+			}
 		},
 		[24655] = {
 			["name"] = "Leatherworking: Green Dragonscale Gauntlets",
@@ -16945,8 +16944,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 20},
 				[2] = {15412, 30},
 				[3] = {15407},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19077] = {
 			["name"] = "Leatherworking: Blue Dragonscale Breastplate",
@@ -16961,8 +16960,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 28},
 				[2] = {15415, 30},
 				[3] = {15407},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19085] = {
 			["name"] = "Leatherworking: Black Dragonscale Breastplate",
@@ -16977,8 +16976,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 40},
 				[2] = {15415, 60},
 				[3] = {15407},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19089] = {
 			["name"] = "Leatherworking: Blue Dragonscale Shoulders",
@@ -16994,8 +16993,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15415, 30},
 				[3] = {12810, 2},
 				[4] = {15407},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[24654] = {
 			["name"] = "Leatherworking: Blue Dragonscale Leggings",
@@ -17010,8 +17009,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 28},
 				[2] = {15415, 36},
 				[3] = {15407, 2},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19107] = {
 			["name"] = "Leatherworking: Black Dragonscale Leggings",
@@ -17027,8 +17026,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15416, 60},
 				[3] = {12810, 4},
 				[4] = {15407},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[19094] = {
 			["name"] = "Leatherworking: Black Dragonscale Shoulders",
@@ -17044,8 +17043,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15416, 45},
 				[3] = {12810, 2},
 				[4] = {15407},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[19054] = {
 			["name"] = "Leatherworking: Red Dragonscale Breastplate",
@@ -17059,8 +17058,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 40},
 				[2] = {15414, 30},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[20855] = {
 			["name"] = "Leatherworking: Black Dragonscale Boots",
@@ -17076,8 +17075,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15416, 30},
 				[3] = {17010, 4},
 				[4] = {17011, 3},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[22926] = {
 			["name"] = "Leatherworking: Chromatic Cloak",
@@ -17094,8 +17093,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {15416, 30},
 				[4] = {15414, 30},
 				[5] = {15407, 5},
-				[6] = {14341, 8},
-			},
+				[6] = {14341, 8}
+			}
 		},
 		[23708] = {
 			["name"] = "Leatherworking: Chromatic Gauntlets",
@@ -17112,8 +17111,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {17012, 4},
 				[4] = {12607, 4},
 				[5] = {15407, 4},
-				[6] = {14227, 4},
-			},
+				[6] = {14227, 4}
+			}
 		},
 		[24703] = {
 			["name"] = "Leatherworking: Dreamscale Breastplate",
@@ -17129,8 +17128,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {20381, 6},
 				[3] = {12803, 4},
 				[4] = {15407, 4},
-				[5] = {14227, 6},
-			},
+				[5] = {14227, 6}
+			}
 		},
 		[10630] = {
 			["name"] = "Leatherworking: Gauntlets of the Sea",
@@ -17146,8 +17145,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7079, 8},
 				[3] = {7075, 2},
 				[4] = {8172},
-				[5] = {8343, 4},
-			},
+				[5] = {8343, 4}
+			}
 		},
 		[10632] = {
 			["name"] = "Leatherworking: Helm of Fire",
@@ -17163,8 +17162,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7077, 8},
 				[3] = {7075, 4},
 				[4] = {8172, 2},
-				[5] = {8343, 4},
-			},
+				[5] = {8343, 4}
+			}
 		},
 		[19059] = {
 			["name"] = "Leatherworking: Volcanic Leggings",
@@ -17179,8 +17178,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 6},
 				[2] = {7078},
 				[3] = {7075},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19061] = {
 			["name"] = "Leatherworking: Living Shoulders",
@@ -17194,8 +17193,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 12},
 				[2] = {12803, 4},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19067] = {
 			["name"] = "Leatherworking: Stormshroud Pants",
@@ -17210,8 +17209,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 16},
 				[2] = {7080, 2},
 				[3] = {7082, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19078] = {
 			["name"] = "Leatherworking: Living Leggings",
@@ -17226,8 +17225,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 16},
 				[2] = {12803, 6},
 				[3] = {15407},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19076] = {
 			["name"] = "Leatherworking: Volcanic Breastplate",
@@ -17242,8 +17241,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 8},
 				[2] = {7078},
 				[3] = {7076},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19079] = {
 			["name"] = "Leatherworking: Stormshroud Armor",
@@ -17259,8 +17258,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 3},
 				[3] = {7082, 3},
 				[4] = {15407},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[19090] = {
 			["name"] = "Leatherworking: Stormshroud Shoulders",
@@ -17276,8 +17275,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 3},
 				[3] = {7082, 3},
 				[4] = {12810, 2},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[26279] = {
 			["name"] = "Leatherworking: Stormshroud Gloves",
@@ -17293,8 +17292,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {7080, 4},
 				[3] = {7082, 4},
 				[4] = {15407, 2},
-				[5] = {14227, 2},
-			},
+				[5] = {14227, 2}
+			}
 		},
 		[19101] = {
 			["name"] = "Leatherworking: Volcanic Shoulders",
@@ -17309,8 +17308,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 10},
 				[2] = {7078},
 				[3] = {7076},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19095] = {
 			["name"] = "Leatherworking: Living Breastplate",
@@ -17326,8 +17325,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {12803, 8},
 				[3] = {14342, 2},
 				[4] = {15407},
-				[5] = {14341, 2},
-			},
+				[5] = {14341, 2}
+			}
 		},
 		[23710] = {
 			["name"] = "Leatherworking: Molten Belt",
@@ -17343,8 +17342,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17011, 7},
 				[3] = {7076, 6},
 				[4] = {15407, 4},
-				[5] = {14227, 4},
-			},
+				[5] = {14227, 4}
+			}
 		},
 		[20854] = {
 			["name"] = "Leatherworking: Molten Helm",
@@ -17359,8 +17358,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {17012, 15},
 				[2] = {17010, 3},
 				[3] = {17011, 6},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[22928] = {
 			["name"] = "Leatherworking: Shifting Cloak",
@@ -17377,8 +17376,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {12753, 4},
 				[4] = {12809, 8},
 				[5] = {15407, 4},
-				[6] = {14341, 8},
-			},
+				[6] = {14341, 8}
+			}
 		},
 		[10621] = {
 			["name"] = "Leatherworking: Wolfshead Helm",
@@ -17394,8 +17393,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {8368, 2},
 				[3] = {8146, 8},
 				[4] = {8343, 4},
-				[5] = {8172, 2},
-			},
+				[5] = {8172, 2}
+			}
 		},
 		[10647] = {
 			["name"] = "Leatherworking: Feathered Breastplate",
@@ -17411,8 +17410,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {8168, 40},
 				[3] = {7971, 2},
 				[4] = {8172, 4},
-				[5] = {8343, 4},
-			},
+				[5] = {8343, 4}
+			}
 		},
 		[19053] = {
 			["name"] = "Leatherworking: Chimeric Gloves",
@@ -17426,8 +17425,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15423, 6},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19062] = {
 			["name"] = "Leatherworking: Ironfeather Shoulders",
@@ -17442,8 +17441,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 24},
 				[2] = {15420, 80},
 				[3] = {1529, 2},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19068] = {
 			["name"] = "Leatherworking: Warbear Harness",
@@ -17457,8 +17456,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 28},
 				[2] = {15419, 12},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19063] = {
 			["name"] = "Leatherworking: Chimeric Boots",
@@ -17472,8 +17471,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 4},
 				[2] = {15423, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19066] = {
 			["name"] = "Leatherworking: Frostsaber Boots",
@@ -17487,8 +17486,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 4},
 				[2] = {15422, 6},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19073] = {
 			["name"] = "Leatherworking: Chimeric Leggings",
@@ -17502,8 +17501,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 8},
 				[2] = {15423, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19080] = {
 			["name"] = "Leatherworking: Warbear Woolies",
@@ -17517,8 +17516,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 24},
 				[2] = {15419, 14},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19074] = {
 			["name"] = "Leatherworking: Frostsaber Leggings",
@@ -17532,8 +17531,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15422, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19086] = {
 			["name"] = "Leatherworking: Ironfeather Breastplate",
@@ -17549,8 +17548,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {15420, 120},
 				[3] = {1529},
 				[4] = {15407},
-				[5] = {14341},
-			},
+				[5] = {14341}
+			}
 		},
 		[19081] = {
 			["name"] = "Leatherworking: Chimeric Vest",
@@ -17564,8 +17563,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 10},
 				[2] = {12803},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19084] = {
 			["name"] = "Leatherworking: Devilsaur Gauntlets",
@@ -17579,8 +17578,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 30},
 				[2] = {15417, 8},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[19087] = {
 			["name"] = "Leatherworking: Frostsaber Gloves",
@@ -17594,8 +17593,8 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {8170, 6},
 				[2] = {15422, 10},
-				[3] = {14341},
-			},
+				[3] = {14341}
+			}
 		},
 		[20853] = {
 			["name"] = "Leatherworking: Corehound Boots",
@@ -17610,8 +17609,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {17012, 20},
 				[2] = {17010, 6},
 				[3] = {17011, 2},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[19097] = {
 			["name"] = "Leatherworking: Devilsaur Leggings",
@@ -17626,8 +17625,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 30},
 				[2] = {15417, 14},
 				[3] = {15407},
-				[4] = {14341},
-			},
+				[4] = {14341}
+			}
 		},
 		[19104] = {
 			["name"] = "Leatherworking: Frostsaber Tunic",
@@ -17642,8 +17641,8 @@ GetSpellInfoVanillaDB = {
 				[1] = {8170, 12},
 				[2] = {15422, 12},
 				[3] = {15407},
-				[4] = {14341, 2},
-			},
+				[4] = {14341, 2}
+			}
 		},
 		[23709] = {
 			["name"] = "Leatherworking: Corehound Belt",
@@ -17659,8 +17658,8 @@ GetSpellInfoVanillaDB = {
 				[2] = {17012, 12},
 				[3] = {12810, 10},
 				[4] = {15407, 4},
-				[5] = {14341, 4},
-			},
+				[5] = {14341, 4}
+			}
 		},
 		[22927] = {
 			["name"] = "Leatherworking: Hide of the Wild",
@@ -17677,8 +17676,8 @@ GetSpellInfoVanillaDB = {
 				[3] = {7080, 10},
 				[4] = {18512, 8},
 				[5] = {15407, 3},
-				[6] = {14341, 8},
-			},
-		},
-	},
+				[6] = {14341, 8}
+			}
+		}
+	}
 }

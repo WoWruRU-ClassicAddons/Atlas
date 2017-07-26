@@ -23,26 +23,26 @@
 --]]
 
 function AtlasButton_OnClick()
-	Atlas_Toggle();
+	Atlas_Toggle()
 end
 
 function AtlasButton_Init()
 	if(AtlasOptions.AtlasButtonShown) then
-		AtlasButtonFrame:Show();
+		AtlasButtonFrame:Show()
 	else
-		AtlasButtonFrame:Hide();
+		AtlasButtonFrame:Hide()
 	end
 end
 
 function AtlasButton_Toggle()
 	if(AtlasButtonFrame:IsVisible()) then
-		AtlasButtonFrame:Hide();
-		AtlasOptions.AtlasButtonShown = false;
+		AtlasButtonFrame:Hide()
+		AtlasOptions.AtlasButtonShown = false
 	else
-		AtlasButtonFrame:Show();
-		AtlasOptions.AtlasButtonShown = true;
+		AtlasButtonFrame:Show()
+		AtlasOptions.AtlasButtonShown = true
 	end
-	AtlasOptions_Init();
+	AtlasOptions_Init()
 end
 
 function AtlasButton_UpdatePosition()
@@ -52,8 +52,8 @@ function AtlasButton_UpdatePosition()
 		"TOPLEFT",
 		54 - (AtlasOptions.AtlasButtonRadius * cos(AtlasOptions.AtlasButtonPosition)),
 		(AtlasOptions.AtlasButtonRadius * sin(AtlasOptions.AtlasButtonPosition)) - 55
-	);
-	AtlasOptions_Init();
+	)
+	AtlasOptions_Init()
 end
 
 -- Thanks to Yatlas for this code
@@ -65,22 +65,22 @@ function AtlasButton_BeingDragged()
     xpos = xmin-xpos/UIParent:GetScale()+70 
     ypos = ypos/UIParent:GetScale()-ymin-70 
 
-    AtlasButton_SetPosition(math.deg(math.atan2(ypos,xpos)));
+    AtlasButton_SetPosition(math.deg(math.atan2(ypos,xpos)))
 end
 
 function AtlasButton_SetPosition(v)
     if(v < 0) then
-        v = v + 360;
+        v = v + 360
     end
 
-    AtlasOptions.AtlasButtonPosition = v;
-    AtlasButton_UpdatePosition();
+    AtlasOptions.AtlasButtonPosition = v
+    AtlasButton_UpdatePosition()
 end
 
 function AtlasButton_OnEnter()
-    GameTooltip:SetOwner(this, "ANCHOR_LEFT");
-    GameTooltip:SetText("Atlas");
-	GameTooltipTextLeft1:SetTextColor(1, 1, 1);
-    GameTooltip:AddLine(ATLAS_BUTTON_TOOLTIP_HINT);
-    GameTooltip:Show();
+    GameTooltip:SetOwner(this, "ANCHOR_LEFT")
+    GameTooltip:SetText("Atlas")
+	GameTooltipTextLeft1:SetTextColor(1, 1, 1)
+    GameTooltip:AddLine(ATLAS_BUTTON_TOOLTIP_HINT)
+    GameTooltip:Show()
 end

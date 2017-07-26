@@ -21,10 +21,6 @@
 	
 --]]
 
-
-local WHITE = "|cffFFFFFF";
-local GREY = "|cff999999"; -- really grey
-
 -----------------------------------------------------------------------------
 -- initialises the options panel
 -- and sets checks after the variables
@@ -33,51 +29,51 @@ function AtlasQuestOptionFrame_OnShow()
 	
     --autoshow
     if (AQAtlasAuto == 2) then
-		AQAutoshowOption:SetChecked(false);
+		AQAutoshowOption:SetChecked(false)
 	end
 	
     --left/right
     if (AQ_ShownSide == "Left") then
-		AQRIGHTOption:SetChecked(false);
-		AQLEFTOption:SetChecked(true);
+		AQRIGHTOption:SetChecked(false)
+		AQLEFTOption:SetChecked(true)
 	else
-		AQRIGHTOption:SetChecked(true);
-		AQLEFTOption:SetChecked(false);
+		AQRIGHTOption:SetChecked(true)
+		AQLEFTOption:SetChecked(false)
 	end
 	
     -- Colour Check
     if (AQNOColourCheck) then
-		AQColourOption:SetChecked(false);
+		AQColourOption:SetChecked(false)
 	else
-		AQColourOption:SetChecked(true);
+		AQColourOption:SetChecked(true)
 	end
 	
     --AQCheckQuestlog
     if (AQCheckQuestlog == nil) then
-		AQCheckQuestlogButton:SetChecked(true);
+		AQCheckQuestlogButton:SetChecked(true)
 	else
-		AQCheckQuestlogButton:SetChecked(false);
+		AQCheckQuestlogButton:SetChecked(false)
 	end
 	
     -- AutoQuery
     if (AQAutoQuery == nil) then
-		AQAutoQueryOption:SetChecked(false);
+		AQAutoQueryOption:SetChecked(false)
 	else
-		AQAutoQueryOption:SetChecked(true);
+		AQAutoQueryOption:SetChecked(true)
 	end
 	
     -- Suppress Server Query Text
     if (AQNoQuerySpam == nil) then
-		AQNoQuerySpamOption:SetChecked(false);
+		AQNoQuerySpamOption:SetChecked(false)
 	else
-		AQNoQuerySpamOption:SetChecked(true);
+		AQNoQuerySpamOption:SetChecked(true)
 	end
 	
     -- ComparisonTooltips
     if (AQCompareTooltip == nil) then
-		AQCompareTooltipOption:SetChecked(false);
+		AQCompareTooltipOption:SetChecked(false)
 	else
-		AQCompareTooltipOption:SetChecked(true);
+		AQCompareTooltipOption:SetChecked(true)
 	end
 	
 end
@@ -88,15 +84,15 @@ end
 -----------------------------------------------------------------------------
 function AQAutoshowOption_OnClick()
 	if (AQAtlasAuto == 1) then
-		AQAtlasAuto = 2;
-		ChatFrame1:AddMessage(AQAtlasAutoOFF);
-		AQAutoshowOption:SetChecked(false);
+		AQAtlasAuto = 2
+		ChatFrame1:AddMessage(AQAtlasAutoOFF)
+		AQAutoshowOption:SetChecked(false)
 	else
-		AQAtlasAuto = 1;
-		ChatFrame1:AddMessage(AQAtlasAutoON);
-		AQAutoshowOption:SetChecked(true);
+		AQAtlasAuto = 1
+		ChatFrame1:AddMessage(AQAtlasAutoON)
+		AQAutoshowOption:SetChecked(true)
 	end
-	AtlasQuest_SaveData();
+	AtlasQuest_SaveData()
 end
 
 
@@ -105,19 +101,19 @@ end
 -----------------------------------------------------------------------------
 function AQRIGHTOption_OnClick()
 	if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas")) then
-		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 567, -80);
+		AtlasQuestFrame:ClearAllPoints()
+		AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 567, -80)
 	elseif (AtlasORAlphaMap == "AlphaMap") then
-		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOP","AlphaMapFrame", 400, -107);
+		AtlasQuestFrame:ClearAllPoints()
+		AtlasQuestFrame:SetPoint("TOP","AlphaMapFrame", 400, -107)
 	end
-	AQRIGHTOption:SetChecked(true);
-	AQLEFTOption:SetChecked(false);
+	AQRIGHTOption:SetChecked(true)
+	AQLEFTOption:SetChecked(false)
 	if (AQ_ShownSide ~= "Right") then
-		ChatFrame1:AddMessage(AQShowRight);
+		ChatFrame1:AddMessage(AQShowRight)
 	end
-	AQ_ShownSide = "Right";
-	AtlasQuest_SaveData();
+	AQ_ShownSide = "Right"
+	AtlasQuest_SaveData()
 end
 
 
@@ -126,19 +122,19 @@ end
 -----------------------------------------------------------------------------
 function AQLEFTOption_OnClick()
     if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas") and ( AQ_ShownSide == "Right") ) then
-		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -556, -80);
+		AtlasQuestFrame:ClearAllPoints()
+		AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -556, -80)
 	elseif ((AtlasORAlphaMap == "AlphaMap") and ( AQ_ShownSide == "Right") ) then
-		AtlasQuestFrame:ClearAllPoints();
-		AtlasQuestFrame:SetPoint("TOPLEFT","AlphaMapFrame", -195, -107);
+		AtlasQuestFrame:ClearAllPoints()
+		AtlasQuestFrame:SetPoint("TOPLEFT","AlphaMapFrame", -195, -107)
 	end
-	AQRIGHTOption:SetChecked(false);
-	AQLEFTOption:SetChecked(true);
+	AQRIGHTOption:SetChecked(false)
+	AQLEFTOption:SetChecked(true)
 	if (AQ_ShownSide ~= "Left") then
-		ChatFrame1:AddMessage(AQShowLeft);
+		ChatFrame1:AddMessage(AQShowLeft)
 	end
-	AQ_ShownSide = "Left";
-	AtlasQuest_SaveData();
+	AQ_ShownSide = "Left"
+	AtlasQuest_SaveData()
 end
 
 
@@ -148,16 +144,16 @@ end
 -----------------------------------------------------------------------------
 function AQColourOption_OnClick()
     if (AQNOColourCheck) then
-		AQNOColourCheck = nil;
-		AQColourOption:SetChecked(true);
-		ChatFrame1:AddMessage(AQCCON);
+		AQNOColourCheck = nil
+		AQColourOption:SetChecked(true)
+		ChatFrame1:AddMessage(AQCCON)
 	else
-		AQNOColourCheck = true;
-		AQColourOption:SetChecked(false);
-		ChatFrame1:AddMessage(AQCCOFF);
+		AQNOColourCheck = true
+		AQColourOption:SetChecked(false)
+		ChatFrame1:AddMessage(AQCCOFF)
 	end
-    AtlasQuest_SaveData();
-    AQUpdateNOW = true;
+    AtlasQuest_SaveData()
+    AQUpdateNOW = true
 end
 
 
@@ -166,14 +162,14 @@ end
 -----------------------------------------------------------------------------
 function AQCheckQuestlogButton_OnClick()
 	if (AQCheckQuestlog == nil) then
-		AQCheckQuestlog = "no";
-		AQCheckQuestlogButton:SetChecked(false);
+		AQCheckQuestlog = "no"
+		AQCheckQuestlogButton:SetChecked(false)
 	else
-		AQCheckQuestlog = nil;
-		AQCheckQuestlogButton:SetChecked(true);
+		AQCheckQuestlog = nil
+		AQCheckQuestlogButton:SetChecked(true)
 	end
-	AtlasQuest_SaveData();
-	AQUpdateNOW = true;
+	AtlasQuest_SaveData()
+	AQUpdateNOW = true
 end
 
 
@@ -182,13 +178,13 @@ end
 -----------------------------------------------------------------------------
 function AQAutoQueryOption_OnClick()
 	if (AQAutoQuery == nil) then
-		AQAutoQuery = "yes";
-		AQAutoQueryOption:SetChecked(true);
+		AQAutoQuery = "yes"
+		AQAutoQueryOption:SetChecked(true)
 	else
-		AQAutoQuery = nil;
-		AQAutoQueryOption:SetChecked(false);
+		AQAutoQuery = nil
+		AQAutoQueryOption:SetChecked(false)
 	end
-	AtlasQuest_SaveData();
+	AtlasQuest_SaveData()
 end
 
 
@@ -197,13 +193,13 @@ end
 -----------------------------------------------------------------------------
 function AQNoQuerySpamOption_OnClick()
 	if (AQNoQuerySpam == nil) then
-		AQNoQuerySpam = "yes";
-		AQNoQuerySpamOption:SetChecked(true);
+		AQNoQuerySpam = "yes"
+		AQNoQuerySpamOption:SetChecked(true)
 	else
-		AQNoQuerySpam = nil;
-		AQNoQuerySpamOption:SetChecked(false);
+		AQNoQuerySpam = nil
+		AQNoQuerySpamOption:SetChecked(false)
 	end
-	AtlasQuest_SaveData();
+	AtlasQuest_SaveData()
 end
 
 
@@ -212,23 +208,23 @@ end
 -----------------------------------------------------------------------------
 function AQCompareTooltipOption_OnClick()
 	if (AQCompareTooltip == nil) then
-		AQCompareTooltip = "yes";
-		AQCompareTooltipOption:SetChecked(true);
+		AQCompareTooltip = "yes"
+		AQCompareTooltipOption:SetChecked(true)
 		if IsAddOnLoaded("EquipCompare") then
-			EquipCompare_RegisterTooltip(AtlasQuestTooltip);
+			EquipCompare_RegisterTooltip(AtlasQuestTooltip)
 		end
 		if IsAddOnLoaded("EQCompare") then
-			EQCompare:RegisterTooltip(AtlasQuestTooltip);
+			EQCompare:RegisterTooltip(AtlasQuestTooltip)
 		end
 	else
-		AQCompareTooltip = nil;
-		AQCompareTooltipOption:SetChecked(false);
+		AQCompareTooltip = nil
+		AQCompareTooltipOption:SetChecked(false)
 		if IsAddOnLoaded("EquipCompare") then -- Unregister the AtlasQuest Tooltip with EquipCompare if it's enabled
-			EquipCompare_UnregisterTooltip(AtlasQuestTooltip);
+			EquipCompare_UnregisterTooltip(AtlasQuestTooltip)
 		end
 		if IsAddOnLoaded("EQCompare") then
-			EQCompare:UnRegisterTooltip(AtlasQuestTooltip);
+			EQCompare:UnRegisterTooltip(AtlasQuestTooltip)
 		end
 	end
-	AtlasQuest_SaveData();
+	AtlasQuest_SaveData()
 end

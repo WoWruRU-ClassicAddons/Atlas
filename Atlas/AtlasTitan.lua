@@ -24,7 +24,7 @@
 
 -- Credit goes to Krakhaan of Khaz'goroth for providing basic Titan Panel support
 
-TITAN_ATLAS_ID = "Atlas";
+TITAN_ATLAS_ID = "Atlas"
 
 function TitanPanelAtlasButton_OnLoad()
 
@@ -43,31 +43,31 @@ function TitanPanelAtlasButton_OnLoad()
 			ShowColoredText = 1,
 			ShowMapName = 1
 		}
-	};
-	TitanPanelAtlasButtonIcon:SetVertexColor(1, 1, 0);
+	}
+	TitanPanelAtlasButtonIcon:SetVertexColor(1, 1, 0)
 end
 
 function TitanPanelAtlasButton_GetButtonText(id)
-	local retstr = "";
+	local retstr = ""
 	
 	-- supports turning off labels
 	if ( TitanGetVar(TITAN_ATLAS_ID, "ShowLabelText") ) then	
-		retstr = "Atlas";
+		retstr = "Atlas"
 		if ( TitanGetVar(TITAN_ATLAS_ID, "ShowMapName") ) then
-			retstr = retstr..": ";
+			retstr = retstr..": "
 		end
 	end
 	
 	if ( TitanGetVar(TITAN_ATLAS_ID, "ShowMapName") ) then
 
-		local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
-		local name = AtlasMaps[zoneID].ZoneName[1];
+		local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]
+		local name = AtlasMaps[zoneID].ZoneName[1]
 			
 		
 		if ( TitanGetVar(TITAN_ATLAS_ID, "ShowColoredText") ) then	
-			retstr = retstr..TitanUtils_GetGreenText(name);
+			retstr = retstr..TitanUtils_GetGreenText(name)
 		else
-			retstr = retstr..TitanUtils_GetNormalText(name);
+			retstr = retstr..TitanUtils_GetNormalText(name)
 		end
 		
 	end
@@ -76,37 +76,37 @@ function TitanPanelAtlasButton_GetButtonText(id)
 	not TitanGetVar(TITAN_ATLAS_ID, "ShowIcon") and
 	not TitanGetVar(TITAN_ATLAS_ID, "ShowLabelText") and
 	not TitanGetVar(TITAN_ATLAS_ID, "ShowMapName") ) then
-		return "A";
+		return "A"
 	end
 
-	return retstr;
+	return retstr
 end
 
 function TitanPanelAtlasButton_GetTooltipText()
-	return ATLAS_TITAN_HINT;
+	return ATLAS_TITAN_HINT
 end
 
 function TitanPanelAtlasButton_MapNameToggle()
-	TitanToggleVar(TITAN_ATLAS_ID, "ShowMapName");
-	TitanPanelButton_UpdateButton("Atlas");
+	TitanToggleVar(TITAN_ATLAS_ID, "ShowMapName")
+	TitanPanelButton_UpdateButton("Atlas")
 end
 
 function TitanPanelRightClickMenu_PrepareAtlasMenu()
-	TitanPanelRightClickMenu_AddTitle(TitanPlugins[TITAN_ATLAS_ID].menuText);
+	TitanPanelRightClickMenu_AddTitle(TitanPlugins[TITAN_ATLAS_ID].menuText)
 	
-	TitanPanelRightClickMenu_AddSpacer();
+	TitanPanelRightClickMenu_AddSpacer()
 	
-	TitanPanelRightClickMenu_AddToggleIcon(TITAN_ATLAS_ID);
-	TitanPanelRightClickMenu_AddToggleLabelText(TITAN_ATLAS_ID);
-	TitanPanelRightClickMenu_AddToggleColoredText(TITAN_ATLAS_ID);
+	TitanPanelRightClickMenu_AddToggleIcon(TITAN_ATLAS_ID)
+	TitanPanelRightClickMenu_AddToggleLabelText(TITAN_ATLAS_ID)
+	TitanPanelRightClickMenu_AddToggleColoredText(TITAN_ATLAS_ID)
 	
-	info = {};
-	info.text = ATLAS_OPTIONS_SHOWMAPNAME;
-	info.func = TitanPanelAtlasButton_MapNameToggle;
-	info.checked = TitanGetVar(TITAN_ATLAS_ID, "ShowMapName");
-	UIDropDownMenu_AddButton(info);
+	info = {}
+	info.text = ATLAS_OPTIONS_SHOWMAPNAME
+	info.func = TitanPanelAtlasButton_MapNameToggle
+	info.checked = TitanGetVar(TITAN_ATLAS_ID, "ShowMapName")
+	UIDropDownMenu_AddButton(info)
 	
-	TitanPanelRightClickMenu_AddSpacer();	
+	TitanPanelRightClickMenu_AddSpacer()	
 	
-	TitanPanelRightClickMenu_AddCommand(TITAN_PANEL_MENU_HIDE, TITAN_ATLAS_ID, TITAN_PANEL_MENU_FUNC_HIDE);
+	TitanPanelRightClickMenu_AddCommand(TITAN_PANEL_MENU_HIDE, TITAN_ATLAS_ID, TITAN_PANEL_MENU_FUNC_HIDE)
 end
