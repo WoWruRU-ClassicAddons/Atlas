@@ -168,7 +168,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Arena Spoils"] = true,
 	["random stats"] = true,
 	["random resistance"] = true,
-	["random colour"] = true,
+	["random color"] = true,
 	["Summon"] = true,
 	["Path of the Conqueror"] = true,
 	["Path of the Invoker"] = true,

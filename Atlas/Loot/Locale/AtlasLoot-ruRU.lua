@@ -155,7 +155,7 @@ AL:RegisterTranslations("ruRU", function() return {
 	["Arena Spoils"] = "Трофеи арены",
 	["random stats"] = "случайные характеристики",
 	["random resistance"] = "случайное сопротивление",
-	["random colour"] = "случайный цвет",
+	["random color"] = "случайный цвет",
     ["Summon"] = "Призыв",
     ["Path of the Conqueror"] = "Путь победителя",
     ["Path of the Invoker"] = "Путь заклинателя",

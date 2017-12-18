@@ -80,7 +80,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#e22#", AL["Needed to purchase rewards"])
     text = gsub(text, "#e23#", AL["random stats"])
 	text = gsub(text, "#e24#", AL["random resistance"])
-	text = gsub(text, "#e25#", AL["random colour"])
+	text = gsub(text, "#e25#", AL["random color"])
 
     -- Classes
     text = gsub(text, "#c1#", BC["Druid"]) -- =q13=#c1#
@@ -527,7 +527,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#pvps1#", AL["Epic Set"])
     text = gsub(text, "#pvps2#", AL["Rare Set"])
     
-    --Text colouring
+    --Text coloring
     text = gsub(text, "=q0=", "|cff9d9d9d")
     text = gsub(text, "=q1=", "|cffFFFFFF")
     text = gsub(text, "=q2=", "|cff1eff00")
@@ -535,19 +535,19 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "=q4=", "|cffa335ee")
     text = gsub(text, "=q5=", "|cffFF8000")
     text = gsub(text, "=q6=", "|cffFF0000")
-	text = gsub(text, "=q7=", "|cff03c0f6") -- "dropped by" colour
-	text = gsub(text, "=q8=", "|cff2773ff") -- alliance colour, alliance rank colour
-	text = gsub(text, "=q9=", "|cffffffff") -- priest colour
-	text = gsub(text, "=q10=", "|cff68ccef") -- mage colour
-	text = gsub(text, "=q11=", "|cff9382c9") -- warlock colour
-	text = gsub(text, "=q12=", "|cfffff468") -- rogue colour
-	text = gsub(text, "=q13=", "|cffff7c0a") -- druid colour
-	text = gsub(text, "=q14=", "|cffaad372") -- hunter colour
-	text = gsub(text, "=q15=", "|cff2773ff") -- shaman colour
-	text = gsub(text, "=q16=", "|cfff48cba") -- paladin colour
-	text = gsub(text, "=q17=", "|cffc69b6d") -- warrior colour
-	text = gsub(text, "=q18=", "|cffff3100") -- horde rank colour
-	text = gsub(text, "=q19=", "|cffe6cc80") -- horde rank colour
+	text = gsub(text, "=q7=", "|cff03c0f6") -- "dropped by" color
+	text = gsub(text, "=q8=", "|cff2773ff") -- alliance color, alliance rank color
+	text = gsub(text, "=q9=", "|cffffffff") -- priest color
+	text = gsub(text, "=q10=", "|cff68ccef") -- mage color
+	text = gsub(text, "=q11=", "|cff9382c9") -- warlock color
+	text = gsub(text, "=q12=", "|cfffff468") -- rogue color
+	text = gsub(text, "=q13=", "|cffff7c0a") -- druid color
+	text = gsub(text, "=q14=", "|cffaad372") -- hunter color
+	text = gsub(text, "=q15=", "|cff2773ff") -- shaman color
+	text = gsub(text, "=q16=", "|cfff48cba") -- paladin color
+	text = gsub(text, "=q17=", "|cffc69b6d") -- warrior color
+	text = gsub(text, "=q18=", "|cffff3100") -- horde rank color
+	text = gsub(text, "=q19=", "|cffe6cc80") -- horde rank color
     text = gsub(text, "=ec1=", "|cffFF8400")
     text = gsub(text, "=ds=", "|cffFFd200")
 	
