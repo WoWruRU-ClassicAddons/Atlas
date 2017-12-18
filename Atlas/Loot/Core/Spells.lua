@@ -4431,7 +4431,7 @@ GetSpellInfoVanillaDB = {
 				[1] = {14048, 2},
 				[2] = {8170, 4},
 				[3] = {18240},
-				[4] = {14227}
+				[4] = {14341}
 			}
 		},
 		[18422] = {
@@ -5888,28 +5888,13 @@ GetSpellInfoVanillaDB = {
 			["requires"] = "",
 			["tools"] = "",
 			["castTime"] = 3,
-			["text"] = "With Swiftthistle for speed and crushed Silverleaf for enhancement, a potion to enchance one's natural agility is brewed.",
+			["text"] = "",
 			["craftItem"] = 2457,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {2452},
 				[2] = {765},
-				[3] = {3371}
-			}
-		},
-		[2334] = {
-			["name"] = "Alchemy: Elixir of Minor Fortitude",
-			["requires"] = "",
-			["tools"] = "",
-			["castTime"] = 3,
-			["text"] = "",
-			["craftItem"] = 2458,
-			["craftQuantityMin"] = "",
-			["craftQuantityMax"] = "",
-			["reagents"] = {
-				[1] = {2449},
-				[2] = {2447},
 				[3] = {3371}
 			}
 		},
@@ -6319,7 +6304,7 @@ GetSpellInfoVanillaDB = {
 			["name"] = "Alchemy: Elixir of Fortitude",
 			["requires"] = "",
 			["tools"] = "",
-			["castTime"] = 3,
+			["castTime"] = 5,
 			["text"] = "",
 			["craftItem"] = 3825,
 			["craftQuantityMin"] = "",
@@ -10084,6 +10069,22 @@ GetSpellInfoVanillaDB = {
 				[6] = {14047, 4}
 			}
 		},
+		[26443] = {
+			["name"] = "Engineering: Firework Cluster Launcher",
+			["requires"] = "",
+			["tools"] = "",
+			["castTime"] = 12.5,
+			["text"] = "",
+			["craftItem"] = 21570,
+			["craftQuantityMin"] = "",
+			["craftQuantityMax"] = "",
+			["reagents"] = {
+				[1] = {9060, 4},
+				[2] = {9061, 4},
+				[3] = {18631, 2},
+				[4] = {10561},
+			},
+		},		
 		[19795] = {
 			["name"] = "Engineering: Thorium Tube",
 			["requires"] = AL["Anvil"],
@@ -11780,7 +11781,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = {5956},
 			["castTime"] = 60,
 			["text"] = "",
-			["craftItem"] = 12624,
+			["craftItem"] = 12628,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -15950,7 +15951,7 @@ GetSpellInfoVanillaDB = {
 			["name"] = "Leatherworking: Rugged Armor Kit",
 			["requires"] = "",
 			["tools"] = "",
-			["castTime"] = 60,
+			["castTime"] = 12.5,
 			["text"] = "",
 			["craftItem"] = 15564,
 			["craftQuantityMin"] = "",
