@@ -584,7 +584,7 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b3#" },
 		{ 0, "", "", "" },
-		{ 20444, "INV_Jewelry_Necklace_13", "=q3=Sentinel's Medallion", "=ds=#s2#" },
+		{ 20442, "INV_Jewelry_Necklace_14", "=q3=Scout's Medallion", "=ds=#s2#" },
 		{ 20428, "INV_Misc_Cape_13", "=q3=Caretaker's Cape", "=ds=#s4#" },
 		{ 20431, "INV_Jewelry_Ring_28", "=q3=Lorekeeper's Ring", "=ds=#s13#" },
 		{ 20439, "INV_Jewelry_Ring_10", "=q3=Protector's Band", "=ds=#s13#" },
