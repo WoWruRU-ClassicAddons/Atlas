@@ -10,7 +10,7 @@ local AL = AceLibrary("AceLocale-2.2"):new("Atlas")
 
 if GetLocale() == "ruRU" then
 	
-	AtlasSortIgnore = {"the (.+)"}
+	AtlasSortIgnore = {"(.+)"}
 	
 	BINDING_HEADER_ATLAS_TITLE = "Atlas"
 	BINDING_NAME_ATLAS_TOGGLE  = "Открыть/Закрыть"
@@ -52,12 +52,12 @@ if GetLocale() == "ruRU" then
 	ATLAS_DDL_CONTINENT_EASTERN = "Подземелья Восточных королевств"
 	ATLAS_DDL_CONTINENT_KALIMDOR = "Подземелья Калимдора"
 	ATLAS_DDL_LEVEL = "Уровню"
-	ATLAS_DDL_LEVEL_1020 = "10-20 уровни"
-	ATLAS_DDL_LEVEL_2030 = "20-30 уровни"
-	ATLAS_DDL_LEVEL_3040 = "30-40 уровни"
-	ATLAS_DDL_LEVEL_4050 = "40-50 уровни"
-	ATLAS_DDL_LEVEL_5060 = "50-60 уровни"
-	ATLAS_DDL_LEVEL_60 = "60 уровень"
+	ATLAS_DDL_LEVEL_10TO20 = "Подземелья 10-20 уровня"
+	ATLAS_DDL_LEVEL_20TO30 = "Подземелья 20-30 уровня"
+	ATLAS_DDL_LEVEL_30TO40 = "Подземелья 30-40 уровня"
+	ATLAS_DDL_LEVEL_40TO50 = "Подземелья 40-50 уровня"
+	ATLAS_DDL_LEVEL_50TO60 = "Подземелья 50-60 уровня"
+	ATLAS_DDL_LEVEL_60 = "Подземелья 60 уровня"
 	ATLAS_DDL_PARTYSIZE = "Размеру группы"
 	ATLAS_DDL_PARTYSIZE_5 = "Подземелья на 5 игроков"
 	ATLAS_DDL_PARTYSIZE_10 = "Подземелья на 10 игроков"
@@ -84,7 +84,8 @@ if GetLocale() == "ruRU" then
 	ATLAS_SEARCH_UNAVAIL = "Поиск недоступен"
 	
 	AtlasZoneSubstitutions = {
-		["The Temple of Atal'Hakkar"] = "Затонувший храм"
+		["The Temple of Atal'Hakkar"] = "Затонувший храм",
+		["Ahn'Qiraj"] = "Храм Ан'Кираж";
 	} 
 end	
 

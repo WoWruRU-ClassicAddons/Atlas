@@ -51,11 +51,11 @@ Atlas_DropDownLayouts_Order = {
 		[9] = GREEN..ATLAS_DDL_FLIGHT_PATHS
 	},
 	[ATLAS_DDL_LEVEL] = {
-		[1] = ATLAS_DDL_LEVEL_1020,
-		[2] = ATLAS_DDL_LEVEL_2030,
-		[3] = ATLAS_DDL_LEVEL_3040,
-		[4] = ATLAS_DDL_LEVEL_4050,
-		[5] = ATLAS_DDL_LEVEL_5060,
+		[1] = ATLAS_DDL_LEVEL_10TO20,
+		[2] = ATLAS_DDL_LEVEL_20TO30,
+		[3] = ATLAS_DDL_LEVEL_30TO40,
+		[4] = ATLAS_DDL_LEVEL_40TO50,
+		[5] = ATLAS_DDL_LEVEL_50TO60,
 		[6] = ATLAS_DDL_LEVEL_60,
 		[7] = ATLAS_DDL_WORLDBOSSES,
 		[8] = GREEN..ATLAS_DDL_TYPE_ENTRANCE,
@@ -244,19 +244,19 @@ Atlas_DropDownLayouts = {
 		},
 	},
 	[ATLAS_DDL_LEVEL] = {
-		[ATLAS_DDL_LEVEL_1020] = {
+		[ATLAS_DDL_LEVEL_10TO20] = {
 			"RagefireChasm",
 			"TheDeadmines",
 			"TheStockade",
 			"WailingCaverns"
 		},
-		[ATLAS_DDL_LEVEL_2030] = {
+		[ATLAS_DDL_LEVEL_20TO30] = {
 			"BlackfathomDeeps",
 			"Gnomeregan",
 			"RazorfenKraul",
 			"ShadowfangKeep"
 		},
-		[ATLAS_DDL_LEVEL_3040] = {
+		[ATLAS_DDL_LEVEL_30TO40] = {
 			"RazorfenDowns",
 			"SMArmory",
 			"SMCathedral",
@@ -264,12 +264,12 @@ Atlas_DropDownLayouts = {
 			"SMLibrary",
 			"Uldaman"
 		},
-		[ATLAS_DDL_LEVEL_4050] = {
+		[ATLAS_DDL_LEVEL_40TO50] = {
 			"Maraudon",
 			"TheSunkenTemple",
 			"ZulFarrak"
 		},
-		[ATLAS_DDL_LEVEL_5060] = {
+		[ATLAS_DDL_LEVEL_50TO60] = {
 			"BlackrockDepths",
 			"BlackrockSpireLower",
 			"BlackrockSpireUpper",
