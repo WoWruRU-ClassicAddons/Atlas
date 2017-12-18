@@ -2951,6 +2951,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Friendly Reputation Rewards"], "ABRepFriendly" },
 	},
 	["AVRewards"] = {
+		{ AL["Ivus the Forest Lord"], "AVIvus" },
+		{ AL["Lokholar the Ice Lord"], "AVLokholar" },
 		{ AL["Exalted Reputation Rewards"], "AVRepExalted" },
 		{ AL["Revered Reputation Rewards"], "AVRepRevered" },
 		{ AL["Honored Reputation Rewards"], "AVRepHonored" },

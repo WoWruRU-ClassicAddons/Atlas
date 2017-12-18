@@ -514,5 +514,7 @@ AL:RegisterTranslations("ruRU", function() return {
 	["Friendly Rewards"] = "награды дружелюбия",
 	["Honored Rewards"] = "награды уважения",
 	["Revered Rewards"] = "награды почтения",
-	["Exalted Rewards"] = "награды превознесения"
+	["Exalted Rewards"] = "награды превознесения",
+	["Lokholar the Ice Lord"] = "Локолар Владыка Льда",
+	["Ivus the Forest Lord"] = "Ивус Лесной Властелин"
 } end)

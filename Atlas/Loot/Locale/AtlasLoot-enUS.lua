@@ -527,5 +527,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Friendly Rewards"] = true,
 	["Honored Rewards"] = true,
 	["Revered Rewards"] = true,
-	["Exalted Rewards"] = true
+	["Exalted Rewards"] = true,
+	["Lokholar the Ice Lord"] = true,
+	["Ivus the Forest Lord"] = true
 } end)
