@@ -3560,10 +3560,9 @@ if ( GetLocale() == "ruRU" ) then
 	Inst18Quest4_Prequest = "Дневник Хмурня" -- 1100
 	Inst18Quest4_Folgequest = "Нет"
 	--
-	Inst18Quest4name1 = "'Mage-Eye' Blunderbuss"
-	Inst18Quest4name2 = "Berylline Pads"
-	Inst18Quest4name3 = "Stonefist Girdle"
-	Inst18Quest4name4 = "Marbled Buckler"
+	Inst18Quest4name1 = "Berylline Pads"
+	Inst18Quest4name2 = "Stonefist Girdle"
+	Inst18Quest4name3 = "Marbled Buckler"
 	
 	--Quest 5 Alliance KRIEGER
 	Inst18Quest5 = "5. Закаленный доспех" -- 1701
@@ -4847,7 +4846,7 @@ if ( GetLocale() == "ruRU" ) then
 	Inst28Quest2_Location = "Марвон Клепальщик (Танарис; "..YELLOW.."52,45"..WHITE..")"
 	Inst28Quest2_Note = "Алтарь находится около "..YELLOW.."[1]"..WHITE.."."
 	Inst28Quest2_Prequest = "Круглый камень" -- 3444
-	Inst28Quest2_Folgequest = "Нет"
+	Inst28Quest2_Folgequest = "Тайна камня" -- 3447
 	-- No Rewards for this quest
 	
 	--Quest 3 Alliance
@@ -4857,7 +4856,7 @@ if ( GetLocale() == "ruRU" ) then
 	Inst28Quest3_Aim = "Отправляйтесь в затонувший храм и узнайте, что скрывается в круге статуй."
 	Inst28Quest3_Location = "Марвон Клепальщик (Танарис; "..YELLOW.."52,45"..WHITE..")"
 	Inst28Quest3_Note = "Вы найдете статуи около "..YELLOW.."[1]"..WHITE..". Смотрите по карте порядок их активации."
-	Inst28Quest3_Prequest = "Круглый камень" -- 3444
+	Inst28Quest3_Prequest = "Во глубине болот" -- 3446
 	Inst28Quest3_Folgequest = "Нет"
 	--
 	Inst28Quest3name1 = "Hakkari Urn"

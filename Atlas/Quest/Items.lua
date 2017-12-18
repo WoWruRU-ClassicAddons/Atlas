@@ -2183,23 +2183,19 @@ Inst18Quest3description3 = AQITEM_RING
 Inst18Quest3ID3 = "6749"
 
 --Quest 4 Alliance
-Inst18Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"
+Inst18Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_AND..WHITE.."2"..AQDiscription_OR..WHITE.."3"
 --ITEM1
-Inst18Quest4ITC1 = Itemc3
-Inst18Quest4description1 = AQITEM_GUN
-Inst18Quest4ID1 = "29200"
---ITEM2
-Inst18Quest4ITC2 = Itemc4
-Inst18Quest4description2 = AQITEM_SHOULDER..AQITEM_CLOTH
-Inst18Quest4ID2 = "4197"
+Inst18Quest4ITC1 = Itemc4
+Inst18Quest4description1 = AQITEM_SHOULDER..AQITEM_CLOTH
+Inst18Quest4ID1 = "4197"
 --ITEM3
-Inst18Quest4ITC3 = Itemc4
-Inst18Quest4description3 = AQITEM_WAIST..AQITEM_MAIL
-Inst18Quest4ID3 = "6742"
+Inst18Quest4ITC2 = Itemc4
+Inst18Quest4description2 = AQITEM_WAIST..AQITEM_MAIL
+Inst18Quest4ID2 = "6742"
 --ITEM4
-Inst18Quest4ITC4 = Itemc4
-Inst18Quest4description4 = AQITEM_SHIELD
-Inst18Quest4ID4 = "6725"
+Inst18Quest4ITC3 = Itemc4
+Inst18Quest4description3 = AQITEM_SHIELD
+Inst18Quest4ID3 = "6725"
 
 --Quest 5 Alliance
 Inst18Quest5Rewardtext = AQNoReward

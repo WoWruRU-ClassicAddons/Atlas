@@ -3550,10 +3550,9 @@ Inst18Quest4_Note = "Charlga Razorflank "..YELLOW.."[7]"..WHITE.." drops the Med
 Inst18Quest4_Prequest = "Lonebrow's Journal" -- 1100
 Inst18Quest4_Folgequest = "No"
 --
-Inst18Quest4name1 = "Falfindel's Blaster"
-Inst18Quest4name2 = "Berylline Pads"
-Inst18Quest4name3 = "Stonefist Girdle"
-Inst18Quest4name4 = "Marbled Buckler"
+Inst18Quest4name1 = "Berylline Pads"
+Inst18Quest4name2 = "Stonefist Girdle"
+Inst18Quest4name3 = "Marbled Buckler"
 
 --Quest 5 Alliance
 Inst18Quest5 = "5. Fire Hardened Mail" -- 1701
@@ -4837,7 +4836,7 @@ Inst28Quest2_Aim = "Find the Altar of Hakkar in the Sunken Temple in Swamp of So
 Inst28Quest2_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst28Quest2_Note = "The Altar is at "..YELLOW.."[1]"..WHITE.."."
 Inst28Quest2_Prequest = "The Stone Circle" -- 3444
-Inst28Quest2_Folgequest = "No"
+Inst28Quest2_Folgequest = "Secret of the Circle" -- 3447
 -- No Rewards for this quest
 
 --Quest 3 Alliance
@@ -4847,7 +4846,7 @@ Inst28Quest3_Attain = "46"
 Inst28Quest3_Aim = "Travel into the Sunken Temple and discover the secret hidden in the circle of statues."
 Inst28Quest3_Location = "Marvon Rivetseeker (Tanaris; "..YELLOW.."52,45"..WHITE..")"
 Inst28Quest3_Note = "You find the statues at "..YELLOW.."[1]"..WHITE..". See map for order to activate them."
-Inst28Quest3_Prequest = "The Stone Circle" -- 3444
+Inst28Quest3_Prequest = "Into the Depths" -- 3446
 Inst28Quest3_Folgequest = "No"
 --
 Inst28Quest3name1 = "Hakkari Urn"
