@@ -1,0 +1,19 @@
+## Interface: 11200
+## Name: FuBar - AtlasFu
+## Title: FuBar - |cffffffffAtlas|r|cff00ff00Fu|r
+## Notes: A FuBar button to load Atlas.
+## Notes-ruRU: FuBar кнопка для загрузки Атласа.
+## Version: 2.0.02
+## X-Category: Map
+## X-Date: 2006-06-12
+## X-eMail: global@g-ball.com
+## X-Website: http://www.wowinterface.com/
+## X-Commands: /atlasfu, /atlas2fu
+## Author: Global
+## Dependencies: Atlas, FuBar
+## SavedVariables: AtlasFuDB
+## LoadOnDemand: 1
+
+AtlasFuLocals.lua
+
+AtlasFu.lua

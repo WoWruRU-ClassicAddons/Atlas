@@ -1,0 +1,23 @@
+﻿## Interface: 11200
+## Title: AtlasLoot Enhanced |cff7fff7f -Ace2-|r
+## Notes: Shows the possible loot from the bosses
+## Notes-ruRU: Показывает возможную добычу с боссов
+## Author: Daviesh, Lichery
+## Version: 4.06.07
+## SavedVariablesPerCharacter: AtlasLootCharDB
+## OptionalDeps: Alphamap, AtlasLoader, LootLink, ItemSync, DewdropLib, Ace2, EquipCompare, EQCompare
+## RequiredDeps: !Libs
+
+Locale\AtlasLoot-enUS.lua
+Locale\AtlasLoot-ruRU.lua
+
+Sets.lua
+Crafting.lua
+Battlegrounds.lua
+WorldEvents.lua
+Factions.lua
+Instances.lua
+WorldBosses.lua
+KnownTooltips.lua
+LootTables.lua
+Core\AtlasLoot.xml

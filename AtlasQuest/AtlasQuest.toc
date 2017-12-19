@@ -1,0 +1,23 @@
+## Interface: 11200
+## Title: AtlasQuest
+## Notes: Shows the Quests for the instance.
+## Notes-deDE: Zeigt die Quests, die es f\195\188r die jeweiligen Instanzen gibt.
+## Notes-koKR: Shows the Quests for the instance.
+## Notes-zhCN: Shows the Quests for the instance.
+## Notes-ruRU: Показывает задания в подземельях.
+## Author: Asurn, Thandrenn, Loather, Rabidmax, Thandrenn (aka Mystery8), Dazerdude, Lichery
+## Version: 4.1.3
+## SavedVariables: AtlasQuest_Options,
+## OptionalDeps: Atlas, AlphaMap, myAddOns
+
+## X-eMail: mystery8@gmail.com
+## X-Website: www.atlasmod.com/phpBB3/
+## X-Category: MYADDONS_CATEGORY_MAP
+## X-Date: July 25, 2008
+## X-Help: AtlasQuestHelp
+
+Locale\AtlasQuest-enUS.lua
+Locale\AtlasQuest-ruRU.lua
+
+InsideFrame.xml
+AtlasQuest.xml

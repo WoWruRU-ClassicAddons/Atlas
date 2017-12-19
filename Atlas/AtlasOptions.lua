@@ -1,29 +1,30 @@
 --[[
-
+	
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
-
+	
 	This file is part of Atlas.
-
+	
 	Atlas is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation; either version 2 of the License, or
 	(at your option) any later version.
-
+	
 	Atlas is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
-
+	
 	You should have received a copy of the GNU General Public License
 	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+	
 --]]
+local _G = getfenv()
 
 function AtlasOptions_Toggle()
-	if(AtlasOptionsFrame:IsVisible()) then
+	if AtlasOptionsFrame:IsVisible() then
 		AtlasOptionsFrame:Hide()
 	else
 		AtlasOptionsFrame:Show()
@@ -31,7 +32,7 @@ function AtlasOptions_Toggle()
 end
 
 function AtlasOptions_AutoSelectToggle()
-	if(AtlasOptions.AtlasAutoSelect) then
+	if AtlasOptions.AtlasAutoSelect then
 		AtlasOptions.AtlasAutoSelect = false
 	else
 		AtlasOptions.AtlasAutoSelect = true
@@ -40,7 +41,7 @@ function AtlasOptions_AutoSelectToggle()
 end
 
 function AtlasOptions_RightClickToggle()
-	if(AtlasOptions.AtlasRightClick) then
+	if AtlasOptions.AtlasRightClick then
 		AtlasOptions.AtlasRightClick = false
 	else
 		AtlasOptions.AtlasRightClick = true
@@ -49,7 +50,7 @@ function AtlasOptions_RightClickToggle()
 end
 
 function AtlasOptions_AcronymsToggle()
-	if(AtlasOptions.AtlasAcronyms) then
+	if AtlasOptions.AtlasAcronyms then
 		AtlasOptions.AtlasAcronyms = false
 	else
 		AtlasOptions.AtlasAcronyms = true
@@ -59,10 +60,10 @@ function AtlasOptions_AcronymsToggle()
 end
 
 function AtlasOptions_ClampedToggle()
-	if(AtlasOptions.AtlasClamped) then
+	if AtlasOptions.AtlasClamped then
 		AtlasOptions.AtlasClamped = false
 	else
-		AtlasOptions.AtlasClamped = true
+	AtlasOptions.AtlasClamped = true
 	end
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped)
 	AtlasOptions_Init()
@@ -70,7 +71,7 @@ function AtlasOptions_ClampedToggle()
 end
 
 function AtlasOptions_CtrlToggle()
-	if(AtlasOptions.AtlasCtrl) then
+	if AtlasOptions.AtlasCtrl then
 		AtlasOptions.AtlasCtrl = false
 	else
 		AtlasOptions.AtlasCtrl = true
@@ -106,25 +107,25 @@ function AtlasOptions_ResetPosition()
 end
 
 function AtlasOptions_SetupSlider(text, mymin, mymax, step)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..this:GetValue()..")")
+	_G[this:GetName().."Text"]:SetText(text.." ("..this:GetValue()..")")
 	this:SetMinMaxValues(mymin, mymax)
-	getglobal(this:GetName().."Low"):SetText(mymin)
-	getglobal(this:GetName().."High"):SetText(mymax)
+	_G[this:GetName().."Low"]:SetText(mymin)
+	_G[this:GetName().."High"]:SetText(mymax)
 	this:SetValueStep(step)
 end
 
 local function round(num, idp)
-   local mult = 10 ^ (idp or 0)
-   return math.floor(num * mult + 0.5) / mult
+	local mult = 10 ^ (idp or 0)
+	return math.floor(num * mult + 0.5) / mult
 end
 
 function AtlasOptions_UpdateSlider(text)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..round(this:GetValue(),2)..")")
+	_G[this:GetName().."Text"]:SetText(text.." ("..round(this:GetValue(),2)..")")
 end
 
 
 function AtlasOptionsFrameDropDownCats_Initialize()
-
+	
 	local i
 	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
 		info = {
