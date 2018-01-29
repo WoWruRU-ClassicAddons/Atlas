@@ -680,7 +680,7 @@ if GetLocale() == "ruRU" then
 	Inst4Quest2_HORDE_Location = Inst4Quest6_Location
 	Inst4Quest2_HORDE_Note = Inst4Quest6_Note
 	Inst4Quest2_HORDE_Prequest = Inst4Quest6_Prequest
-	Inst4Quest2_HORDE_Folgequest = Inst4Quest6_Folgequest
+	Inst4Quest2_HORDE_Folgequest = "В Подгород за книгой Йагина" -- 728
 	--
 	Inst4Quest2name1_HORDE = Inst4Quest6name1
 	
@@ -970,7 +970,7 @@ if GetLocale() == "ruRU" then
 	Inst5Quest15_Attain = "55"
 	Inst5Quest15_Aim = "Отправляйтесь через портал, ведущий к Огненным Недрам в Глубинах Черной горы и добудьте осколок из Огненных Недр. Принесите его Лотосу Хранителю Портала в Черной горе."
 	Inst5Quest15_Location = "Лотос Хранитель Портала (Черная гора; "..YELLOW.."[2] на карте Входа"..WHITE..")"
-	Inst5Quest15_Note = "После выполнения задания вы сможете использовать камень ряом с Лотосом Хранителем Портала, чтобы войти в Расплавленные недра.\nВы найдете фрагмент ядра около "..YELLOW.."[23]"..WHITE..", сосем близко от портала в Расплавленные недра."
+	Inst5Quest15_Note = "После выполнения задания вы сможете использовать камень рядом с Лотосом Хранителем Портала, чтобы войти в Расплавленные недра.\nВы найдете фрагмент ядра около "..YELLOW.."[23]"..WHITE..", сосем близко от портала в Расплавленные недра."
 	Inst5Quest15_Prequest = "Нет"
 	Inst5Quest15_Folgequest = "Нет"
 	-- No Rewards for this quest
@@ -980,7 +980,7 @@ if GetLocale() == "ruRU" then
 	Inst5Quest16_Level = "60"
 	Inst5Quest16_Attain = "58"
 	Inst5Quest16_Aim = "Войдите в Зал Правосудия в Глубинах Черной горы, выслушайте приговор верховного судьи Мрачнокамня и вонзите знамя Вызова в центр круга. Убейте Телдрена и его гладиаторов, после чего вернитесь к Антиону Хармону в Восточные Чумные земли с первой частью амулета Лорда Вальтхалака."
-	Inst5Quest16_Location = "Фалрин Садовник (Забытый город (Запад); "..YELLOW.."[1] Бибилиотека"..WHITE..")"
+	Inst5Quest16_Location = "Фалрин Садовник (Забытый город (Запад); "..YELLOW.."[1] Библиотека"..WHITE..")"
 	Inst5Quest16_Note = "Предыдущие задания отличаются для каждого класса."
 	Inst5Quest16_Prequest = "Чары подстрекателя" -- 8950
 	Inst5Quest16_Folgequest = "(Классовые задания)"
@@ -1086,7 +1086,7 @@ if GetLocale() == "ruRU" then
 	-- No Rewards for this quest
 	
 	--Quest 8 Horde
-	Inst5Quest8_HORDE = "8. Операция: Смерть Кузне Гнева" -- 4132
+	Inst5Quest8_HORDE = "8. Операция: смерть Кузне Гнева" -- 4132
 	Inst5Quest8_HORDE_Level = "58"
 	Inst5Quest8_HORDE_Attain = "52"
 	Inst5Quest8_HORDE_Aim = "Отправляйтесь в Глубины Черной горы и убейте генерала Кузню Гнева. Вернитесь к полководцу Клинозубу по выполнении задания."
@@ -3843,12 +3843,12 @@ if GetLocale() == "ruRU" then
 	-- No Rewards for this quest
 	
 	--Quest 2 Horde
-	Inst22Quest2_HORDE = "2. Vorrel's Revenge"
+	Inst22Quest2_HORDE = "2. Месть Воррела" -- 1051
 	Inst22Quest2_HORDE_Level = "33"
 	Inst22Quest2_HORDE_Attain = "25"
-	Inst22Quest2_HORDE_Aim = "Return Vorrel Sengutz's wedding ring to Monika Sengutz in Tarren Mill."
-	Inst22Quest2_HORDE_Location = "Vorrel Sengutz (Scarlet Monastery - Graveyard; "..YELLOW.."[1]"..WHITE..")"
-	Inst22Quest2_HORDE_Note = "You can find Vorrel Sengutz at the beginning of the Graveyard section of the Scarlet Monastery. Nancy Vishas, who drops the ring needed for this quest, can be found in a house in the Альтеракские горы ("..YELLOW.."31,32"..WHITE..")."
+	Inst22Quest2_HORDE_Aim = "Верните обручальное кольцо Воррела Сенгутца Монике Сенгутц в Мельнице Таррен."
+	Inst22Quest2_HORDE_Location = "Воррел Сенгутц (Монастырь Алого Ордена - Кладбище; "..YELLOW.."[1]"..WHITE..")"
+	Inst22Quest2_HORDE_Note = "Вы найдете Воррела Сенгутца в начале Кладбища Монастыря Алого Ордена. Нэнси Вишас, с которой выпадает кольцо для задания, находится в доме в Альтеракских горах ("..YELLOW.."32,33"..WHITE..")."
 	Inst22Quest2_HORDE_Prequest = "Нет"
 	Inst22Quest2_HORDE_Folgequest = "Нет"
 	--
@@ -5329,7 +5329,7 @@ if GetLocale() == "ruRU" then
 	Inst30Quest4_Attain = "40"
 	Inst30Quest4_Aim = "Принесите Тиару Глубин Табете в Пылевых топях."
 	Inst30Quest4_Location = " Табета (Пылевые топи; "..YELLOW.."46,57"..WHITE..")"
-	Inst30Quest4_Note = "Возьмите предшествующее задание у Бинк (Стальгорн; "..YELLOW.."25,8"..WHITE..").\nТиара глубин добывается с гидроманта Велраты около "..YELLOW.."[6]"..WHITE.."."
+	Inst30Quest4_Note = "Возьмите предшествующее задание у Бинк (Стальгорн; "..YELLOW.."25,8"..WHITE..") или у Джинния Пушка (Штормград; "..YELLOW.."38,79"..WHITE.."). Чтобы получить задание Тиара Глубин, предшествующее задание выполнять необязательно.\nТиара глубин добывается с гидроманта Велраты около "..YELLOW.."[6]"..WHITE.."."
 	Inst30Quest4_Prequest = "Миссия Табеты" -- 2861
 	Inst30Quest4_Folgequest = "Нет"
 	--
@@ -5412,7 +5412,7 @@ if GetLocale() == "ruRU" then
 	Inst30Quest4_HORDE_Attain = Inst30Quest4_Attain
 	Inst30Quest4_HORDE_Aim = Inst30Quest4_Aim
 	Inst30Quest4_HORDE_Location = Inst30Quest4_Location
-	Inst30Quest4_HORDE_Note = Inst30Quest4_Note
+	Inst30Quest4_HORDE_Note = "Возьмите предшествующее задание у Урсин Гуль (Громовой Утес; "..YELLOW.."26,16"..WHITE..") или у Анастасии Хартвелл (Подгород; "..YELLOW.."85,10"..WHITE..") или у Дейно (Оргриммар; "..YELLOW.."38,86"..WHITE.."). Чтобы получить задание Тиара Глубин, предшествующее задание выполнять необязательно.\nТиара глубин добывается с гидроманта Велраты около "..YELLOW.."[6]"..WHITE.."."
 	Inst30Quest4_HORDE_Prequest = Inst30Quest4_Prequest
 	Inst30Quest4_HORDE_Folgequest = Inst30Quest4_Folgequest
 	--
@@ -5449,8 +5449,8 @@ if GetLocale() == "ruRU" then
 	Inst30Quest7_HORDE_Attain = Inst30Quest7_Attain
 	Inst30Quest7_HORDE_Aim = Inst30Quest7_Aim
 	Inst30Quest7_HORDE_Location = Inst30Quest7_Location
-	Inst30Quest7_HORDE_Note = Inst30Quest7_Note
-	Inst30Quest7_HORDE_Prequest = Inst30Quest7_Prequest
+	Inst30Quest7_HORDE_Note = "Вы вызовете Газ'риллу около "..YELLOW.."[6]"..WHITE.." с помощью Молота Зул'Фаррака.\nСвященный молот добывается с Квиаги Хранительницы (Внутренние земли - Алтарь Зула; "..YELLOW.."49,70"..WHITE..") и должен быть завершен на алтаре в Джинта'Алоре около "..YELLOW.."59,77"..WHITE.." перед тем как его можно будет использовать в Зул'Фарраке."
+	Inst30Quest7_HORDE_Prequest = "Нет"
 	Inst30Quest7_HORDE_Folgequest = Inst30Quest7_Folgequest
 	--
 	Inst30Quest7name1_HORDE = Inst30Quest7name1

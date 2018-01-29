@@ -697,7 +697,7 @@ Inst4Quest2_HORDE_Aim = Inst4Quest6_Aim
 Inst4Quest2_HORDE_Location = Inst4Quest6_Location
 Inst4Quest2_HORDE_Note = Inst4Quest6_Note
 Inst4Quest2_HORDE_Prequest = Inst4Quest6_Prequest
-Inst4Quest2_HORDE_Folgequest = Inst4Quest6_Folgequest
+Inst4Quest2_HORDE_Folgequest = "To the Undercity for Yagyin's Digest" -- 728
 --
 Inst4Quest2name1_HORDE = Inst4Quest6name1
 
@@ -5460,8 +5460,8 @@ Inst30Quest7_HORDE_Level = Inst30Quest7_Level
 Inst30Quest7_HORDE_Attain = Inst30Quest7_Attain
 Inst30Quest7_HORDE_Aim = Inst30Quest7_Aim
 Inst30Quest7_HORDE_Location = Inst30Quest7_Location
-Inst30Quest7_HORDE_Note = Inst30Quest7_Note
-Inst30Quest7_HORDE_Prequest = Inst30Quest7_Prequest
+Inst30Quest7_HORDE_Note = "You summon Gahz'rilla at "..YELLOW.."[6]"..WHITE.." with the Mallet of Zul'Farrak.\nThe Sacred Mallet comes from Qiaga the Keeper (The Hinterlands - The Altar of Zul; "..YELLOW.."49,70"..WHITE..") and must be completed at the Altar in Jinta'Alor at "..YELLOW.."59,77"..WHITE.." before it can be used in Zul'Farrak."
+Inst30Quest7_HORDE_Prequest = "No"
 Inst30Quest7_HORDE_Folgequest = Inst30Quest7_Folgequest
 --
 Inst30Quest7name1_HORDE = Inst30Quest7name1
