@@ -3258,7 +3258,7 @@ function AtlasLoot_GenerateTooltip(tooltip)
  _G["AtlasLootTooltipTextRight"..curline]:SetText(v)
  _G["AtlasLootTooltipTextRight"..curline]:Show()
  increment = false
- curline = curline1
+ curline = curline + 1
 		end
 	end
  AtlasLootTooltip:AddLine(" ")
